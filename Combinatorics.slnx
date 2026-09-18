@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Benchmark/">
+    <Project Path="Benchmark/Combinatorics.Benchmarks/Combinatorics.Benchmarks.csproj" Id="b6537545-a914-4403-8dbf-9eb5fddb5252" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Combinatorics.csproj" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/Combinatorics.Tests/Combinatorics.Tests.csproj" />
+  </Folder>
+  <Folder Name="/Элементы решения/">
+    <File Path="global.json" />
+    <File Path="README.md" />
+  </Folder>
+</Solution>

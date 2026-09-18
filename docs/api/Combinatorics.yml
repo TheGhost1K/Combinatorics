@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Combinatorics
+  commentId: N:Combinatorics
+  id: Combinatorics
+  children:
+  - Combinatorics.BigRational
+  - Combinatorics.Combinatorics
+  - Combinatorics.CombinatoricsFormatter
+  - Combinatorics.QuadraticSurd
+  - Combinatorics.RationalMode
+  langs:
+  - csharp
+  - vb
+  name: Combinatorics
+  nameWithType: Combinatorics
+  fullName: Combinatorics
+  type: Namespace
+  assemblies:
+  - Combinatorics
+references:
+- uid: Combinatorics.Combinatorics
+  commentId: T:Combinatorics.Combinatorics
+  href: Combinatorics.Combinatorics.html
+  name: Combinatorics
+  nameWithType: Combinatorics
+  fullName: Combinatorics.Combinatorics
+- uid: Combinatorics.BigRational
+  commentId: T:Combinatorics.BigRational
+  parent: Combinatorics
+  href: Combinatorics.BigRational.html
+  name: BigRational
+  nameWithType: BigRational
+  fullName: Combinatorics.BigRational
+- uid: Combinatorics.CombinatoricsFormatter
+  commentId: T:Combinatorics.CombinatoricsFormatter
+  href: Combinatorics.CombinatoricsFormatter.html
+  name: CombinatoricsFormatter
+  nameWithType: CombinatoricsFormatter
+  fullName: Combinatorics.CombinatoricsFormatter
+- uid: Combinatorics.RationalMode
+  commentId: T:Combinatorics.RationalMode
+  parent: Combinatorics
+  href: Combinatorics.RationalMode.html
+  name: RationalMode
+  nameWithType: RationalMode
+  fullName: Combinatorics.RationalMode
+- uid: Combinatorics.QuadraticSurd
+  commentId: T:Combinatorics.QuadraticSurd
+  parent: Combinatorics
+  href: Combinatorics.QuadraticSurd.html
+  name: QuadraticSurd
+  nameWithType: QuadraticSurd
+  fullName: Combinatorics.QuadraticSurd
+- uid: Combinatorics
+  commentId: N:Combinatorics
+  href: Combinatorics.html
+  name: Combinatorics
+  nameWithType: Combinatorics
+  fullName: Combinatorics

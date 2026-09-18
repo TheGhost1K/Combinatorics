@@ -1,0 +1,2949 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Combinatorics
+  name: Combinatorics
+  href: api/Combinatorics.html
+  commentId: N:Combinatorics
+  fullName: Combinatorics
+  nameWithType: Combinatorics
+- uid: Combinatorics.BigRational
+  name: BigRational
+  href: api/Combinatorics.BigRational.html
+  commentId: T:Combinatorics.BigRational
+  fullName: Combinatorics.BigRational
+  nameWithType: BigRational
+- uid: Combinatorics.BigRational.#ctor(System.Int64)
+  name: BigRational(long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational__ctor_System_Int64_
+  commentId: M:Combinatorics.BigRational.#ctor(System.Int64)
+  name.vb: New(Long)
+  fullName: Combinatorics.BigRational.BigRational(long)
+  fullName.vb: Combinatorics.BigRational.New(Long)
+  nameWithType: BigRational.BigRational(long)
+  nameWithType.vb: BigRational.New(Long)
+- uid: Combinatorics.BigRational.#ctor(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  name: BigRational(BigInteger, BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational__ctor_System_Numerics_BigInteger_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.BigRational.#ctor(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  name.vb: New(BigInteger, BigInteger)
+  fullName: Combinatorics.BigRational.BigRational(System.Numerics.BigInteger, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.New(System.Numerics.BigInteger, System.Numerics.BigInteger)
+  nameWithType: BigRational.BigRational(BigInteger, BigInteger)
+  nameWithType.vb: BigRational.New(BigInteger, BigInteger)
+- uid: Combinatorics.BigRational.#ctor*
+  name: BigRational
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational__ctor_
+  commentId: Overload:Combinatorics.BigRational.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Combinatorics.BigRational.BigRational
+  fullName.vb: Combinatorics.BigRational.New
+  nameWithType: BigRational.BigRational
+  nameWithType.vb: BigRational.New
+- uid: Combinatorics.BigRational.CompareTo(Combinatorics.BigRational)
+  name: CompareTo(BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_CompareTo_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.CompareTo(Combinatorics.BigRational)
+  fullName: Combinatorics.BigRational.CompareTo(Combinatorics.BigRational)
+  nameWithType: BigRational.CompareTo(BigRational)
+- uid: Combinatorics.BigRational.CompareTo(System.Object)
+  name: CompareTo(object?)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_CompareTo_System_Object_
+  commentId: M:Combinatorics.BigRational.CompareTo(System.Object)
+  name.vb: CompareTo(Object)
+  fullName: Combinatorics.BigRational.CompareTo(object?)
+  fullName.vb: Combinatorics.BigRational.CompareTo(Object)
+  nameWithType: BigRational.CompareTo(object?)
+  nameWithType.vb: BigRational.CompareTo(Object)
+- uid: Combinatorics.BigRational.CompareTo*
+  name: CompareTo
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_CompareTo_
+  commentId: Overload:Combinatorics.BigRational.CompareTo
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.CompareTo
+  nameWithType: BigRational.CompareTo
+- uid: Combinatorics.BigRational.Den
+  name: Den
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Den
+  commentId: P:Combinatorics.BigRational.Den
+  fullName: Combinatorics.BigRational.Den
+  nameWithType: BigRational.Den
+- uid: Combinatorics.BigRational.Den*
+  name: Den
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Den_
+  commentId: Overload:Combinatorics.BigRational.Den
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.Den
+  nameWithType: BigRational.Den
+- uid: Combinatorics.BigRational.Equals(Combinatorics.BigRational)
+  name: Equals(BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Equals_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.Equals(Combinatorics.BigRational)
+  fullName: Combinatorics.BigRational.Equals(Combinatorics.BigRational)
+  nameWithType: BigRational.Equals(BigRational)
+- uid: Combinatorics.BigRational.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Equals_System_Object_
+  commentId: M:Combinatorics.BigRational.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Combinatorics.BigRational.Equals(object?)
+  fullName.vb: Combinatorics.BigRational.Equals(Object)
+  nameWithType: BigRational.Equals(object?)
+  nameWithType.vb: BigRational.Equals(Object)
+- uid: Combinatorics.BigRational.Equals*
+  name: Equals
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Equals_
+  commentId: Overload:Combinatorics.BigRational.Equals
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.Equals
+  nameWithType: BigRational.Equals
+- uid: Combinatorics.BigRational.GetHashCode
+  name: GetHashCode()
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_GetHashCode
+  commentId: M:Combinatorics.BigRational.GetHashCode
+  fullName: Combinatorics.BigRational.GetHashCode()
+  nameWithType: BigRational.GetHashCode()
+- uid: Combinatorics.BigRational.GetHashCode*
+  name: GetHashCode
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_GetHashCode_
+  commentId: Overload:Combinatorics.BigRational.GetHashCode
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.GetHashCode
+  nameWithType: BigRational.GetHashCode
+- uid: Combinatorics.BigRational.Num
+  name: Num
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Num
+  commentId: P:Combinatorics.BigRational.Num
+  fullName: Combinatorics.BigRational.Num
+  nameWithType: BigRational.Num
+- uid: Combinatorics.BigRational.Num*
+  name: Num
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Num_
+  commentId: Overload:Combinatorics.BigRational.Num
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.Num
+  nameWithType: BigRational.Num
+- uid: Combinatorics.BigRational.One
+  name: One
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_One
+  commentId: F:Combinatorics.BigRational.One
+  fullName: Combinatorics.BigRational.One
+  nameWithType: BigRational.One
+- uid: Combinatorics.BigRational.ToDecimalString(System.Int32)
+  name: ToDecimalString(int)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_ToDecimalString_System_Int32_
+  commentId: M:Combinatorics.BigRational.ToDecimalString(System.Int32)
+  name.vb: ToDecimalString(Integer)
+  fullName: Combinatorics.BigRational.ToDecimalString(int)
+  fullName.vb: Combinatorics.BigRational.ToDecimalString(Integer)
+  nameWithType: BigRational.ToDecimalString(int)
+  nameWithType.vb: BigRational.ToDecimalString(Integer)
+- uid: Combinatorics.BigRational.ToDecimalString*
+  name: ToDecimalString
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_ToDecimalString_
+  commentId: Overload:Combinatorics.BigRational.ToDecimalString
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.ToDecimalString
+  nameWithType: BigRational.ToDecimalString
+- uid: Combinatorics.BigRational.ToString
+  name: ToString()
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_ToString
+  commentId: M:Combinatorics.BigRational.ToString
+  fullName: Combinatorics.BigRational.ToString()
+  nameWithType: BigRational.ToString()
+- uid: Combinatorics.BigRational.ToString*
+  name: ToString
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_ToString_
+  commentId: Overload:Combinatorics.BigRational.ToString
+  isSpec: "True"
+  fullName: Combinatorics.BigRational.ToString
+  nameWithType: BigRational.ToString
+- uid: Combinatorics.BigRational.Zero
+  name: Zero
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_Zero
+  commentId: F:Combinatorics.BigRational.Zero
+  fullName: Combinatorics.BigRational.Zero
+  nameWithType: BigRational.Zero
+- uid: Combinatorics.BigRational.op_Addition(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator +(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Addition_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Addition(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: +(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator +(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.+(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator +(BigRational, BigRational)
+  nameWithType.vb: BigRational.+(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Addition*
+  name: operator +
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Addition_
+  commentId: Overload:Combinatorics.BigRational.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Combinatorics.BigRational.operator +
+  fullName.vb: Combinatorics.BigRational.+
+  nameWithType: BigRational.operator +
+  nameWithType.vb: BigRational.+
+- uid: Combinatorics.BigRational.op_Division(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator /(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Division_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Division(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: /(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator /(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational./(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator /(BigRational, BigRational)
+  nameWithType.vb: BigRational./(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Division*
+  name: operator /
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Division_
+  commentId: Overload:Combinatorics.BigRational.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: Combinatorics.BigRational.operator /
+  fullName.vb: Combinatorics.BigRational./
+  nameWithType: BigRational.operator /
+  nameWithType.vb: BigRational./
+- uid: Combinatorics.BigRational.op_Equality(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator ==(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Equality_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Equality(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: =(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator ==(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.=(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator ==(BigRational, BigRational)
+  nameWithType.vb: BigRational.=(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Equality*
+  name: operator ==
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Equality_
+  commentId: Overload:Combinatorics.BigRational.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Combinatorics.BigRational.operator ==
+  fullName.vb: Combinatorics.BigRational.=
+  nameWithType: BigRational.operator ==
+  nameWithType.vb: BigRational.=
+- uid: Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator >(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: '>(BigRational, BigRational)'
+  fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >(BigRational, BigRational)
+  nameWithType.vb: BigRational.>(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Int64)
+  name: operator >(BigRational, long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_System_Int64_
+  commentId: M:Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Int64)
+  name.vb: '>(BigRational, Long)'
+  fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, long)
+  fullName.vb: Combinatorics.BigRational.>(Combinatorics.BigRational, Long)
+  nameWithType: BigRational.operator >(BigRational, long)
+  nameWithType.vb: BigRational.>(BigRational, Long)
+- uid: Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name: operator >(BigRational, BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name.vb: '>(BigRational, BigInteger)'
+  fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.>(Combinatorics.BigRational, System.Numerics.BigInteger)
+  nameWithType: BigRational.operator >(BigRational, BigInteger)
+  nameWithType.vb: BigRational.>(BigRational, BigInteger)
+- uid: Combinatorics.BigRational.op_GreaterThan(System.Int64,Combinatorics.BigRational)
+  name: operator >(long, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_System_Int64_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThan(System.Int64,Combinatorics.BigRational)
+  name.vb: '>(Long, BigRational)'
+  fullName: Combinatorics.BigRational.operator >(long, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>(Long, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >(long, BigRational)
+  nameWithType.vb: BigRational.>(Long, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThan(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name: operator >(BigInteger, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_System_Numerics_BigInteger_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThan(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name.vb: '>(BigInteger, BigRational)'
+  fullName: Combinatorics.BigRational.operator >(System.Numerics.BigInteger, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>(System.Numerics.BigInteger, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >(BigInteger, BigRational)
+  nameWithType.vb: BigRational.>(BigInteger, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThan*
+  name: operator >
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThan_
+  commentId: Overload:Combinatorics.BigRational.op_GreaterThan
+  isSpec: "True"
+  name.vb: '>'
+  fullName: Combinatorics.BigRational.operator >
+  fullName.vb: Combinatorics.BigRational.>
+  nameWithType: BigRational.operator >
+  nameWithType.vb: BigRational.>
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator >=(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: '>=(BigRational, BigRational)'
+  fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>=(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >=(BigRational, BigRational)
+  nameWithType.vb: BigRational.>=(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Int64)
+  name: operator >=(BigRational, long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_System_Int64_
+  commentId: M:Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Int64)
+  name.vb: '>=(BigRational, Long)'
+  fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, long)
+  fullName.vb: Combinatorics.BigRational.>=(Combinatorics.BigRational, Long)
+  nameWithType: BigRational.operator >=(BigRational, long)
+  nameWithType.vb: BigRational.>=(BigRational, Long)
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name: operator >=(BigRational, BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name.vb: '>=(BigRational, BigInteger)'
+  fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.>=(Combinatorics.BigRational, System.Numerics.BigInteger)
+  nameWithType: BigRational.operator >=(BigRational, BigInteger)
+  nameWithType.vb: BigRational.>=(BigRational, BigInteger)
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual(System.Int64,Combinatorics.BigRational)
+  name: operator >=(long, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_System_Int64_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThanOrEqual(System.Int64,Combinatorics.BigRational)
+  name.vb: '>=(Long, BigRational)'
+  fullName: Combinatorics.BigRational.operator >=(long, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>=(Long, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >=(long, BigRational)
+  nameWithType.vb: BigRational.>=(Long, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name: operator >=(BigInteger, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_System_Numerics_BigInteger_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_GreaterThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name.vb: '>=(BigInteger, BigRational)'
+  fullName: Combinatorics.BigRational.operator >=(System.Numerics.BigInteger, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.>=(System.Numerics.BigInteger, Combinatorics.BigRational)
+  nameWithType: BigRational.operator >=(BigInteger, BigRational)
+  nameWithType.vb: BigRational.>=(BigInteger, BigRational)
+- uid: Combinatorics.BigRational.op_GreaterThanOrEqual*
+  name: operator >=
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_GreaterThanOrEqual_
+  commentId: Overload:Combinatorics.BigRational.op_GreaterThanOrEqual
+  isSpec: "True"
+  name.vb: '>='
+  fullName: Combinatorics.BigRational.operator >=
+  fullName.vb: Combinatorics.BigRational.>=
+  nameWithType: BigRational.operator >=
+  nameWithType.vb: BigRational.>=
+- uid: Combinatorics.BigRational.op_Implicit(System.Int64)~Combinatorics.BigRational
+  name: implicit operator BigRational(long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Implicit_System_Int64__Combinatorics_BigRational
+  commentId: M:Combinatorics.BigRational.op_Implicit(System.Int64)~Combinatorics.BigRational
+  name.vb: CType(Long)
+  fullName: Combinatorics.BigRational.implicit operator Combinatorics.BigRational(long)
+  fullName.vb: Combinatorics.BigRational.CType(Long)
+  nameWithType: BigRational.implicit operator BigRational(long)
+  nameWithType.vb: BigRational.CType(Long)
+- uid: Combinatorics.BigRational.op_Implicit(System.Numerics.BigInteger)~Combinatorics.BigRational
+  name: implicit operator BigRational(BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Implicit_System_Numerics_BigInteger__Combinatorics_BigRational
+  commentId: M:Combinatorics.BigRational.op_Implicit(System.Numerics.BigInteger)~Combinatorics.BigRational
+  name.vb: CType(BigInteger)
+  fullName: Combinatorics.BigRational.implicit operator Combinatorics.BigRational(System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.CType(System.Numerics.BigInteger)
+  nameWithType: BigRational.implicit operator BigRational(BigInteger)
+  nameWithType.vb: BigRational.CType(BigInteger)
+- uid: Combinatorics.BigRational.op_Implicit*
+  name: implicit operator
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Implicit_
+  commentId: Overload:Combinatorics.BigRational.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: Combinatorics.BigRational.implicit operator
+  fullName.vb: Combinatorics.BigRational.CType
+  nameWithType: BigRational.implicit operator
+  nameWithType.vb: BigRational.CType
+- uid: Combinatorics.BigRational.op_Inequality(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator !=(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Inequality_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Inequality(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: <>(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator !=(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<>(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator !=(BigRational, BigRational)
+  nameWithType.vb: BigRational.<>(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Inequality*
+  name: operator !=
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Inequality_
+  commentId: Overload:Combinatorics.BigRational.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Combinatorics.BigRational.operator !=
+  fullName.vb: Combinatorics.BigRational.<>
+  nameWithType: BigRational.operator !=
+  nameWithType.vb: BigRational.<>
+- uid: Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator <(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: <(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <(BigRational, BigRational)
+  nameWithType.vb: BigRational.<(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Int64)
+  name: operator <(BigRational, long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_System_Int64_
+  commentId: M:Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Int64)
+  name.vb: <(BigRational, Long)
+  fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, long)
+  fullName.vb: Combinatorics.BigRational.<(Combinatorics.BigRational, Long)
+  nameWithType: BigRational.operator <(BigRational, long)
+  nameWithType.vb: BigRational.<(BigRational, Long)
+- uid: Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name: operator <(BigRational, BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name.vb: <(BigRational, BigInteger)
+  fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.<(Combinatorics.BigRational, System.Numerics.BigInteger)
+  nameWithType: BigRational.operator <(BigRational, BigInteger)
+  nameWithType.vb: BigRational.<(BigRational, BigInteger)
+- uid: Combinatorics.BigRational.op_LessThan(System.Int64,Combinatorics.BigRational)
+  name: operator <(long, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_System_Int64_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThan(System.Int64,Combinatorics.BigRational)
+  name.vb: <(Long, BigRational)
+  fullName: Combinatorics.BigRational.operator <(long, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<(Long, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <(long, BigRational)
+  nameWithType.vb: BigRational.<(Long, BigRational)
+- uid: Combinatorics.BigRational.op_LessThan(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name: operator <(BigInteger, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_System_Numerics_BigInteger_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThan(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name.vb: <(BigInteger, BigRational)
+  fullName: Combinatorics.BigRational.operator <(System.Numerics.BigInteger, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<(System.Numerics.BigInteger, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <(BigInteger, BigRational)
+  nameWithType.vb: BigRational.<(BigInteger, BigRational)
+- uid: Combinatorics.BigRational.op_LessThan*
+  name: operator <
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThan_
+  commentId: Overload:Combinatorics.BigRational.op_LessThan
+  isSpec: "True"
+  name.vb: <
+  fullName: Combinatorics.BigRational.operator <
+  fullName.vb: Combinatorics.BigRational.<
+  nameWithType: BigRational.operator <
+  nameWithType.vb: BigRational.<
+- uid: Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator <=(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: <=(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<=(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <=(BigRational, BigRational)
+  nameWithType.vb: BigRational.<=(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Int64)
+  name: operator <=(BigRational, long)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_System_Int64_
+  commentId: M:Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Int64)
+  name.vb: <=(BigRational, Long)
+  fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, long)
+  fullName.vb: Combinatorics.BigRational.<=(Combinatorics.BigRational, Long)
+  nameWithType: BigRational.operator <=(BigRational, long)
+  nameWithType.vb: BigRational.<=(BigRational, Long)
+- uid: Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name: operator <=(BigRational, BigInteger)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)
+  name.vb: <=(BigRational, BigInteger)
+  fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.BigRational.<=(Combinatorics.BigRational, System.Numerics.BigInteger)
+  nameWithType: BigRational.operator <=(BigRational, BigInteger)
+  nameWithType.vb: BigRational.<=(BigRational, BigInteger)
+- uid: Combinatorics.BigRational.op_LessThanOrEqual(System.Int64,Combinatorics.BigRational)
+  name: operator <=(long, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_System_Int64_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThanOrEqual(System.Int64,Combinatorics.BigRational)
+  name.vb: <=(Long, BigRational)
+  fullName: Combinatorics.BigRational.operator <=(long, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<=(Long, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <=(long, BigRational)
+  nameWithType.vb: BigRational.<=(Long, BigRational)
+- uid: Combinatorics.BigRational.op_LessThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name: operator <=(BigInteger, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_System_Numerics_BigInteger_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_LessThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)
+  name.vb: <=(BigInteger, BigRational)
+  fullName: Combinatorics.BigRational.operator <=(System.Numerics.BigInteger, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.<=(System.Numerics.BigInteger, Combinatorics.BigRational)
+  nameWithType: BigRational.operator <=(BigInteger, BigRational)
+  nameWithType.vb: BigRational.<=(BigInteger, BigRational)
+- uid: Combinatorics.BigRational.op_LessThanOrEqual*
+  name: operator <=
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_LessThanOrEqual_
+  commentId: Overload:Combinatorics.BigRational.op_LessThanOrEqual
+  isSpec: "True"
+  name.vb: <=
+  fullName: Combinatorics.BigRational.operator <=
+  fullName.vb: Combinatorics.BigRational.<=
+  nameWithType: BigRational.operator <=
+  nameWithType.vb: BigRational.<=
+- uid: Combinatorics.BigRational.op_Multiply(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator *(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Multiply_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Multiply(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: '*(BigRational, BigRational)'
+  fullName: Combinatorics.BigRational.operator *(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.*(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator *(BigRational, BigRational)
+  nameWithType.vb: BigRational.*(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Multiply*
+  name: operator *
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Multiply_
+  commentId: Overload:Combinatorics.BigRational.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: Combinatorics.BigRational.operator *
+  fullName.vb: Combinatorics.BigRational.*
+  nameWithType: BigRational.operator *
+  nameWithType.vb: BigRational.*
+- uid: Combinatorics.BigRational.op_Subtraction(Combinatorics.BigRational,Combinatorics.BigRational)
+  name: operator -(BigRational, BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Subtraction_Combinatorics_BigRational_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_Subtraction(Combinatorics.BigRational,Combinatorics.BigRational)
+  name.vb: -(BigRational, BigRational)
+  fullName: Combinatorics.BigRational.operator -(Combinatorics.BigRational, Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.-(Combinatorics.BigRational, Combinatorics.BigRational)
+  nameWithType: BigRational.operator -(BigRational, BigRational)
+  nameWithType.vb: BigRational.-(BigRational, BigRational)
+- uid: Combinatorics.BigRational.op_Subtraction*
+  name: operator -
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_Subtraction_
+  commentId: Overload:Combinatorics.BigRational.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Combinatorics.BigRational.operator -
+  fullName.vb: Combinatorics.BigRational.-
+  nameWithType: BigRational.operator -
+  nameWithType.vb: BigRational.-
+- uid: Combinatorics.BigRational.op_UnaryNegation(Combinatorics.BigRational)
+  name: operator -(BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_UnaryNegation_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_UnaryNegation(Combinatorics.BigRational)
+  name.vb: -(BigRational)
+  fullName: Combinatorics.BigRational.operator -(Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.-(Combinatorics.BigRational)
+  nameWithType: BigRational.operator -(BigRational)
+  nameWithType.vb: BigRational.-(BigRational)
+- uid: Combinatorics.BigRational.op_UnaryNegation*
+  name: operator -
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_UnaryNegation_
+  commentId: Overload:Combinatorics.BigRational.op_UnaryNegation
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Combinatorics.BigRational.operator -
+  fullName.vb: Combinatorics.BigRational.-
+  nameWithType: BigRational.operator -
+  nameWithType.vb: BigRational.-
+- uid: Combinatorics.BigRational.op_UnaryPlus(Combinatorics.BigRational)
+  name: operator +(BigRational)
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_UnaryPlus_Combinatorics_BigRational_
+  commentId: M:Combinatorics.BigRational.op_UnaryPlus(Combinatorics.BigRational)
+  name.vb: +(BigRational)
+  fullName: Combinatorics.BigRational.operator +(Combinatorics.BigRational)
+  fullName.vb: Combinatorics.BigRational.+(Combinatorics.BigRational)
+  nameWithType: BigRational.operator +(BigRational)
+  nameWithType.vb: BigRational.+(BigRational)
+- uid: Combinatorics.BigRational.op_UnaryPlus*
+  name: operator +
+  href: api/Combinatorics.BigRational.html#Combinatorics_BigRational_op_UnaryPlus_
+  commentId: Overload:Combinatorics.BigRational.op_UnaryPlus
+  isSpec: "True"
+  name.vb: +
+  fullName: Combinatorics.BigRational.operator +
+  fullName.vb: Combinatorics.BigRational.+
+  nameWithType: BigRational.operator +
+  nameWithType.vb: BigRational.+
+- uid: Combinatorics.Combinatorics
+  name: Combinatorics
+  href: api/Combinatorics.Combinatorics.html
+  commentId: T:Combinatorics.Combinatorics
+  fullName: Combinatorics.Combinatorics
+  nameWithType: Combinatorics
+- uid: Combinatorics.Combinatorics.Arrangements(System.Int32,System.Int32)
+  name: Arrangements(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Arrangements_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Arrangements(System.Int32,System.Int32)
+  name.vb: Arrangements(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Arrangements(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Arrangements(Integer, Integer)
+  nameWithType: Combinatorics.Arrangements(int, int)
+  nameWithType.vb: Combinatorics.Arrangements(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Arrangements*
+  name: Arrangements
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Arrangements_
+  commentId: Overload:Combinatorics.Combinatorics.Arrangements
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Arrangements
+  nameWithType: Combinatorics.Arrangements
+- uid: Combinatorics.Combinatorics.Bell(System.Int32)
+  name: Bell(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Bell_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Bell(System.Int32)
+  name.vb: Bell(Integer)
+  fullName: Combinatorics.Combinatorics.Bell(int)
+  fullName.vb: Combinatorics.Combinatorics.Bell(Integer)
+  nameWithType: Combinatorics.Bell(int)
+  nameWithType.vb: Combinatorics.Bell(Integer)
+- uid: Combinatorics.Combinatorics.Bell*
+  name: Bell
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Bell_
+  commentId: Overload:Combinatorics.Combinatorics.Bell
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Bell
+  nameWithType: Combinatorics.Bell
+- uid: Combinatorics.Combinatorics.BellApprox(System.Int32)
+  name: BellApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.BellApprox(System.Int32)
+  name.vb: BellApprox(Integer)
+  fullName: Combinatorics.Combinatorics.BellApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.BellApprox(Integer)
+  nameWithType: Combinatorics.BellApprox(int)
+  nameWithType.vb: Combinatorics.BellApprox(Integer)
+- uid: Combinatorics.Combinatorics.BellApprox*
+  name: BellApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellApprox_
+  commentId: Overload:Combinatorics.Combinatorics.BellApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.BellApprox
+  nameWithType: Combinatorics.BellApprox
+- uid: Combinatorics.Combinatorics.BellApproxExtended(System.Int32)
+  name: BellApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.BellApproxExtended(System.Int32)
+  name.vb: BellApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.BellApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.BellApproxExtended(Integer)
+  nameWithType: Combinatorics.BellApproxExtended(int)
+  nameWithType.vb: Combinatorics.BellApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.BellApproxExtended*
+  name: BellApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.BellApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.BellApproxExtended
+  nameWithType: Combinatorics.BellApproxExtended
+- uid: Combinatorics.Combinatorics.BellSequence(System.Int32)
+  name: BellSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.BellSequence(System.Int32)
+  name.vb: BellSequence(Integer)
+  fullName: Combinatorics.Combinatorics.BellSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.BellSequence(Integer)
+  nameWithType: Combinatorics.BellSequence(int)
+  nameWithType.vb: Combinatorics.BellSequence(Integer)
+- uid: Combinatorics.Combinatorics.BellSequence*
+  name: BellSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BellSequence_
+  commentId: Overload:Combinatorics.Combinatorics.BellSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.BellSequence
+  nameWithType: Combinatorics.BellSequence
+- uid: Combinatorics.Combinatorics.Bernoulli(System.Int32)
+  name: Bernoulli(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Bernoulli_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Bernoulli(System.Int32)
+  name.vb: Bernoulli(Integer)
+  fullName: Combinatorics.Combinatorics.Bernoulli(int)
+  fullName.vb: Combinatorics.Combinatorics.Bernoulli(Integer)
+  nameWithType: Combinatorics.Bernoulli(int)
+  nameWithType.vb: Combinatorics.Bernoulli(Integer)
+- uid: Combinatorics.Combinatorics.Bernoulli*
+  name: Bernoulli
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Bernoulli_
+  commentId: Overload:Combinatorics.Combinatorics.Bernoulli
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Bernoulli
+  nameWithType: Combinatorics.Bernoulli
+- uid: Combinatorics.Combinatorics.BernoulliSequence(System.Int32)
+  name: BernoulliSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BernoulliSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.BernoulliSequence(System.Int32)
+  name.vb: BernoulliSequence(Integer)
+  fullName: Combinatorics.Combinatorics.BernoulliSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.BernoulliSequence(Integer)
+  nameWithType: Combinatorics.BernoulliSequence(int)
+  nameWithType.vb: Combinatorics.BernoulliSequence(Integer)
+- uid: Combinatorics.Combinatorics.BernoulliSequence*
+  name: BernoulliSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_BernoulliSequence_
+  commentId: Overload:Combinatorics.Combinatorics.BernoulliSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.BernoulliSequence
+  nameWithType: Combinatorics.BernoulliSequence
+- uid: Combinatorics.Combinatorics.CassiniIdentity(System.Int32)
+  name: CassiniIdentity(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CassiniIdentity_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CassiniIdentity(System.Int32)
+  name.vb: CassiniIdentity(Integer)
+  fullName: Combinatorics.Combinatorics.CassiniIdentity(int)
+  fullName.vb: Combinatorics.Combinatorics.CassiniIdentity(Integer)
+  nameWithType: Combinatorics.CassiniIdentity(int)
+  nameWithType.vb: Combinatorics.CassiniIdentity(Integer)
+- uid: Combinatorics.Combinatorics.CassiniIdentity*
+  name: CassiniIdentity
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CassiniIdentity_
+  commentId: Overload:Combinatorics.Combinatorics.CassiniIdentity
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CassiniIdentity
+  nameWithType: Combinatorics.CassiniIdentity
+- uid: Combinatorics.Combinatorics.Catalan(System.Int32)
+  name: Catalan(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Catalan_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Catalan(System.Int32)
+  name.vb: Catalan(Integer)
+  fullName: Combinatorics.Combinatorics.Catalan(int)
+  fullName.vb: Combinatorics.Combinatorics.Catalan(Integer)
+  nameWithType: Combinatorics.Catalan(int)
+  nameWithType.vb: Combinatorics.Catalan(Integer)
+- uid: Combinatorics.Combinatorics.Catalan*
+  name: Catalan
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Catalan_
+  commentId: Overload:Combinatorics.Combinatorics.Catalan
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Catalan
+  nameWithType: Combinatorics.Catalan
+- uid: Combinatorics.Combinatorics.CatalanApprox(System.Int32)
+  name: CatalanApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CatalanApprox(System.Int32)
+  name.vb: CatalanApprox(Integer)
+  fullName: Combinatorics.Combinatorics.CatalanApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.CatalanApprox(Integer)
+  nameWithType: Combinatorics.CatalanApprox(int)
+  nameWithType.vb: Combinatorics.CatalanApprox(Integer)
+- uid: Combinatorics.Combinatorics.CatalanApprox*
+  name: CatalanApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanApprox_
+  commentId: Overload:Combinatorics.Combinatorics.CatalanApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CatalanApprox
+  nameWithType: Combinatorics.CatalanApprox
+- uid: Combinatorics.Combinatorics.CatalanApproxExtended(System.Int32)
+  name: CatalanApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CatalanApproxExtended(System.Int32)
+  name.vb: CatalanApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.CatalanApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.CatalanApproxExtended(Integer)
+  nameWithType: Combinatorics.CatalanApproxExtended(int)
+  nameWithType.vb: Combinatorics.CatalanApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.CatalanApproxExtended*
+  name: CatalanApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.CatalanApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CatalanApproxExtended
+  nameWithType: Combinatorics.CatalanApproxExtended
+- uid: Combinatorics.Combinatorics.CatalanSequence(System.Int32)
+  name: CatalanSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CatalanSequence(System.Int32)
+  name.vb: CatalanSequence(Integer)
+  fullName: Combinatorics.Combinatorics.CatalanSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.CatalanSequence(Integer)
+  nameWithType: Combinatorics.CatalanSequence(int)
+  nameWithType.vb: Combinatorics.CatalanSequence(Integer)
+- uid: Combinatorics.Combinatorics.CatalanSequence*
+  name: CatalanSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CatalanSequence_
+  commentId: Overload:Combinatorics.Combinatorics.CatalanSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CatalanSequence
+  nameWithType: Combinatorics.CatalanSequence
+- uid: Combinatorics.Combinatorics.Combinations(System.Int32,System.Int32)
+  name: Combinations(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Combinations_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Combinations(System.Int32,System.Int32)
+  name.vb: Combinations(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Combinations(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Combinations(Integer, Integer)
+  nameWithType: Combinatorics.Combinations(int, int)
+  nameWithType.vb: Combinatorics.Combinations(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Combinations*
+  name: Combinations
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Combinations_
+  commentId: Overload:Combinatorics.Combinatorics.Combinations
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Combinations
+  nameWithType: Combinatorics.Combinations
+- uid: Combinatorics.Combinatorics.CombinationsApprox(System.Int32,System.Int32)
+  name: CombinationsApprox(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsApprox_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CombinationsApprox(System.Int32,System.Int32)
+  name.vb: CombinationsApprox(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.CombinationsApprox(int, int)
+  fullName.vb: Combinatorics.Combinatorics.CombinationsApprox(Integer, Integer)
+  nameWithType: Combinatorics.CombinationsApprox(int, int)
+  nameWithType.vb: Combinatorics.CombinationsApprox(Integer, Integer)
+- uid: Combinatorics.Combinatorics.CombinationsApprox*
+  name: CombinationsApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsApprox_
+  commentId: Overload:Combinatorics.Combinatorics.CombinationsApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CombinationsApprox
+  nameWithType: Combinatorics.CombinationsApprox
+- uid: Combinatorics.Combinatorics.CombinationsOf(System.Int32,System.Int32)
+  name: CombinationsOf(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsOf_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CombinationsOf(System.Int32,System.Int32)
+  name.vb: CombinationsOf(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.CombinationsOf(int, int)
+  fullName.vb: Combinatorics.Combinatorics.CombinationsOf(Integer, Integer)
+  nameWithType: Combinatorics.CombinationsOf(int, int)
+  nameWithType.vb: Combinatorics.CombinationsOf(Integer, Integer)
+- uid: Combinatorics.Combinatorics.CombinationsOf*
+  name: CombinationsOf
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsOf_
+  commentId: Overload:Combinatorics.Combinatorics.CombinationsOf
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CombinationsOf
+  nameWithType: Combinatorics.CombinationsOf
+- uid: Combinatorics.Combinatorics.CombinationsOf``1(System.Collections.Generic.IReadOnlyList{``0},System.Int32)
+  name: CombinationsOf<T>(IReadOnlyList<T>, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsOf__1_System_Collections_Generic_IReadOnlyList___0__System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CombinationsOf``1(System.Collections.Generic.IReadOnlyList{``0},System.Int32)
+  name.vb: CombinationsOf(Of T)(IReadOnlyList(Of T), Integer)
+  fullName: Combinatorics.Combinatorics.CombinationsOf<T>(System.Collections.Generic.IReadOnlyList<T>, int)
+  fullName.vb: Combinatorics.Combinatorics.CombinationsOf(Of T)(System.Collections.Generic.IReadOnlyList(Of T), Integer)
+  nameWithType: Combinatorics.CombinationsOf<T>(IReadOnlyList<T>, int)
+  nameWithType.vb: Combinatorics.CombinationsOf(Of T)(IReadOnlyList(Of T), Integer)
+- uid: Combinatorics.Combinatorics.CombinationsWithRepetition(System.Int32,System.Int32)
+  name: CombinationsWithRepetition(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsWithRepetition_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.CombinationsWithRepetition(System.Int32,System.Int32)
+  name.vb: CombinationsWithRepetition(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.CombinationsWithRepetition(int, int)
+  fullName.vb: Combinatorics.Combinatorics.CombinationsWithRepetition(Integer, Integer)
+  nameWithType: Combinatorics.CombinationsWithRepetition(int, int)
+  nameWithType.vb: Combinatorics.CombinationsWithRepetition(Integer, Integer)
+- uid: Combinatorics.Combinatorics.CombinationsWithRepetition*
+  name: CombinationsWithRepetition
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_CombinationsWithRepetition_
+  commentId: Overload:Combinatorics.Combinatorics.CombinationsWithRepetition
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.CombinationsWithRepetition
+  nameWithType: Combinatorics.CombinationsWithRepetition
+- uid: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+  name: Delannoy(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Delannoy_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+  name.vb: Delannoy(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Delannoy(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Delannoy(Integer, Integer)
+  nameWithType: Combinatorics.Delannoy(int, int)
+  nameWithType.vb: Combinatorics.Delannoy(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Delannoy*
+  name: Delannoy
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Delannoy_
+  commentId: Overload:Combinatorics.Combinatorics.Delannoy
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Delannoy
+  nameWithType: Combinatorics.Delannoy
+- uid: Combinatorics.Combinatorics.DelannoyByRecurrence(System.Int32,System.Int32)
+  name: DelannoyByRecurrence(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyByRecurrence_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyByRecurrence(System.Int32,System.Int32)
+  name.vb: DelannoyByRecurrence(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyByRecurrence(int, int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyByRecurrence(Integer, Integer)
+  nameWithType: Combinatorics.DelannoyByRecurrence(int, int)
+  nameWithType.vb: Combinatorics.DelannoyByRecurrence(Integer, Integer)
+- uid: Combinatorics.Combinatorics.DelannoyByRecurrence*
+  name: DelannoyByRecurrence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyByRecurrence_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyByRecurrence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyByRecurrence
+  nameWithType: Combinatorics.DelannoyByRecurrence
+- uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+  name: DelannoyCentral(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+  name.vb: DelannoyCentral(Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyCentral(int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyCentral(Integer)
+  nameWithType: Combinatorics.DelannoyCentral(int)
+  nameWithType.vb: Combinatorics.DelannoyCentral(Integer)
+- uid: Combinatorics.Combinatorics.DelannoyCentral*
+  name: DelannoyCentral
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyCentral
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyCentral
+  nameWithType: Combinatorics.DelannoyCentral
+- uid: Combinatorics.Combinatorics.DelannoyCentralApprox(System.Int32)
+  name: DelannoyCentralApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyCentralApprox(System.Int32)
+  name.vb: DelannoyCentralApprox(Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyCentralApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyCentralApprox(Integer)
+  nameWithType: Combinatorics.DelannoyCentralApprox(int)
+  nameWithType.vb: Combinatorics.DelannoyCentralApprox(Integer)
+- uid: Combinatorics.Combinatorics.DelannoyCentralApprox*
+  name: DelannoyCentralApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralApprox_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyCentralApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyCentralApprox
+  nameWithType: Combinatorics.DelannoyCentralApprox
+- uid: Combinatorics.Combinatorics.DelannoyCentralApproxExtended(System.Int32)
+  name: DelannoyCentralApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyCentralApproxExtended(System.Int32)
+  name.vb: DelannoyCentralApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyCentralApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyCentralApproxExtended(Integer)
+  nameWithType: Combinatorics.DelannoyCentralApproxExtended(int)
+  nameWithType.vb: Combinatorics.DelannoyCentralApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.DelannoyCentralApproxExtended*
+  name: DelannoyCentralApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyCentralApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyCentralApproxExtended
+  nameWithType: Combinatorics.DelannoyCentralApproxExtended
+- uid: Combinatorics.Combinatorics.DelannoyCentralSequence(System.Int32)
+  name: DelannoyCentralSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyCentralSequence(System.Int32)
+  name.vb: DelannoyCentralSequence(Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyCentralSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyCentralSequence(Integer)
+  nameWithType: Combinatorics.DelannoyCentralSequence(int)
+  nameWithType.vb: Combinatorics.DelannoyCentralSequence(Integer)
+- uid: Combinatorics.Combinatorics.DelannoyCentralSequence*
+  name: DelannoyCentralSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentralSequence_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyCentralSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyCentralSequence
+  nameWithType: Combinatorics.DelannoyCentralSequence
+- uid: Combinatorics.Combinatorics.DoublingFormula(System.Int32)
+  name: DoublingFormula(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DoublingFormula_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DoublingFormula(System.Int32)
+  name.vb: DoublingFormula(Integer)
+  fullName: Combinatorics.Combinatorics.DoublingFormula(int)
+  fullName.vb: Combinatorics.Combinatorics.DoublingFormula(Integer)
+  nameWithType: Combinatorics.DoublingFormula(int)
+  nameWithType.vb: Combinatorics.DoublingFormula(Integer)
+- uid: Combinatorics.Combinatorics.DoublingFormula*
+  name: DoublingFormula
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DoublingFormula_
+  commentId: Overload:Combinatorics.Combinatorics.DoublingFormula
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DoublingFormula
+  nameWithType: Combinatorics.DoublingFormula
+- uid: Combinatorics.Combinatorics.EnumerateCombinationIndices(System.Int32,System.Int32)
+  name: EnumerateCombinationIndices(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EnumerateCombinationIndices_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.EnumerateCombinationIndices(System.Int32,System.Int32)
+  name.vb: EnumerateCombinationIndices(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.EnumerateCombinationIndices(int, int)
+  fullName.vb: Combinatorics.Combinatorics.EnumerateCombinationIndices(Integer, Integer)
+  nameWithType: Combinatorics.EnumerateCombinationIndices(int, int)
+  nameWithType.vb: Combinatorics.EnumerateCombinationIndices(Integer, Integer)
+- uid: Combinatorics.Combinatorics.EnumerateCombinationIndices*
+  name: EnumerateCombinationIndices
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EnumerateCombinationIndices_
+  commentId: Overload:Combinatorics.Combinatorics.EnumerateCombinationIndices
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.EnumerateCombinationIndices
+  nameWithType: Combinatorics.EnumerateCombinationIndices
+- uid: Combinatorics.Combinatorics.Eulerian(System.Int32,System.Int32)
+  name: Eulerian(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Eulerian_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Eulerian(System.Int32,System.Int32)
+  name.vb: Eulerian(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Eulerian(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Eulerian(Integer, Integer)
+  nameWithType: Combinatorics.Eulerian(int, int)
+  nameWithType.vb: Combinatorics.Eulerian(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Eulerian*
+  name: Eulerian
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Eulerian_
+  commentId: Overload:Combinatorics.Combinatorics.Eulerian
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Eulerian
+  nameWithType: Combinatorics.Eulerian
+- uid: Combinatorics.Combinatorics.EulerianDescents(System.Int32,System.Int32)
+  name: EulerianDescents(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EulerianDescents_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.EulerianDescents(System.Int32,System.Int32)
+  name.vb: EulerianDescents(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.EulerianDescents(int, int)
+  fullName.vb: Combinatorics.Combinatorics.EulerianDescents(Integer, Integer)
+  nameWithType: Combinatorics.EulerianDescents(int, int)
+  nameWithType.vb: Combinatorics.EulerianDescents(Integer, Integer)
+- uid: Combinatorics.Combinatorics.EulerianDescents*
+  name: EulerianDescents
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EulerianDescents_
+  commentId: Overload:Combinatorics.Combinatorics.EulerianDescents
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.EulerianDescents
+  nameWithType: Combinatorics.EulerianDescents
+- uid: Combinatorics.Combinatorics.EulerianRow(System.Int32)
+  name: EulerianRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EulerianRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.EulerianRow(System.Int32)
+  name.vb: EulerianRow(Integer)
+  fullName: Combinatorics.Combinatorics.EulerianRow(int)
+  fullName.vb: Combinatorics.Combinatorics.EulerianRow(Integer)
+  nameWithType: Combinatorics.EulerianRow(int)
+  nameWithType.vb: Combinatorics.EulerianRow(Integer)
+- uid: Combinatorics.Combinatorics.EulerianRow*
+  name: EulerianRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_EulerianRow_
+  commentId: Overload:Combinatorics.Combinatorics.EulerianRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.EulerianRow
+  nameWithType: Combinatorics.EulerianRow
+- uid: Combinatorics.Combinatorics.Factorial(System.Int32)
+  name: Factorial(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Factorial_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Factorial(System.Int32)
+  name.vb: Factorial(Integer)
+  fullName: Combinatorics.Combinatorics.Factorial(int)
+  fullName.vb: Combinatorics.Combinatorics.Factorial(Integer)
+  nameWithType: Combinatorics.Factorial(int)
+  nameWithType.vb: Combinatorics.Factorial(Integer)
+- uid: Combinatorics.Combinatorics.Factorial*
+  name: Factorial
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Factorial_
+  commentId: Overload:Combinatorics.Combinatorics.Factorial
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Factorial
+  nameWithType: Combinatorics.Factorial
+- uid: Combinatorics.Combinatorics.FactorialStirling(System.Int32)
+  name: FactorialStirling(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirling_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FactorialStirling(System.Int32)
+  name.vb: FactorialStirling(Integer)
+  fullName: Combinatorics.Combinatorics.FactorialStirling(int)
+  fullName.vb: Combinatorics.Combinatorics.FactorialStirling(Integer)
+  nameWithType: Combinatorics.FactorialStirling(int)
+  nameWithType.vb: Combinatorics.FactorialStirling(Integer)
+- uid: Combinatorics.Combinatorics.FactorialStirling*
+  name: FactorialStirling
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirling_
+  commentId: Overload:Combinatorics.Combinatorics.FactorialStirling
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FactorialStirling
+  nameWithType: Combinatorics.FactorialStirling
+- uid: Combinatorics.Combinatorics.FactorialStirlingExtended(System.Int32)
+  name: FactorialStirlingExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirlingExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FactorialStirlingExtended(System.Int32)
+  name.vb: FactorialStirlingExtended(Integer)
+  fullName: Combinatorics.Combinatorics.FactorialStirlingExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.FactorialStirlingExtended(Integer)
+  nameWithType: Combinatorics.FactorialStirlingExtended(int)
+  nameWithType.vb: Combinatorics.FactorialStirlingExtended(Integer)
+- uid: Combinatorics.Combinatorics.FactorialStirlingExtended*
+  name: FactorialStirlingExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirlingExtended_
+  commentId: Overload:Combinatorics.Combinatorics.FactorialStirlingExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FactorialStirlingExtended
+  nameWithType: Combinatorics.FactorialStirlingExtended
+- uid: Combinatorics.Combinatorics.FactorialStirlingRefined(System.Int32)
+  name: FactorialStirlingRefined(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirlingRefined_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FactorialStirlingRefined(System.Int32)
+  name.vb: FactorialStirlingRefined(Integer)
+  fullName: Combinatorics.Combinatorics.FactorialStirlingRefined(int)
+  fullName.vb: Combinatorics.Combinatorics.FactorialStirlingRefined(Integer)
+  nameWithType: Combinatorics.FactorialStirlingRefined(int)
+  nameWithType.vb: Combinatorics.FactorialStirlingRefined(Integer)
+- uid: Combinatorics.Combinatorics.FactorialStirlingRefined*
+  name: FactorialStirlingRefined
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FactorialStirlingRefined_
+  commentId: Overload:Combinatorics.Combinatorics.FactorialStirlingRefined
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FactorialStirlingRefined
+  nameWithType: Combinatorics.FactorialStirlingRefined
+- uid: Combinatorics.Combinatorics.Fibonacci(System.Int32)
+  name: Fibonacci(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Fibonacci_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Fibonacci(System.Int32)
+  name.vb: Fibonacci(Integer)
+  fullName: Combinatorics.Combinatorics.Fibonacci(int)
+  fullName.vb: Combinatorics.Combinatorics.Fibonacci(Integer)
+  nameWithType: Combinatorics.Fibonacci(int)
+  nameWithType.vb: Combinatorics.Fibonacci(Integer)
+- uid: Combinatorics.Combinatorics.Fibonacci*
+  name: Fibonacci
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Fibonacci_
+  commentId: Overload:Combinatorics.Combinatorics.Fibonacci
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Fibonacci
+  nameWithType: Combinatorics.Fibonacci
+- uid: Combinatorics.Combinatorics.FibonacciApprox(System.Int32)
+  name: FibonacciApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciApprox(System.Int32)
+  name.vb: FibonacciApprox(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciApprox(Integer)
+  nameWithType: Combinatorics.FibonacciApprox(int)
+  nameWithType.vb: Combinatorics.FibonacciApprox(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciApprox*
+  name: FibonacciApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciApprox_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciApprox
+  nameWithType: Combinatorics.FibonacciApprox
+- uid: Combinatorics.Combinatorics.FibonacciApproxExtended(System.Int32)
+  name: FibonacciApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciApproxExtended(System.Int32)
+  name.vb: FibonacciApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciApproxExtended(Integer)
+  nameWithType: Combinatorics.FibonacciApproxExtended(int)
+  nameWithType.vb: Combinatorics.FibonacciApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciApproxExtended*
+  name: FibonacciApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciApproxExtended
+  nameWithType: Combinatorics.FibonacciApproxExtended
+- uid: Combinatorics.Combinatorics.FibonacciBinet(System.Int32)
+  name: FibonacciBinet(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciBinet_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciBinet(System.Int32)
+  name.vb: FibonacciBinet(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciBinet(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciBinet(Integer)
+  nameWithType: Combinatorics.FibonacciBinet(int)
+  nameWithType.vb: Combinatorics.FibonacciBinet(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciBinet*
+  name: FibonacciBinet
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciBinet_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciBinet
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciBinet
+  nameWithType: Combinatorics.FibonacciBinet
+- uid: Combinatorics.Combinatorics.FibonacciFast(System.Int32)
+  name: FibonacciFast(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciFast_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciFast(System.Int32)
+  name.vb: FibonacciFast(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciFast(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciFast(Integer)
+  nameWithType: Combinatorics.FibonacciFast(int)
+  nameWithType.vb: Combinatorics.FibonacciFast(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciFast*
+  name: FibonacciFast
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciFast_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciFast
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciFast
+  nameWithType: Combinatorics.FibonacciFast
+- uid: Combinatorics.Combinatorics.FibonacciPair(System.Int32)
+  name: FibonacciPair(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciPair_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciPair(System.Int32)
+  name.vb: FibonacciPair(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciPair(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciPair(Integer)
+  nameWithType: Combinatorics.FibonacciPair(int)
+  nameWithType.vb: Combinatorics.FibonacciPair(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciPair*
+  name: FibonacciPair
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciPair_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciPair
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciPair
+  nameWithType: Combinatorics.FibonacciPair
+- uid: Combinatorics.Combinatorics.FibonacciSequence(System.Int32)
+  name: FibonacciSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FibonacciSequence(System.Int32)
+  name.vb: FibonacciSequence(Integer)
+  fullName: Combinatorics.Combinatorics.FibonacciSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.FibonacciSequence(Integer)
+  nameWithType: Combinatorics.FibonacciSequence(int)
+  nameWithType.vb: Combinatorics.FibonacciSequence(Integer)
+- uid: Combinatorics.Combinatorics.FibonacciSequence*
+  name: FibonacciSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FibonacciSequence_
+  commentId: Overload:Combinatorics.Combinatorics.FibonacciSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FibonacciSequence
+  nameWithType: Combinatorics.FibonacciSequence
+- uid: Combinatorics.Combinatorics.FussCatalan(System.Int32,System.Int32)
+  name: FussCatalan(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FussCatalan_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FussCatalan(System.Int32,System.Int32)
+  name.vb: FussCatalan(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.FussCatalan(int, int)
+  fullName.vb: Combinatorics.Combinatorics.FussCatalan(Integer, Integer)
+  nameWithType: Combinatorics.FussCatalan(int, int)
+  nameWithType.vb: Combinatorics.FussCatalan(Integer, Integer)
+- uid: Combinatorics.Combinatorics.FussCatalan*
+  name: FussCatalan
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FussCatalan_
+  commentId: Overload:Combinatorics.Combinatorics.FussCatalan
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FussCatalan
+  nameWithType: Combinatorics.FussCatalan
+- uid: Combinatorics.Combinatorics.FussCatalanSequence(System.Int32,System.Int32)
+  name: FussCatalanSequence(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FussCatalanSequence_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.FussCatalanSequence(System.Int32,System.Int32)
+  name.vb: FussCatalanSequence(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.FussCatalanSequence(int, int)
+  fullName.vb: Combinatorics.Combinatorics.FussCatalanSequence(Integer, Integer)
+  nameWithType: Combinatorics.FussCatalanSequence(int, int)
+  nameWithType.vb: Combinatorics.FussCatalanSequence(Integer, Integer)
+- uid: Combinatorics.Combinatorics.FussCatalanSequence*
+  name: FussCatalanSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_FussCatalanSequence_
+  commentId: Overload:Combinatorics.Combinatorics.FussCatalanSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.FussCatalanSequence
+  nameWithType: Combinatorics.FussCatalanSequence
+- uid: Combinatorics.Combinatorics.GammaLanczos(System.Double)
+  name: GammaLanczos(double)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GammaLanczos_System_Double_
+  commentId: M:Combinatorics.Combinatorics.GammaLanczos(System.Double)
+  name.vb: GammaLanczos(Double)
+  fullName: Combinatorics.Combinatorics.GammaLanczos(double)
+  fullName.vb: Combinatorics.Combinatorics.GammaLanczos(Double)
+  nameWithType: Combinatorics.GammaLanczos(double)
+  nameWithType.vb: Combinatorics.GammaLanczos(Double)
+- uid: Combinatorics.Combinatorics.GammaLanczos*
+  name: GammaLanczos
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GammaLanczos_
+  commentId: Overload:Combinatorics.Combinatorics.GammaLanczos
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.GammaLanczos
+  nameWithType: Combinatorics.GammaLanczos
+- uid: Combinatorics.Combinatorics.Lah(System.Int32,System.Int32)
+  name: Lah(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Lah_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Lah(System.Int32,System.Int32)
+  name.vb: Lah(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Lah(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Lah(Integer, Integer)
+  nameWithType: Combinatorics.Lah(int, int)
+  nameWithType.vb: Combinatorics.Lah(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Lah*
+  name: Lah
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Lah_
+  commentId: Overload:Combinatorics.Combinatorics.Lah
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Lah
+  nameWithType: Combinatorics.Lah
+- uid: Combinatorics.Combinatorics.LahRow(System.Int32)
+  name: LahRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LahRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LahRow(System.Int32)
+  name.vb: LahRow(Integer)
+  fullName: Combinatorics.Combinatorics.LahRow(int)
+  fullName.vb: Combinatorics.Combinatorics.LahRow(Integer)
+  nameWithType: Combinatorics.LahRow(int)
+  nameWithType.vb: Combinatorics.LahRow(Integer)
+- uid: Combinatorics.Combinatorics.LahRow*
+  name: LahRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LahRow_
+  commentId: Overload:Combinatorics.Combinatorics.LahRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LahRow
+  nameWithType: Combinatorics.LahRow
+- uid: Combinatorics.Combinatorics.LambertW(System.Double)
+  name: LambertW(double)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LambertW_System_Double_
+  commentId: M:Combinatorics.Combinatorics.LambertW(System.Double)
+  name.vb: LambertW(Double)
+  fullName: Combinatorics.Combinatorics.LambertW(double)
+  fullName.vb: Combinatorics.Combinatorics.LambertW(Double)
+  nameWithType: Combinatorics.LambertW(double)
+  nameWithType.vb: Combinatorics.LambertW(Double)
+- uid: Combinatorics.Combinatorics.LambertW*
+  name: LambertW
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LambertW_
+  commentId: Overload:Combinatorics.Combinatorics.LambertW
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LambertW
+  nameWithType: Combinatorics.LambertW
+- uid: Combinatorics.Combinatorics.LogFactorialLanczos(System.Int32)
+  name: LogFactorialLanczos(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LogFactorialLanczos_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LogFactorialLanczos(System.Int32)
+  name.vb: LogFactorialLanczos(Integer)
+  fullName: Combinatorics.Combinatorics.LogFactorialLanczos(int)
+  fullName.vb: Combinatorics.Combinatorics.LogFactorialLanczos(Integer)
+  nameWithType: Combinatorics.LogFactorialLanczos(int)
+  nameWithType.vb: Combinatorics.LogFactorialLanczos(Integer)
+- uid: Combinatorics.Combinatorics.LogFactorialLanczos*
+  name: LogFactorialLanczos
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LogFactorialLanczos_
+  commentId: Overload:Combinatorics.Combinatorics.LogFactorialLanczos
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LogFactorialLanczos
+  nameWithType: Combinatorics.LogFactorialLanczos
+- uid: Combinatorics.Combinatorics.LogGammaLanczos(System.Double)
+  name: LogGammaLanczos(double)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LogGammaLanczos_System_Double_
+  commentId: M:Combinatorics.Combinatorics.LogGammaLanczos(System.Double)
+  name.vb: LogGammaLanczos(Double)
+  fullName: Combinatorics.Combinatorics.LogGammaLanczos(double)
+  fullName.vb: Combinatorics.Combinatorics.LogGammaLanczos(Double)
+  nameWithType: Combinatorics.LogGammaLanczos(double)
+  nameWithType.vb: Combinatorics.LogGammaLanczos(Double)
+- uid: Combinatorics.Combinatorics.LogGammaLanczos*
+  name: LogGammaLanczos
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LogGammaLanczos_
+  commentId: Overload:Combinatorics.Combinatorics.LogGammaLanczos
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LogGammaLanczos
+  nameWithType: Combinatorics.LogGammaLanczos
+- uid: Combinatorics.Combinatorics.Lucas(System.Int32)
+  name: Lucas(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Lucas_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Lucas(System.Int32)
+  name.vb: Lucas(Integer)
+  fullName: Combinatorics.Combinatorics.Lucas(int)
+  fullName.vb: Combinatorics.Combinatorics.Lucas(Integer)
+  nameWithType: Combinatorics.Lucas(int)
+  nameWithType.vb: Combinatorics.Lucas(Integer)
+- uid: Combinatorics.Combinatorics.Lucas*
+  name: Lucas
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Lucas_
+  commentId: Overload:Combinatorics.Combinatorics.Lucas
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Lucas
+  nameWithType: Combinatorics.Lucas
+- uid: Combinatorics.Combinatorics.LucasApprox(System.Int32)
+  name: LucasApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasApprox(System.Int32)
+  name.vb: LucasApprox(Integer)
+  fullName: Combinatorics.Combinatorics.LucasApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasApprox(Integer)
+  nameWithType: Combinatorics.LucasApprox(int)
+  nameWithType.vb: Combinatorics.LucasApprox(Integer)
+- uid: Combinatorics.Combinatorics.LucasApprox*
+  name: LucasApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasApprox_
+  commentId: Overload:Combinatorics.Combinatorics.LucasApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasApprox
+  nameWithType: Combinatorics.LucasApprox
+- uid: Combinatorics.Combinatorics.LucasApproxExtended(System.Int32)
+  name: LucasApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasApproxExtended(System.Int32)
+  name.vb: LucasApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.LucasApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasApproxExtended(Integer)
+  nameWithType: Combinatorics.LucasApproxExtended(int)
+  nameWithType.vb: Combinatorics.LucasApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.LucasApproxExtended*
+  name: LucasApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.LucasApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasApproxExtended
+  nameWithType: Combinatorics.LucasApproxExtended
+- uid: Combinatorics.Combinatorics.LucasBinet(System.Int32)
+  name: LucasBinet(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasBinet_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasBinet(System.Int32)
+  name.vb: LucasBinet(Integer)
+  fullName: Combinatorics.Combinatorics.LucasBinet(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasBinet(Integer)
+  nameWithType: Combinatorics.LucasBinet(int)
+  nameWithType.vb: Combinatorics.LucasBinet(Integer)
+- uid: Combinatorics.Combinatorics.LucasBinet*
+  name: LucasBinet
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasBinet_
+  commentId: Overload:Combinatorics.Combinatorics.LucasBinet
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasBinet
+  nameWithType: Combinatorics.LucasBinet
+- uid: Combinatorics.Combinatorics.LucasFromFibonacci(System.Int32)
+  name: LucasFromFibonacci(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasFromFibonacci_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasFromFibonacci(System.Int32)
+  name.vb: LucasFromFibonacci(Integer)
+  fullName: Combinatorics.Combinatorics.LucasFromFibonacci(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasFromFibonacci(Integer)
+  nameWithType: Combinatorics.LucasFromFibonacci(int)
+  nameWithType.vb: Combinatorics.LucasFromFibonacci(Integer)
+- uid: Combinatorics.Combinatorics.LucasFromFibonacci*
+  name: LucasFromFibonacci
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasFromFibonacci_
+  commentId: Overload:Combinatorics.Combinatorics.LucasFromFibonacci
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasFromFibonacci
+  nameWithType: Combinatorics.LucasFromFibonacci
+- uid: Combinatorics.Combinatorics.LucasIdentity(System.Int32)
+  name: LucasIdentity(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasIdentity_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasIdentity(System.Int32)
+  name.vb: LucasIdentity(Integer)
+  fullName: Combinatorics.Combinatorics.LucasIdentity(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasIdentity(Integer)
+  nameWithType: Combinatorics.LucasIdentity(int)
+  nameWithType.vb: Combinatorics.LucasIdentity(Integer)
+- uid: Combinatorics.Combinatorics.LucasIdentity*
+  name: LucasIdentity
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasIdentity_
+  commentId: Overload:Combinatorics.Combinatorics.LucasIdentity
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasIdentity
+  nameWithType: Combinatorics.LucasIdentity
+- uid: Combinatorics.Combinatorics.LucasSequence(System.Int32)
+  name: LucasSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.LucasSequence(System.Int32)
+  name.vb: LucasSequence(Integer)
+  fullName: Combinatorics.Combinatorics.LucasSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.LucasSequence(Integer)
+  nameWithType: Combinatorics.LucasSequence(int)
+  nameWithType.vb: Combinatorics.LucasSequence(Integer)
+- uid: Combinatorics.Combinatorics.LucasSequence*
+  name: LucasSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_LucasSequence_
+  commentId: Overload:Combinatorics.Combinatorics.LucasSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.LucasSequence
+  nameWithType: Combinatorics.LucasSequence
+- uid: Combinatorics.Combinatorics.Motzkin(System.Int32)
+  name: Motzkin(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Motzkin_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Motzkin(System.Int32)
+  name.vb: Motzkin(Integer)
+  fullName: Combinatorics.Combinatorics.Motzkin(int)
+  fullName.vb: Combinatorics.Combinatorics.Motzkin(Integer)
+  nameWithType: Combinatorics.Motzkin(int)
+  nameWithType.vb: Combinatorics.Motzkin(Integer)
+- uid: Combinatorics.Combinatorics.Motzkin*
+  name: Motzkin
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Motzkin_
+  commentId: Overload:Combinatorics.Combinatorics.Motzkin
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Motzkin
+  nameWithType: Combinatorics.Motzkin
+- uid: Combinatorics.Combinatorics.MotzkinApprox(System.Int32)
+  name: MotzkinApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinApprox(System.Int32)
+  name.vb: MotzkinApprox(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinApprox(Integer)
+  nameWithType: Combinatorics.MotzkinApprox(int)
+  nameWithType.vb: Combinatorics.MotzkinApprox(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinApprox*
+  name: MotzkinApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinApprox_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinApprox
+  nameWithType: Combinatorics.MotzkinApprox
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized(System.Int32,System.Int32)
+  name: MotzkinGeneralized(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralized(System.Int32,System.Int32)
+  name.vb: MotzkinGeneralized(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized(int, int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralized(Integer, Integer)
+  nameWithType: Combinatorics.MotzkinGeneralized(int, int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralized(Integer, Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized*
+  name: MotzkinGeneralized
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralized
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized
+  nameWithType: Combinatorics.MotzkinGeneralized
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized1(System.Int32)
+  name: MotzkinGeneralized1(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized1_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralized1(System.Int32)
+  name.vb: MotzkinGeneralized1(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized1(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralized1(Integer)
+  nameWithType: Combinatorics.MotzkinGeneralized1(int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralized1(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized1*
+  name: MotzkinGeneralized1
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized1_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralized1
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized1
+  nameWithType: Combinatorics.MotzkinGeneralized1
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized2(System.Int32)
+  name: MotzkinGeneralized2(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized2_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralized2(System.Int32)
+  name.vb: MotzkinGeneralized2(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized2(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralized2(Integer)
+  nameWithType: Combinatorics.MotzkinGeneralized2(int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralized2(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized2*
+  name: MotzkinGeneralized2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized2_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralized2
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized2
+  nameWithType: Combinatorics.MotzkinGeneralized2
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized3(System.Int32)
+  name: MotzkinGeneralized3(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized3_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralized3(System.Int32)
+  name.vb: MotzkinGeneralized3(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized3(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralized3(Integer)
+  nameWithType: Combinatorics.MotzkinGeneralized3(int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralized3(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralized3*
+  name: MotzkinGeneralized3
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralized3_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralized3
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralized3
+  nameWithType: Combinatorics.MotzkinGeneralized3
+- uid: Combinatorics.Combinatorics.MotzkinGeneralizedBySum(System.Int32,System.Int32)
+  name: MotzkinGeneralizedBySum(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralizedBySum_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralizedBySum(System.Int32,System.Int32)
+  name.vb: MotzkinGeneralizedBySum(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralizedBySum(int, int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralizedBySum(Integer, Integer)
+  nameWithType: Combinatorics.MotzkinGeneralizedBySum(int, int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralizedBySum(Integer, Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralizedBySum*
+  name: MotzkinGeneralizedBySum
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralizedBySum_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralizedBySum
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralizedBySum
+  nameWithType: Combinatorics.MotzkinGeneralizedBySum
+- uid: Combinatorics.Combinatorics.MotzkinGeneralizedSequence(System.Int32,System.Int32)
+  name: MotzkinGeneralizedSequence(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralizedSequence_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinGeneralizedSequence(System.Int32,System.Int32)
+  name.vb: MotzkinGeneralizedSequence(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralizedSequence(int, int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinGeneralizedSequence(Integer, Integer)
+  nameWithType: Combinatorics.MotzkinGeneralizedSequence(int, int)
+  nameWithType.vb: Combinatorics.MotzkinGeneralizedSequence(Integer, Integer)
+- uid: Combinatorics.Combinatorics.MotzkinGeneralizedSequence*
+  name: MotzkinGeneralizedSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinGeneralizedSequence_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinGeneralizedSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinGeneralizedSequence
+  nameWithType: Combinatorics.MotzkinGeneralizedSequence
+- uid: Combinatorics.Combinatorics.MotzkinSequence(System.Int32)
+  name: MotzkinSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinSequence(System.Int32)
+  name.vb: MotzkinSequence(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinSequence(Integer)
+  nameWithType: Combinatorics.MotzkinSequence(int)
+  nameWithType.vb: Combinatorics.MotzkinSequence(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinSequence*
+  name: MotzkinSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinSequence_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinSequence
+  nameWithType: Combinatorics.MotzkinSequence
+- uid: Combinatorics.Combinatorics.MotzkinTwoColored(System.Int32)
+  name: MotzkinTwoColored(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinTwoColored_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinTwoColored(System.Int32)
+  name.vb: MotzkinTwoColored(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinTwoColored(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinTwoColored(Integer)
+  nameWithType: Combinatorics.MotzkinTwoColored(int)
+  nameWithType.vb: Combinatorics.MotzkinTwoColored(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinTwoColored*
+  name: MotzkinTwoColored
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinTwoColored_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinTwoColored
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinTwoColored
+  nameWithType: Combinatorics.MotzkinTwoColored
+- uid: Combinatorics.Combinatorics.MotzkinTwoColoredSequence(System.Int32)
+  name: MotzkinTwoColoredSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinTwoColoredSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.MotzkinTwoColoredSequence(System.Int32)
+  name.vb: MotzkinTwoColoredSequence(Integer)
+  fullName: Combinatorics.Combinatorics.MotzkinTwoColoredSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.MotzkinTwoColoredSequence(Integer)
+  nameWithType: Combinatorics.MotzkinTwoColoredSequence(int)
+  nameWithType.vb: Combinatorics.MotzkinTwoColoredSequence(Integer)
+- uid: Combinatorics.Combinatorics.MotzkinTwoColoredSequence*
+  name: MotzkinTwoColoredSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_MotzkinTwoColoredSequence_
+  commentId: Overload:Combinatorics.Combinatorics.MotzkinTwoColoredSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.MotzkinTwoColoredSequence
+  nameWithType: Combinatorics.MotzkinTwoColoredSequence
+- uid: Combinatorics.Combinatorics.Narayana(System.Int32,System.Int32)
+  name: Narayana(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Narayana_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Narayana(System.Int32,System.Int32)
+  name.vb: Narayana(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.Narayana(int, int)
+  fullName.vb: Combinatorics.Combinatorics.Narayana(Integer, Integer)
+  nameWithType: Combinatorics.Narayana(int, int)
+  nameWithType.vb: Combinatorics.Narayana(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Narayana*
+  name: Narayana
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Narayana_
+  commentId: Overload:Combinatorics.Combinatorics.Narayana
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Narayana
+  nameWithType: Combinatorics.Narayana
+- uid: Combinatorics.Combinatorics.NarayanaRow(System.Int32)
+  name: NarayanaRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_NarayanaRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.NarayanaRow(System.Int32)
+  name.vb: NarayanaRow(Integer)
+  fullName: Combinatorics.Combinatorics.NarayanaRow(int)
+  fullName.vb: Combinatorics.Combinatorics.NarayanaRow(Integer)
+  nameWithType: Combinatorics.NarayanaRow(int)
+  nameWithType.vb: Combinatorics.NarayanaRow(Integer)
+- uid: Combinatorics.Combinatorics.NarayanaRow*
+  name: NarayanaRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_NarayanaRow_
+  commentId: Overload:Combinatorics.Combinatorics.NarayanaRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.NarayanaRow
+  nameWithType: Combinatorics.NarayanaRow
+- uid: Combinatorics.Combinatorics.OneMinusSqrt2
+  name: OneMinusSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OneMinusSqrt2
+  commentId: P:Combinatorics.Combinatorics.OneMinusSqrt2
+  fullName: Combinatorics.Combinatorics.OneMinusSqrt2
+  nameWithType: Combinatorics.OneMinusSqrt2
+- uid: Combinatorics.Combinatorics.OneMinusSqrt2*
+  name: OneMinusSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OneMinusSqrt2_
+  commentId: Overload:Combinatorics.Combinatorics.OneMinusSqrt2
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.OneMinusSqrt2
+  nameWithType: Combinatorics.OneMinusSqrt2
+- uid: Combinatorics.Combinatorics.OnePlusSqrt2
+  name: OnePlusSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OnePlusSqrt2
+  commentId: P:Combinatorics.Combinatorics.OnePlusSqrt2
+  fullName: Combinatorics.Combinatorics.OnePlusSqrt2
+  nameWithType: Combinatorics.OnePlusSqrt2
+- uid: Combinatorics.Combinatorics.OnePlusSqrt2*
+  name: OnePlusSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OnePlusSqrt2_
+  commentId: Overload:Combinatorics.Combinatorics.OnePlusSqrt2
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.OnePlusSqrt2
+  nameWithType: Combinatorics.OnePlusSqrt2
+- uid: Combinatorics.Combinatorics.OrderedBell(System.Int32)
+  name: OrderedBell(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OrderedBell_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.OrderedBell(System.Int32)
+  name.vb: OrderedBell(Integer)
+  fullName: Combinatorics.Combinatorics.OrderedBell(int)
+  fullName.vb: Combinatorics.Combinatorics.OrderedBell(Integer)
+  nameWithType: Combinatorics.OrderedBell(int)
+  nameWithType.vb: Combinatorics.OrderedBell(Integer)
+- uid: Combinatorics.Combinatorics.OrderedBell*
+  name: OrderedBell
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_OrderedBell_
+  commentId: Overload:Combinatorics.Combinatorics.OrderedBell
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.OrderedBell
+  nameWithType: Combinatorics.OrderedBell
+- uid: Combinatorics.Combinatorics.PascalRow(System.Int32)
+  name: PascalRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PascalRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PascalRow(System.Int32)
+  name.vb: PascalRow(Integer)
+  fullName: Combinatorics.Combinatorics.PascalRow(int)
+  fullName.vb: Combinatorics.Combinatorics.PascalRow(Integer)
+  nameWithType: Combinatorics.PascalRow(int)
+  nameWithType.vb: Combinatorics.PascalRow(Integer)
+- uid: Combinatorics.Combinatorics.PascalRow*
+  name: PascalRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PascalRow_
+  commentId: Overload:Combinatorics.Combinatorics.PascalRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PascalRow
+  nameWithType: Combinatorics.PascalRow
+- uid: Combinatorics.Combinatorics.Pell(System.Int32)
+  name: Pell(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Pell_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Pell(System.Int32)
+  name.vb: Pell(Integer)
+  fullName: Combinatorics.Combinatorics.Pell(int)
+  fullName.vb: Combinatorics.Combinatorics.Pell(Integer)
+  nameWithType: Combinatorics.Pell(int)
+  nameWithType.vb: Combinatorics.Pell(Integer)
+- uid: Combinatorics.Combinatorics.Pell*
+  name: Pell
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Pell_
+  commentId: Overload:Combinatorics.Combinatorics.Pell
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Pell
+  nameWithType: Combinatorics.Pell
+- uid: Combinatorics.Combinatorics.PellApprox(System.Int32)
+  name: PellApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellApprox(System.Int32)
+  name.vb: PellApprox(Integer)
+  fullName: Combinatorics.Combinatorics.PellApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.PellApprox(Integer)
+  nameWithType: Combinatorics.PellApprox(int)
+  nameWithType.vb: Combinatorics.PellApprox(Integer)
+- uid: Combinatorics.Combinatorics.PellApprox*
+  name: PellApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellApprox_
+  commentId: Overload:Combinatorics.Combinatorics.PellApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellApprox
+  nameWithType: Combinatorics.PellApprox
+- uid: Combinatorics.Combinatorics.PellApproxExtended(System.Int32)
+  name: PellApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellApproxExtended(System.Int32)
+  name.vb: PellApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.PellApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.PellApproxExtended(Integer)
+  nameWithType: Combinatorics.PellApproxExtended(int)
+  nameWithType.vb: Combinatorics.PellApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.PellApproxExtended*
+  name: PellApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.PellApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellApproxExtended
+  nameWithType: Combinatorics.PellApproxExtended
+- uid: Combinatorics.Combinatorics.PellBinet(System.Int32)
+  name: PellBinet(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellBinet_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellBinet(System.Int32)
+  name.vb: PellBinet(Integer)
+  fullName: Combinatorics.Combinatorics.PellBinet(int)
+  fullName.vb: Combinatorics.Combinatorics.PellBinet(Integer)
+  nameWithType: Combinatorics.PellBinet(int)
+  nameWithType.vb: Combinatorics.PellBinet(Integer)
+- uid: Combinatorics.Combinatorics.PellBinet*
+  name: PellBinet
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellBinet_
+  commentId: Overload:Combinatorics.Combinatorics.PellBinet
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellBinet
+  nameWithType: Combinatorics.PellBinet
+- uid: Combinatorics.Combinatorics.PellLucas(System.Int32)
+  name: PellLucas(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucas_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucas(System.Int32)
+  name.vb: PellLucas(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucas(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucas(Integer)
+  nameWithType: Combinatorics.PellLucas(int)
+  nameWithType.vb: Combinatorics.PellLucas(Integer)
+- uid: Combinatorics.Combinatorics.PellLucas*
+  name: PellLucas
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucas_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucas
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucas
+  nameWithType: Combinatorics.PellLucas
+- uid: Combinatorics.Combinatorics.PellLucasApprox(System.Int32)
+  name: PellLucasApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucasApprox(System.Int32)
+  name.vb: PellLucasApprox(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucasApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucasApprox(Integer)
+  nameWithType: Combinatorics.PellLucasApprox(int)
+  nameWithType.vb: Combinatorics.PellLucasApprox(Integer)
+- uid: Combinatorics.Combinatorics.PellLucasApprox*
+  name: PellLucasApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasApprox_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucasApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucasApprox
+  nameWithType: Combinatorics.PellLucasApprox
+- uid: Combinatorics.Combinatorics.PellLucasApproxExtended(System.Int32)
+  name: PellLucasApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucasApproxExtended(System.Int32)
+  name.vb: PellLucasApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucasApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucasApproxExtended(Integer)
+  nameWithType: Combinatorics.PellLucasApproxExtended(int)
+  nameWithType.vb: Combinatorics.PellLucasApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.PellLucasApproxExtended*
+  name: PellLucasApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucasApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucasApproxExtended
+  nameWithType: Combinatorics.PellLucasApproxExtended
+- uid: Combinatorics.Combinatorics.PellLucasBinet(System.Int32)
+  name: PellLucasBinet(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasBinet_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucasBinet(System.Int32)
+  name.vb: PellLucasBinet(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucasBinet(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucasBinet(Integer)
+  nameWithType: Combinatorics.PellLucasBinet(int)
+  nameWithType.vb: Combinatorics.PellLucasBinet(Integer)
+- uid: Combinatorics.Combinatorics.PellLucasBinet*
+  name: PellLucasBinet
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasBinet_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucasBinet
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucasBinet
+  nameWithType: Combinatorics.PellLucasBinet
+- uid: Combinatorics.Combinatorics.PellLucasIdentity(System.Int32)
+  name: PellLucasIdentity(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasIdentity_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucasIdentity(System.Int32)
+  name.vb: PellLucasIdentity(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucasIdentity(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucasIdentity(Integer)
+  nameWithType: Combinatorics.PellLucasIdentity(int)
+  nameWithType.vb: Combinatorics.PellLucasIdentity(Integer)
+- uid: Combinatorics.Combinatorics.PellLucasIdentity*
+  name: PellLucasIdentity
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasIdentity_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucasIdentity
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucasIdentity
+  nameWithType: Combinatorics.PellLucasIdentity
+- uid: Combinatorics.Combinatorics.PellLucasSequence(System.Int32)
+  name: PellLucasSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellLucasSequence(System.Int32)
+  name.vb: PellLucasSequence(Integer)
+  fullName: Combinatorics.Combinatorics.PellLucasSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.PellLucasSequence(Integer)
+  nameWithType: Combinatorics.PellLucasSequence(int)
+  nameWithType.vb: Combinatorics.PellLucasSequence(Integer)
+- uid: Combinatorics.Combinatorics.PellLucasSequence*
+  name: PellLucasSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellLucasSequence_
+  commentId: Overload:Combinatorics.Combinatorics.PellLucasSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellLucasSequence
+  nameWithType: Combinatorics.PellLucasSequence
+- uid: Combinatorics.Combinatorics.PellSequence(System.Int32)
+  name: PellSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.PellSequence(System.Int32)
+  name.vb: PellSequence(Integer)
+  fullName: Combinatorics.Combinatorics.PellSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.PellSequence(Integer)
+  nameWithType: Combinatorics.PellSequence(int)
+  nameWithType.vb: Combinatorics.PellSequence(Integer)
+- uid: Combinatorics.Combinatorics.PellSequence*
+  name: PellSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PellSequence_
+  commentId: Overload:Combinatorics.Combinatorics.PellSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PellSequence
+  nameWithType: Combinatorics.PellSequence
+- uid: Combinatorics.Combinatorics.Permutations(System.Int32)
+  name: Permutations(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Permutations_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Permutations(System.Int32)
+  name.vb: Permutations(Integer)
+  fullName: Combinatorics.Combinatorics.Permutations(int)
+  fullName.vb: Combinatorics.Combinatorics.Permutations(Integer)
+  nameWithType: Combinatorics.Permutations(int)
+  nameWithType.vb: Combinatorics.Permutations(Integer)
+- uid: Combinatorics.Combinatorics.Permutations*
+  name: Permutations
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Permutations_
+  commentId: Overload:Combinatorics.Combinatorics.Permutations
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Permutations
+  nameWithType: Combinatorics.Permutations
+- uid: Combinatorics.Combinatorics.PermutationsWithRepetition(System.Int32[])
+  name: PermutationsWithRepetition(params int[])
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PermutationsWithRepetition_System_Int32___
+  commentId: M:Combinatorics.Combinatorics.PermutationsWithRepetition(System.Int32[])
+  name.vb: PermutationsWithRepetition(ParamArray Integer())
+  fullName: Combinatorics.Combinatorics.PermutationsWithRepetition(params int[])
+  fullName.vb: Combinatorics.Combinatorics.PermutationsWithRepetition(ParamArray Integer())
+  nameWithType: Combinatorics.PermutationsWithRepetition(params int[])
+  nameWithType.vb: Combinatorics.PermutationsWithRepetition(ParamArray Integer())
+- uid: Combinatorics.Combinatorics.PermutationsWithRepetition*
+  name: PermutationsWithRepetition
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_PermutationsWithRepetition_
+  commentId: Overload:Combinatorics.Combinatorics.PermutationsWithRepetition
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.PermutationsWithRepetition
+  nameWithType: Combinatorics.PermutationsWithRepetition
+- uid: Combinatorics.Combinatorics.Permutations``1(System.Collections.Generic.IReadOnlyList{``0})
+  name: Permutations<T>(IReadOnlyList<T>)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Permutations__1_System_Collections_Generic_IReadOnlyList___0__
+  commentId: M:Combinatorics.Combinatorics.Permutations``1(System.Collections.Generic.IReadOnlyList{``0})
+  name.vb: Permutations(Of T)(IReadOnlyList(Of T))
+  fullName: Combinatorics.Combinatorics.Permutations<T>(System.Collections.Generic.IReadOnlyList<T>)
+  fullName.vb: Combinatorics.Combinatorics.Permutations(Of T)(System.Collections.Generic.IReadOnlyList(Of T))
+  nameWithType: Combinatorics.Permutations<T>(IReadOnlyList<T>)
+  nameWithType.vb: Combinatorics.Permutations(Of T)(IReadOnlyList(Of T))
+- uid: Combinatorics.Combinatorics.Phi
+  name: Phi
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Phi
+  commentId: P:Combinatorics.Combinatorics.Phi
+  fullName: Combinatorics.Combinatorics.Phi
+  nameWithType: Combinatorics.Phi
+- uid: Combinatorics.Combinatorics.Phi*
+  name: Phi
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Phi_
+  commentId: Overload:Combinatorics.Combinatorics.Phi
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Phi
+  nameWithType: Combinatorics.Phi
+- uid: Combinatorics.Combinatorics.Psi
+  name: Psi
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Psi
+  commentId: P:Combinatorics.Combinatorics.Psi
+  fullName: Combinatorics.Combinatorics.Psi
+  nameWithType: Combinatorics.Psi
+- uid: Combinatorics.Combinatorics.Psi*
+  name: Psi
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Psi_
+  commentId: Overload:Combinatorics.Combinatorics.Psi
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Psi
+  nameWithType: Combinatorics.Psi
+- uid: Combinatorics.Combinatorics.RelativeError(System.Numerics.BigInteger,System.Double)
+  name: RelativeError(BigInteger, double)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_RelativeError_System_Numerics_BigInteger_System_Double_
+  commentId: M:Combinatorics.Combinatorics.RelativeError(System.Numerics.BigInteger,System.Double)
+  name.vb: RelativeError(BigInteger, Double)
+  fullName: Combinatorics.Combinatorics.RelativeError(System.Numerics.BigInteger, double)
+  fullName.vb: Combinatorics.Combinatorics.RelativeError(System.Numerics.BigInteger, Double)
+  nameWithType: Combinatorics.RelativeError(BigInteger, double)
+  nameWithType.vb: Combinatorics.RelativeError(BigInteger, Double)
+- uid: Combinatorics.Combinatorics.RelativeError*
+  name: RelativeError
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_RelativeError_
+  commentId: Overload:Combinatorics.Combinatorics.RelativeError
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.RelativeError
+  nameWithType: Combinatorics.RelativeError
+- uid: Combinatorics.Combinatorics.SchroederCatalan(System.Int32)
+  name: SchroederCatalan(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalan_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederCatalan(System.Int32)
+  name.vb: SchroederCatalan(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederCatalan(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederCatalan(Integer)
+  nameWithType: Combinatorics.SchroederCatalan(int)
+  nameWithType.vb: Combinatorics.SchroederCatalan(Integer)
+- uid: Combinatorics.Combinatorics.SchroederCatalan*
+  name: SchroederCatalan
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalan_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederCatalan
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederCatalan
+  nameWithType: Combinatorics.SchroederCatalan
+- uid: Combinatorics.Combinatorics.SchroederCatalanBySum(System.Int32)
+  name: SchroederCatalanBySum(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalanBySum_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederCatalanBySum(System.Int32)
+  name.vb: SchroederCatalanBySum(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederCatalanBySum(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederCatalanBySum(Integer)
+  nameWithType: Combinatorics.SchroederCatalanBySum(int)
+  nameWithType.vb: Combinatorics.SchroederCatalanBySum(Integer)
+- uid: Combinatorics.Combinatorics.SchroederCatalanBySum*
+  name: SchroederCatalanBySum
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalanBySum_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederCatalanBySum
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederCatalanBySum
+  nameWithType: Combinatorics.SchroederCatalanBySum
+- uid: Combinatorics.Combinatorics.SchroederCatalanSequence(System.Int32)
+  name: SchroederCatalanSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalanSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederCatalanSequence(System.Int32)
+  name.vb: SchroederCatalanSequence(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederCatalanSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederCatalanSequence(Integer)
+  nameWithType: Combinatorics.SchroederCatalanSequence(int)
+  nameWithType.vb: Combinatorics.SchroederCatalanSequence(Integer)
+- uid: Combinatorics.Combinatorics.SchroederCatalanSequence*
+  name: SchroederCatalanSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederCatalanSequence_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederCatalanSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederCatalanSequence
+  nameWithType: Combinatorics.SchroederCatalanSequence
+- uid: Combinatorics.Combinatorics.SchroederLarge(System.Int32)
+  name: SchroederLarge(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLarge_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederLarge(System.Int32)
+  name.vb: SchroederLarge(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederLarge(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederLarge(Integer)
+  nameWithType: Combinatorics.SchroederLarge(int)
+  nameWithType.vb: Combinatorics.SchroederLarge(Integer)
+- uid: Combinatorics.Combinatorics.SchroederLarge*
+  name: SchroederLarge
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLarge_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederLarge
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederLarge
+  nameWithType: Combinatorics.SchroederLarge
+- uid: Combinatorics.Combinatorics.SchroederLargeApprox(System.Int32)
+  name: SchroederLargeApprox(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeApprox_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederLargeApprox(System.Int32)
+  name.vb: SchroederLargeApprox(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederLargeApprox(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederLargeApprox(Integer)
+  nameWithType: Combinatorics.SchroederLargeApprox(int)
+  nameWithType.vb: Combinatorics.SchroederLargeApprox(Integer)
+- uid: Combinatorics.Combinatorics.SchroederLargeApprox*
+  name: SchroederLargeApprox
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeApprox_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederLargeApprox
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederLargeApprox
+  nameWithType: Combinatorics.SchroederLargeApprox
+- uid: Combinatorics.Combinatorics.SchroederLargeApproxExtended(System.Int32)
+  name: SchroederLargeApproxExtended(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeApproxExtended_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederLargeApproxExtended(System.Int32)
+  name.vb: SchroederLargeApproxExtended(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederLargeApproxExtended(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederLargeApproxExtended(Integer)
+  nameWithType: Combinatorics.SchroederLargeApproxExtended(int)
+  nameWithType.vb: Combinatorics.SchroederLargeApproxExtended(Integer)
+- uid: Combinatorics.Combinatorics.SchroederLargeApproxExtended*
+  name: SchroederLargeApproxExtended
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeApproxExtended_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederLargeApproxExtended
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederLargeApproxExtended
+  nameWithType: Combinatorics.SchroederLargeApproxExtended
+- uid: Combinatorics.Combinatorics.SchroederLargeSequence(System.Int32)
+  name: SchroederLargeSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederLargeSequence(System.Int32)
+  name.vb: SchroederLargeSequence(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederLargeSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederLargeSequence(Integer)
+  nameWithType: Combinatorics.SchroederLargeSequence(int)
+  nameWithType.vb: Combinatorics.SchroederLargeSequence(Integer)
+- uid: Combinatorics.Combinatorics.SchroederLargeSequence*
+  name: SchroederLargeSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederLargeSequence_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederLargeSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederLargeSequence
+  nameWithType: Combinatorics.SchroederLargeSequence
+- uid: Combinatorics.Combinatorics.SchroederSmall(System.Int32)
+  name: SchroederSmall(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederSmall_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederSmall(System.Int32)
+  name.vb: SchroederSmall(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederSmall(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederSmall(Integer)
+  nameWithType: Combinatorics.SchroederSmall(int)
+  nameWithType.vb: Combinatorics.SchroederSmall(Integer)
+- uid: Combinatorics.Combinatorics.SchroederSmall*
+  name: SchroederSmall
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederSmall_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederSmall
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederSmall
+  nameWithType: Combinatorics.SchroederSmall
+- uid: Combinatorics.Combinatorics.SchroederSmallSequence(System.Int32)
+  name: SchroederSmallSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederSmallSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SchroederSmallSequence(System.Int32)
+  name.vb: SchroederSmallSequence(Integer)
+  fullName: Combinatorics.Combinatorics.SchroederSmallSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.SchroederSmallSequence(Integer)
+  nameWithType: Combinatorics.SchroederSmallSequence(int)
+  nameWithType.vb: Combinatorics.SchroederSmallSequence(Integer)
+- uid: Combinatorics.Combinatorics.SchroederSmallSequence*
+  name: SchroederSmallSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SchroederSmallSequence_
+  commentId: Overload:Combinatorics.Combinatorics.SchroederSmallSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SchroederSmallSequence
+  nameWithType: Combinatorics.SchroederSmallSequence
+- uid: Combinatorics.Combinatorics.SignedStirlingFirstKind(System.Int32,System.Int32)
+  name: SignedStirlingFirstKind(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SignedStirlingFirstKind_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.SignedStirlingFirstKind(System.Int32,System.Int32)
+  name.vb: SignedStirlingFirstKind(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.SignedStirlingFirstKind(int, int)
+  fullName.vb: Combinatorics.Combinatorics.SignedStirlingFirstKind(Integer, Integer)
+  nameWithType: Combinatorics.SignedStirlingFirstKind(int, int)
+  nameWithType.vb: Combinatorics.SignedStirlingFirstKind(Integer, Integer)
+- uid: Combinatorics.Combinatorics.SignedStirlingFirstKind*
+  name: SignedStirlingFirstKind
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_SignedStirlingFirstKind_
+  commentId: Overload:Combinatorics.Combinatorics.SignedStirlingFirstKind
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.SignedStirlingFirstKind
+  nameWithType: Combinatorics.SignedStirlingFirstKind
+- uid: Combinatorics.Combinatorics.Sqrt5
+  name: Sqrt5
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Sqrt5
+  commentId: P:Combinatorics.Combinatorics.Sqrt5
+  fullName: Combinatorics.Combinatorics.Sqrt5
+  nameWithType: Combinatorics.Sqrt5
+- uid: Combinatorics.Combinatorics.Sqrt5*
+  name: Sqrt5
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Sqrt5_
+  commentId: Overload:Combinatorics.Combinatorics.Sqrt5
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Sqrt5
+  nameWithType: Combinatorics.Sqrt5
+- uid: Combinatorics.Combinatorics.StirlingFirstKind(System.Int32,System.Int32)
+  name: StirlingFirstKind(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingFirstKind_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.StirlingFirstKind(System.Int32,System.Int32)
+  name.vb: StirlingFirstKind(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.StirlingFirstKind(int, int)
+  fullName.vb: Combinatorics.Combinatorics.StirlingFirstKind(Integer, Integer)
+  nameWithType: Combinatorics.StirlingFirstKind(int, int)
+  nameWithType.vb: Combinatorics.StirlingFirstKind(Integer, Integer)
+- uid: Combinatorics.Combinatorics.StirlingFirstKind*
+  name: StirlingFirstKind
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingFirstKind_
+  commentId: Overload:Combinatorics.Combinatorics.StirlingFirstKind
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.StirlingFirstKind
+  nameWithType: Combinatorics.StirlingFirstKind
+- uid: Combinatorics.Combinatorics.StirlingFirstKindRow(System.Int32)
+  name: StirlingFirstKindRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingFirstKindRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.StirlingFirstKindRow(System.Int32)
+  name.vb: StirlingFirstKindRow(Integer)
+  fullName: Combinatorics.Combinatorics.StirlingFirstKindRow(int)
+  fullName.vb: Combinatorics.Combinatorics.StirlingFirstKindRow(Integer)
+  nameWithType: Combinatorics.StirlingFirstKindRow(int)
+  nameWithType.vb: Combinatorics.StirlingFirstKindRow(Integer)
+- uid: Combinatorics.Combinatorics.StirlingFirstKindRow*
+  name: StirlingFirstKindRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingFirstKindRow_
+  commentId: Overload:Combinatorics.Combinatorics.StirlingFirstKindRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.StirlingFirstKindRow
+  nameWithType: Combinatorics.StirlingFirstKindRow
+- uid: Combinatorics.Combinatorics.StirlingSecondKind(System.Int32,System.Int32)
+  name: StirlingSecondKind(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingSecondKind_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.StirlingSecondKind(System.Int32,System.Int32)
+  name.vb: StirlingSecondKind(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.StirlingSecondKind(int, int)
+  fullName.vb: Combinatorics.Combinatorics.StirlingSecondKind(Integer, Integer)
+  nameWithType: Combinatorics.StirlingSecondKind(int, int)
+  nameWithType.vb: Combinatorics.StirlingSecondKind(Integer, Integer)
+- uid: Combinatorics.Combinatorics.StirlingSecondKind*
+  name: StirlingSecondKind
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingSecondKind_
+  commentId: Overload:Combinatorics.Combinatorics.StirlingSecondKind
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.StirlingSecondKind
+  nameWithType: Combinatorics.StirlingSecondKind
+- uid: Combinatorics.Combinatorics.StirlingSecondKindRow(System.Int32)
+  name: StirlingSecondKindRow(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingSecondKindRow_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.StirlingSecondKindRow(System.Int32)
+  name.vb: StirlingSecondKindRow(Integer)
+  fullName: Combinatorics.Combinatorics.StirlingSecondKindRow(int)
+  fullName.vb: Combinatorics.Combinatorics.StirlingSecondKindRow(Integer)
+  nameWithType: Combinatorics.StirlingSecondKindRow(int)
+  nameWithType.vb: Combinatorics.StirlingSecondKindRow(Integer)
+- uid: Combinatorics.Combinatorics.StirlingSecondKindRow*
+  name: StirlingSecondKindRow
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_StirlingSecondKindRow_
+  commentId: Overload:Combinatorics.Combinatorics.StirlingSecondKindRow
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.StirlingSecondKindRow
+  nameWithType: Combinatorics.StirlingSecondKindRow
+- uid: Combinatorics.Combinatorics.TwoSqrt2
+  name: TwoSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_TwoSqrt2
+  commentId: P:Combinatorics.Combinatorics.TwoSqrt2
+  fullName: Combinatorics.Combinatorics.TwoSqrt2
+  nameWithType: Combinatorics.TwoSqrt2
+- uid: Combinatorics.Combinatorics.TwoSqrt2*
+  name: TwoSqrt2
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_TwoSqrt2_
+  commentId: Overload:Combinatorics.Combinatorics.TwoSqrt2
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.TwoSqrt2
+  nameWithType: Combinatorics.TwoSqrt2
+- uid: Combinatorics.CombinatoricsFormatter
+  name: CombinatoricsFormatter
+  href: api/Combinatorics.CombinatoricsFormatter.html
+  commentId: T:Combinatorics.CombinatoricsFormatter
+  fullName: Combinatorics.CombinatoricsFormatter
+  nameWithType: CombinatoricsFormatter
+- uid: Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)
+  name: Box(string, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_Box_System_String_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)
+  name.vb: Box(String, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.Box(string, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.Box(String, Integer)
+  nameWithType: CombinatoricsFormatter.Box(string, int)
+  nameWithType.vb: CombinatoricsFormatter.Box(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.Box*
+  name: Box
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_Box_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.Box
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.Box
+  nameWithType: CombinatoricsFormatter.Box
+- uid: Combinatorics.CombinatoricsFormatter.FormatColumns*
+  name: FormatColumns
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatColumns_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatColumns
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatColumns
+  nameWithType: CombinatoricsFormatter.FormatColumns
+- uid: Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  name: FormatColumns<T>(IEnumerable<T>, int, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatColumns__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  name.vb: FormatColumns(Of T)(IEnumerable(Of T), Integer, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatColumns<T>(System.Collections.Generic.IEnumerable<T>, int, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatColumns(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer, Integer)
+  nameWithType: CombinatoricsFormatter.FormatColumns<T>(IEnumerable<T>, int, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatColumns(Of T)(IEnumerable(Of T), Integer, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  name: FormatCompact(BigInteger)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatCompact_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  nameWithType: CombinatoricsFormatter.FormatCompact(BigInteger)
+- uid: Combinatorics.CombinatoricsFormatter.FormatCompact*
+  name: FormatCompact
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatCompact_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatCompact
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatCompact
+  nameWithType: CombinatoricsFormatter.FormatCompact
+- uid: Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  name: FormatDuration(TimeSpan)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatDuration_System_TimeSpan_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  nameWithType: CombinatoricsFormatter.FormatDuration(TimeSpan)
+- uid: Combinatorics.CombinatoricsFormatter.FormatDuration*
+  name: FormatDuration
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatDuration_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatDuration
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatDuration
+  nameWithType: CombinatoricsFormatter.FormatDuration
+- uid: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  name: FormatRational(BigRational, RationalMode, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatRational_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  name.vb: FormatRational(BigRational, RationalMode, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational, Combinatorics.RationalMode, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational, Combinatorics.RationalMode, Integer)
+  nameWithType: CombinatoricsFormatter.FormatRational(BigRational, RationalMode, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatRational(BigRational, RationalMode, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatRational*
+  name: FormatRational
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatRational_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatRational
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatRational
+  nameWithType: CombinatoricsFormatter.FormatRational
+- uid: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)
+  name: FormatScientific(BigInteger, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatScientific_System_Numerics_BigInteger_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)
+  name.vb: FormatScientific(BigInteger, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger, Integer)
+  nameWithType: CombinatoricsFormatter.FormatScientific(BigInteger, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatScientific(BigInteger, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatScientific*
+  name: FormatScientific
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatScientific_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatScientific
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatScientific
+  nameWithType: CombinatoricsFormatter.FormatScientific
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequence*
+  name: FormatSequence
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequence_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSequence
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequence
+  nameWithType: CombinatoricsFormatter.FormatSequence
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed*
+  name: FormatSequenceIndexed
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed
+  nameWithType: CombinatoricsFormatter.FormatSequenceIndexed
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: FormatSequenceIndexed<T>(IEnumerable<T>, string)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed__1_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: FormatSequenceIndexed(Of T)(IEnumerable(Of T), String)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed<T>(System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: CombinatoricsFormatter.FormatSequenceIndexed<T>(IEnumerable<T>, string)
+  nameWithType.vb: CombinatoricsFormatter.FormatSequenceIndexed(Of T)(IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name: FormatSequence<T>(IEnumerable<T>, string)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequence__1_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: FormatSequence(Of T)(IEnumerable(Of T), String)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequence<T>(System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatSequence(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: CombinatoricsFormatter.FormatSequence<T>(IEnumerable<T>, string)
+  nameWithType.vb: CombinatoricsFormatter.FormatSequence(Of T)(IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  name: FormatSmart(BigInteger)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSmart_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  nameWithType: CombinatoricsFormatter.FormatSmart(BigInteger)
+- uid: Combinatorics.CombinatoricsFormatter.FormatSmart*
+  name: FormatSmart
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSmart_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSmart
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSmart
+  nameWithType: CombinatoricsFormatter.FormatSmart
+- uid: Combinatorics.CombinatoricsFormatter.FormatTable*
+  name: FormatTable
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTable_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTable
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTable
+  nameWithType: CombinatoricsFormatter.FormatTable
+- uid: Combinatorics.CombinatoricsFormatter.FormatTableDouble*
+  name: FormatTableDouble
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTableDouble_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTableDouble
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTableDouble
+  nameWithType: CombinatoricsFormatter.FormatTableDouble
+- uid: Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  name: FormatTableDouble<T1, T2>(IEnumerable<T1>, IEnumerable<T2>, string, string, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTableDouble__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___1__System_String_System_String_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  name.vb: FormatTableDouble(Of T1, T2)(IEnumerable(Of T1), IEnumerable(Of T2), String, String, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTableDouble<T1, T2>(System.Collections.Generic.IEnumerable<T1>, System.Collections.Generic.IEnumerable<T2>, string, string, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTableDouble(Of T1, T2)(System.Collections.Generic.IEnumerable(Of T1), System.Collections.Generic.IEnumerable(Of T2), String, String, Integer)
+  nameWithType: CombinatoricsFormatter.FormatTableDouble<T1, T2>(IEnumerable<T1>, IEnumerable<T2>, string, string, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatTableDouble(Of T1, T2)(IEnumerable(Of T1), IEnumerable(Of T2), String, String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  name: FormatTable<T>(IEnumerable<T>, Func<T, string>?, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTable__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  name.vb: FormatTable(Of T)(IEnumerable(Of T), Func(Of T, String), Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTable<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, string>?, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTable(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, String), Integer)
+  nameWithType: CombinatoricsFormatter.FormatTable<T>(IEnumerable<T>, Func<T, string>?, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatTable(Of T)(IEnumerable(Of T), Func(Of T, String), Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)
+  name: FormatThousands(BigInteger, string)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatThousands_System_Numerics_BigInteger_System_String_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)
+  name.vb: FormatThousands(BigInteger, String)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger, string)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger, String)
+  nameWithType: CombinatoricsFormatter.FormatThousands(BigInteger, string)
+  nameWithType.vb: CombinatoricsFormatter.FormatThousands(BigInteger, String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatThousands*
+  name: FormatThousands
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatThousands_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatThousands
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatThousands
+  nameWithType: CombinatoricsFormatter.FormatThousands
+- uid: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  name: FormatTriangle(IEnumerable<IEnumerable<BigInteger>>, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTriangle_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Numerics_BigInteger___System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  name.vb: FormatTriangle(IEnumerable(Of IEnumerable(Of BigInteger)), Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<System.Numerics.BigInteger>>, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of System.Numerics.BigInteger)), Integer)
+  nameWithType: CombinatoricsFormatter.FormatTriangle(IEnumerable<IEnumerable<BigInteger>>, int)
+  nameWithType.vb: CombinatoricsFormatter.FormatTriangle(IEnumerable(Of IEnumerable(Of BigInteger)), Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatTriangle*
+  name: FormatTriangle
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTriangle_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTriangle
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTriangle
+  nameWithType: CombinatoricsFormatter.FormatTriangle
+- uid: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  name: PrintApproxVsExact(string, BigInteger, double, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_System_String_System_Numerics_BigInteger_System_Double_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  name.vb: PrintApproxVsExact(String, BigInteger, Double, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(string, System.Numerics.BigInteger, double, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(String, System.Numerics.BigInteger, Double, Integer)
+  nameWithType: CombinatoricsFormatter.PrintApproxVsExact(string, BigInteger, double, int)
+  nameWithType.vb: CombinatoricsFormatter.PrintApproxVsExact(String, BigInteger, Double, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact*
+  name: PrintApproxVsExact
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintApproxVsExact
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact
+  nameWithType: CombinatoricsFormatter.PrintApproxVsExact
+- uid: Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)
+  name: PrintCompact(string, BigInteger)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintCompact_System_String_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)
+  name.vb: PrintCompact(String, BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintCompact(string, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintCompact(String, System.Numerics.BigInteger)
+  nameWithType: CombinatoricsFormatter.PrintCompact(string, BigInteger)
+  nameWithType.vb: CombinatoricsFormatter.PrintCompact(String, BigInteger)
+- uid: Combinatorics.CombinatoricsFormatter.PrintCompact*
+  name: PrintCompact
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintCompact_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintCompact
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintCompact
+  nameWithType: CombinatoricsFormatter.PrintCompact
+- uid: Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)
+  name: PrintHeader(string, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintHeader_System_String_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)
+  name.vb: PrintHeader(String, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintHeader(string, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintHeader(String, Integer)
+  nameWithType: CombinatoricsFormatter.PrintHeader(string, int)
+  nameWithType.vb: CombinatoricsFormatter.PrintHeader(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintHeader*
+  name: PrintHeader
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintHeader_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintHeader
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintHeader
+  nameWithType: CombinatoricsFormatter.PrintHeader
+- uid: Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  name: PrintRational(string, BigRational, RationalMode, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintRational_System_String_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  name.vb: PrintRational(String, BigRational, RationalMode, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintRational(string, Combinatorics.BigRational, Combinatorics.RationalMode, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintRational(String, Combinatorics.BigRational, Combinatorics.RationalMode, Integer)
+  nameWithType: CombinatoricsFormatter.PrintRational(string, BigRational, RationalMode, int)
+  nameWithType.vb: CombinatoricsFormatter.PrintRational(String, BigRational, RationalMode, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintRational*
+  name: PrintRational
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintRational_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintRational
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintRational
+  nameWithType: CombinatoricsFormatter.PrintRational
+- uid: Combinatorics.CombinatoricsFormatter.PrintResult*
+  name: PrintResult
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintResult_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintResult
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintResult
+  nameWithType: CombinatoricsFormatter.PrintResult
+- uid: Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)
+  name: PrintResult<T>(string, T)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintResult__1_System_String___0_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)
+  name.vb: PrintResult(Of T)(String, T)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintResult<T>(string, T)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintResult(Of T)(String, T)
+  nameWithType: CombinatoricsFormatter.PrintResult<T>(string, T)
+  nameWithType.vb: CombinatoricsFormatter.PrintResult(Of T)(String, T)
+- uid: Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  name: PrintScientific(string, BigInteger, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintScientific_System_String_System_Numerics_BigInteger_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  name.vb: PrintScientific(String, BigInteger, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintScientific(string, System.Numerics.BigInteger, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintScientific(String, System.Numerics.BigInteger, Integer)
+  nameWithType: CombinatoricsFormatter.PrintScientific(string, BigInteger, int)
+  nameWithType.vb: CombinatoricsFormatter.PrintScientific(String, BigInteger, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintScientific*
+  name: PrintScientific
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintScientific_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintScientific
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintScientific
+  nameWithType: CombinatoricsFormatter.PrintScientific
+- uid: Combinatorics.CombinatoricsFormatter.PrintSequence*
+  name: PrintSequence
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSequence_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintSequence
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSequence
+  nameWithType: CombinatoricsFormatter.PrintSequence
+- uid: Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  name: PrintSequence<T>(string, IEnumerable<T>, string)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSequence__1_System_String_System_Collections_Generic_IEnumerable___0__System_String_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  name.vb: PrintSequence(Of T)(String, IEnumerable(Of T), String)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSequence<T>(string, System.Collections.Generic.IEnumerable<T>, string)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintSequence(Of T)(String, System.Collections.Generic.IEnumerable(Of T), String)
+  nameWithType: CombinatoricsFormatter.PrintSequence<T>(string, IEnumerable<T>, string)
+  nameWithType.vb: CombinatoricsFormatter.PrintSequence(Of T)(String, IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)
+  name: PrintSubheader(string, int)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSubheader_System_String_System_Int32_
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)
+  name.vb: PrintSubheader(String, Integer)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSubheader(string, int)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintSubheader(String, Integer)
+  nameWithType: CombinatoricsFormatter.PrintSubheader(string, int)
+  nameWithType.vb: CombinatoricsFormatter.PrintSubheader(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintSubheader*
+  name: PrintSubheader
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSubheader_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintSubheader
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSubheader
+  nameWithType: CombinatoricsFormatter.PrintSubheader
+- uid: Combinatorics.CombinatoricsFormatter.PrintTable*
+  name: PrintTable
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintTable_
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintTable
+  isSpec: "True"
+  fullName: Combinatorics.CombinatoricsFormatter.PrintTable
+  nameWithType: CombinatoricsFormatter.PrintTable
+- uid: Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  name: PrintTable<T>(string, IEnumerable<T>)
+  href: api/Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintTable__1_System_String_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  name.vb: PrintTable(Of T)(String, IEnumerable(Of T))
+  fullName: Combinatorics.CombinatoricsFormatter.PrintTable<T>(string, System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintTable(Of T)(String, System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: CombinatoricsFormatter.PrintTable<T>(string, IEnumerable<T>)
+  nameWithType.vb: CombinatoricsFormatter.PrintTable(Of T)(String, IEnumerable(Of T))
+- uid: Combinatorics.QuadraticSurd
+  name: QuadraticSurd
+  href: api/Combinatorics.QuadraticSurd.html
+  commentId: T:Combinatorics.QuadraticSurd
+  fullName: Combinatorics.QuadraticSurd
+  nameWithType: QuadraticSurd
+- uid: Combinatorics.QuadraticSurd.#ctor(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
+  name: QuadraticSurd(BigInteger, BigInteger, BigInteger, BigInteger)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd__ctor_System_Numerics_BigInteger_System_Numerics_BigInteger_System_Numerics_BigInteger_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.QuadraticSurd.#ctor(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger,System.Numerics.BigInteger)
+  name.vb: New(BigInteger, BigInteger, BigInteger, BigInteger)
+  fullName: Combinatorics.QuadraticSurd.QuadraticSurd(System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger)
+  fullName.vb: Combinatorics.QuadraticSurd.New(System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger)
+  nameWithType: QuadraticSurd.QuadraticSurd(BigInteger, BigInteger, BigInteger, BigInteger)
+  nameWithType.vb: QuadraticSurd.New(BigInteger, BigInteger, BigInteger, BigInteger)
+- uid: Combinatorics.QuadraticSurd.#ctor*
+  name: QuadraticSurd
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd__ctor_
+  commentId: Overload:Combinatorics.QuadraticSurd.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Combinatorics.QuadraticSurd.QuadraticSurd
+  fullName.vb: Combinatorics.QuadraticSurd.New
+  nameWithType: QuadraticSurd.QuadraticSurd
+  nameWithType.vb: QuadraticSurd.New
+- uid: Combinatorics.QuadraticSurd.A
+  name: A
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_A
+  commentId: P:Combinatorics.QuadraticSurd.A
+  fullName: Combinatorics.QuadraticSurd.A
+  nameWithType: QuadraticSurd.A
+- uid: Combinatorics.QuadraticSurd.A*
+  name: A
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_A_
+  commentId: Overload:Combinatorics.QuadraticSurd.A
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.A
+  nameWithType: QuadraticSurd.A
+- uid: Combinatorics.QuadraticSurd.B
+  name: B
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_B
+  commentId: P:Combinatorics.QuadraticSurd.B
+  fullName: Combinatorics.QuadraticSurd.B
+  nameWithType: QuadraticSurd.B
+- uid: Combinatorics.QuadraticSurd.B*
+  name: B
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_B_
+  commentId: Overload:Combinatorics.QuadraticSurd.B
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.B
+  nameWithType: QuadraticSurd.B
+- uid: Combinatorics.QuadraticSurd.C
+  name: C
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_C
+  commentId: P:Combinatorics.QuadraticSurd.C
+  fullName: Combinatorics.QuadraticSurd.C
+  nameWithType: QuadraticSurd.C
+- uid: Combinatorics.QuadraticSurd.C*
+  name: C
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_C_
+  commentId: Overload:Combinatorics.QuadraticSurd.C
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.C
+  nameWithType: QuadraticSurd.C
+- uid: Combinatorics.QuadraticSurd.Conjugate
+  name: Conjugate
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Conjugate
+  commentId: P:Combinatorics.QuadraticSurd.Conjugate
+  fullName: Combinatorics.QuadraticSurd.Conjugate
+  nameWithType: QuadraticSurd.Conjugate
+- uid: Combinatorics.QuadraticSurd.Conjugate*
+  name: Conjugate
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Conjugate_
+  commentId: Overload:Combinatorics.QuadraticSurd.Conjugate
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.Conjugate
+  nameWithType: QuadraticSurd.Conjugate
+- uid: Combinatorics.QuadraticSurd.D
+  name: D
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_D
+  commentId: P:Combinatorics.QuadraticSurd.D
+  fullName: Combinatorics.QuadraticSurd.D
+  nameWithType: QuadraticSurd.D
+- uid: Combinatorics.QuadraticSurd.D*
+  name: D
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_D_
+  commentId: Overload:Combinatorics.QuadraticSurd.D
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.D
+  nameWithType: QuadraticSurd.D
+- uid: Combinatorics.QuadraticSurd.Equals(Combinatorics.QuadraticSurd)
+  name: Equals(QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Equals_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.Equals(Combinatorics.QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.Equals(Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.Equals(QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.Equals(System.Object)
+  name: Equals(object?)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Equals_System_Object_
+  commentId: M:Combinatorics.QuadraticSurd.Equals(System.Object)
+  name.vb: Equals(Object)
+  fullName: Combinatorics.QuadraticSurd.Equals(object?)
+  fullName.vb: Combinatorics.QuadraticSurd.Equals(Object)
+  nameWithType: QuadraticSurd.Equals(object?)
+  nameWithType.vb: QuadraticSurd.Equals(Object)
+- uid: Combinatorics.QuadraticSurd.Equals*
+  name: Equals
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Equals_
+  commentId: Overload:Combinatorics.QuadraticSurd.Equals
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.Equals
+  nameWithType: QuadraticSurd.Equals
+- uid: Combinatorics.QuadraticSurd.FromInteger(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  name: FromInteger(BigInteger, BigInteger)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_FromInteger_System_Numerics_BigInteger_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.QuadraticSurd.FromInteger(System.Numerics.BigInteger,System.Numerics.BigInteger)
+  fullName: Combinatorics.QuadraticSurd.FromInteger(System.Numerics.BigInteger, System.Numerics.BigInteger)
+  nameWithType: QuadraticSurd.FromInteger(BigInteger, BigInteger)
+- uid: Combinatorics.QuadraticSurd.FromInteger*
+  name: FromInteger
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_FromInteger_
+  commentId: Overload:Combinatorics.QuadraticSurd.FromInteger
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.FromInteger
+  nameWithType: QuadraticSurd.FromInteger
+- uid: Combinatorics.QuadraticSurd.GetHashCode
+  name: GetHashCode()
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_GetHashCode
+  commentId: M:Combinatorics.QuadraticSurd.GetHashCode
+  fullName: Combinatorics.QuadraticSurd.GetHashCode()
+  nameWithType: QuadraticSurd.GetHashCode()
+- uid: Combinatorics.QuadraticSurd.GetHashCode*
+  name: GetHashCode
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_GetHashCode_
+  commentId: Overload:Combinatorics.QuadraticSurd.GetHashCode
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.GetHashCode
+  nameWithType: QuadraticSurd.GetHashCode
+- uid: Combinatorics.QuadraticSurd.IsRational
+  name: IsRational
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_IsRational
+  commentId: P:Combinatorics.QuadraticSurd.IsRational
+  fullName: Combinatorics.QuadraticSurd.IsRational
+  nameWithType: QuadraticSurd.IsRational
+- uid: Combinatorics.QuadraticSurd.IsRational*
+  name: IsRational
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_IsRational_
+  commentId: Overload:Combinatorics.QuadraticSurd.IsRational
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.IsRational
+  nameWithType: QuadraticSurd.IsRational
+- uid: Combinatorics.QuadraticSurd.Norm
+  name: Norm
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Norm
+  commentId: P:Combinatorics.QuadraticSurd.Norm
+  fullName: Combinatorics.QuadraticSurd.Norm
+  nameWithType: QuadraticSurd.Norm
+- uid: Combinatorics.QuadraticSurd.Norm*
+  name: Norm
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Norm_
+  commentId: Overload:Combinatorics.QuadraticSurd.Norm
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.Norm
+  nameWithType: QuadraticSurd.Norm
+- uid: Combinatorics.QuadraticSurd.Pow(Combinatorics.QuadraticSurd,System.Int32)
+  name: Pow(QuadraticSurd, int)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Pow_Combinatorics_QuadraticSurd_System_Int32_
+  commentId: M:Combinatorics.QuadraticSurd.Pow(Combinatorics.QuadraticSurd,System.Int32)
+  name.vb: Pow(QuadraticSurd, Integer)
+  fullName: Combinatorics.QuadraticSurd.Pow(Combinatorics.QuadraticSurd, int)
+  fullName.vb: Combinatorics.QuadraticSurd.Pow(Combinatorics.QuadraticSurd, Integer)
+  nameWithType: QuadraticSurd.Pow(QuadraticSurd, int)
+  nameWithType.vb: QuadraticSurd.Pow(QuadraticSurd, Integer)
+- uid: Combinatorics.QuadraticSurd.Pow*
+  name: Pow
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Pow_
+  commentId: Overload:Combinatorics.QuadraticSurd.Pow
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.Pow
+  nameWithType: QuadraticSurd.Pow
+- uid: Combinatorics.QuadraticSurd.Sqrt(System.Numerics.BigInteger)
+  name: Sqrt(BigInteger)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Sqrt_System_Numerics_BigInteger_
+  commentId: M:Combinatorics.QuadraticSurd.Sqrt(System.Numerics.BigInteger)
+  fullName: Combinatorics.QuadraticSurd.Sqrt(System.Numerics.BigInteger)
+  nameWithType: QuadraticSurd.Sqrt(BigInteger)
+- uid: Combinatorics.QuadraticSurd.Sqrt*
+  name: Sqrt
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_Sqrt_
+  commentId: Overload:Combinatorics.QuadraticSurd.Sqrt
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.Sqrt
+  nameWithType: QuadraticSurd.Sqrt
+- uid: Combinatorics.QuadraticSurd.ToRational
+  name: ToRational()
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_ToRational
+  commentId: M:Combinatorics.QuadraticSurd.ToRational
+  fullName: Combinatorics.QuadraticSurd.ToRational()
+  nameWithType: QuadraticSurd.ToRational()
+- uid: Combinatorics.QuadraticSurd.ToRational*
+  name: ToRational
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_ToRational_
+  commentId: Overload:Combinatorics.QuadraticSurd.ToRational
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.ToRational
+  nameWithType: QuadraticSurd.ToRational
+- uid: Combinatorics.QuadraticSurd.ToString
+  name: ToString()
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_ToString
+  commentId: M:Combinatorics.QuadraticSurd.ToString
+  fullName: Combinatorics.QuadraticSurd.ToString()
+  nameWithType: QuadraticSurd.ToString()
+- uid: Combinatorics.QuadraticSurd.ToString*
+  name: ToString
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_ToString_
+  commentId: Overload:Combinatorics.QuadraticSurd.ToString
+  isSpec: "True"
+  fullName: Combinatorics.QuadraticSurd.ToString
+  nameWithType: QuadraticSurd.ToString
+- uid: Combinatorics.QuadraticSurd.op_Addition(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator +(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Addition_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Addition(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: +(QuadraticSurd, QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator +(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.+(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator +(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.+(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Addition*
+  name: operator +
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Addition_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Addition
+  isSpec: "True"
+  name.vb: +
+  fullName: Combinatorics.QuadraticSurd.operator +
+  fullName.vb: Combinatorics.QuadraticSurd.+
+  nameWithType: QuadraticSurd.operator +
+  nameWithType.vb: QuadraticSurd.+
+- uid: Combinatorics.QuadraticSurd.op_Division(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator /(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Division_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Division(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: /(QuadraticSurd, QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator /(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd./(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator /(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd./(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Division*
+  name: operator /
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Division_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Division
+  isSpec: "True"
+  name.vb: /
+  fullName: Combinatorics.QuadraticSurd.operator /
+  fullName.vb: Combinatorics.QuadraticSurd./
+  nameWithType: QuadraticSurd.operator /
+  nameWithType.vb: QuadraticSurd./
+- uid: Combinatorics.QuadraticSurd.op_Equality(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator ==(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Equality_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Equality(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: =(QuadraticSurd, QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator ==(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.=(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator ==(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.=(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Equality*
+  name: operator ==
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Equality_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Equality
+  isSpec: "True"
+  name.vb: =
+  fullName: Combinatorics.QuadraticSurd.operator ==
+  fullName.vb: Combinatorics.QuadraticSurd.=
+  nameWithType: QuadraticSurd.operator ==
+  nameWithType.vb: QuadraticSurd.=
+- uid: Combinatorics.QuadraticSurd.op_Inequality(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator !=(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Inequality_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Inequality(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: <>(QuadraticSurd, QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator !=(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.<>(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator !=(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.<>(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Inequality*
+  name: operator !=
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Inequality_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Inequality
+  isSpec: "True"
+  name.vb: <>
+  fullName: Combinatorics.QuadraticSurd.operator !=
+  fullName.vb: Combinatorics.QuadraticSurd.<>
+  nameWithType: QuadraticSurd.operator !=
+  nameWithType.vb: QuadraticSurd.<>
+- uid: Combinatorics.QuadraticSurd.op_Multiply(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator *(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Multiply_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Multiply(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: '*(QuadraticSurd, QuadraticSurd)'
+  fullName: Combinatorics.QuadraticSurd.operator *(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.*(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator *(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.*(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Multiply*
+  name: operator *
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Multiply_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Multiply
+  isSpec: "True"
+  name.vb: '*'
+  fullName: Combinatorics.QuadraticSurd.operator *
+  fullName.vb: Combinatorics.QuadraticSurd.*
+  nameWithType: QuadraticSurd.operator *
+  nameWithType.vb: QuadraticSurd.*
+- uid: Combinatorics.QuadraticSurd.op_Subtraction(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name: operator -(QuadraticSurd, QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Subtraction_Combinatorics_QuadraticSurd_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_Subtraction(Combinatorics.QuadraticSurd,Combinatorics.QuadraticSurd)
+  name.vb: -(QuadraticSurd, QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator -(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.-(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator -(QuadraticSurd, QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.-(QuadraticSurd, QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_Subtraction*
+  name: operator -
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_Subtraction_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_Subtraction
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Combinatorics.QuadraticSurd.operator -
+  fullName.vb: Combinatorics.QuadraticSurd.-
+  nameWithType: QuadraticSurd.operator -
+  nameWithType.vb: QuadraticSurd.-
+- uid: Combinatorics.QuadraticSurd.op_UnaryNegation(Combinatorics.QuadraticSurd)
+  name: operator -(QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_UnaryNegation_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_UnaryNegation(Combinatorics.QuadraticSurd)
+  name.vb: -(QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator -(Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.-(Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator -(QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.-(QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_UnaryNegation*
+  name: operator -
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_UnaryNegation_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_UnaryNegation
+  isSpec: "True"
+  name.vb: '-'
+  fullName: Combinatorics.QuadraticSurd.operator -
+  fullName.vb: Combinatorics.QuadraticSurd.-
+  nameWithType: QuadraticSurd.operator -
+  nameWithType.vb: QuadraticSurd.-
+- uid: Combinatorics.QuadraticSurd.op_UnaryPlus(Combinatorics.QuadraticSurd)
+  name: operator +(QuadraticSurd)
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_UnaryPlus_Combinatorics_QuadraticSurd_
+  commentId: M:Combinatorics.QuadraticSurd.op_UnaryPlus(Combinatorics.QuadraticSurd)
+  name.vb: +(QuadraticSurd)
+  fullName: Combinatorics.QuadraticSurd.operator +(Combinatorics.QuadraticSurd)
+  fullName.vb: Combinatorics.QuadraticSurd.+(Combinatorics.QuadraticSurd)
+  nameWithType: QuadraticSurd.operator +(QuadraticSurd)
+  nameWithType.vb: QuadraticSurd.+(QuadraticSurd)
+- uid: Combinatorics.QuadraticSurd.op_UnaryPlus*
+  name: operator +
+  href: api/Combinatorics.QuadraticSurd.html#Combinatorics_QuadraticSurd_op_UnaryPlus_
+  commentId: Overload:Combinatorics.QuadraticSurd.op_UnaryPlus
+  isSpec: "True"
+  name.vb: +
+  fullName: Combinatorics.QuadraticSurd.operator +
+  fullName.vb: Combinatorics.QuadraticSurd.+
+  nameWithType: QuadraticSurd.operator +
+  nameWithType.vb: QuadraticSurd.+
+- uid: Combinatorics.RationalMode
+  name: RationalMode
+  href: api/Combinatorics.RationalMode.html
+  commentId: T:Combinatorics.RationalMode
+  fullName: Combinatorics.RationalMode
+  nameWithType: RationalMode
+- uid: Combinatorics.RationalMode.Both
+  name: Both
+  href: api/Combinatorics.RationalMode.html#Combinatorics_RationalMode_Both
+  commentId: F:Combinatorics.RationalMode.Both
+  fullName: Combinatorics.RationalMode.Both
+  nameWithType: RationalMode.Both
+- uid: Combinatorics.RationalMode.Decimal
+  name: Decimal
+  href: api/Combinatorics.RationalMode.html#Combinatorics_RationalMode_Decimal
+  commentId: F:Combinatorics.RationalMode.Decimal
+  fullName: Combinatorics.RationalMode.Decimal
+  nameWithType: RationalMode.Decimal
+- uid: Combinatorics.RationalMode.Fraction
+  name: Fraction
+  href: api/Combinatorics.RationalMode.html#Combinatorics_RationalMode_Fraction
+  commentId: F:Combinatorics.RationalMode.Fraction
+  fullName: Combinatorics.RationalMode.Fraction
+  nameWithType: RationalMode.Fraction

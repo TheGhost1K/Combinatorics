@@ -1,0 +1,172 @@
+{
+  "source_base_path": "C:/Users/User/Documents/Repos/Combinatorics/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.BigRational.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.BigRational.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics.BigRational",
+      "Summary": "<p sourcefile=\"api/Combinatorics.BigRational.yml\" sourcestartlinenumber=\"1\">Несократимая рациональная дробь на основе <xref href=\"System.Numerics.BigInteger\" data-throw-if-not-resolved=\"false\"></xref>.\nПоддерживает арифметику (+, −, ×, ÷), сравнение (==, !=, &lt;, &gt;, &lt;=, &gt;=)\nи неявные преобразования из <xref href=\"System.Int64\" data-throw-if-not-resolved=\"false\"></xref> и <xref href=\"System.Numerics.BigInteger\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.Combinatorics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.Combinatorics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics.Combinatorics",
+      "Summary": "<p sourcefile=\"api/Combinatorics.Combinatorics.yml\" sourcestartlinenumber=\"1\">Статический класс комбинаторных вычислений.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.CombinatoricsFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.CombinatoricsFormatter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics.CombinatoricsFormatter",
+      "Summary": "<p sourcefile=\"api/Combinatorics.CombinatoricsFormatter.yml\" sourcestartlinenumber=\"1\">Утилиты для красивого форматирования и печати комбинаторных результатов.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.QuadraticSurd.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.QuadraticSurd.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics.QuadraticSurd",
+      "Summary": "<p sourcefile=\"api/Combinatorics.QuadraticSurd.yml\" sourcestartlinenumber=\"1\">Точное число вида <code>(a + b·√d) / c</code>, где a, b, c, d — целые, c &gt; 0, d &gt; 0.\nИспользуется для формул Бине в точной арифметике.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.RationalMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.RationalMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics.RationalMode",
+      "Summary": "<p sourcefile=\"api/Combinatorics.RationalMode.yml\" sourcestartlinenumber=\"1\">Режим вывода рационального числа.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Combinatorics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Combinatorics.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Combinatorics",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/architecture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/examples.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

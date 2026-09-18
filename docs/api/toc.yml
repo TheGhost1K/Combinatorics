@@ -1,0 +1,22 @@
+### YamlMime:TableOfContent
+items:
+- uid: Combinatorics
+  name: Combinatorics
+  type: Namespace
+  items:
+  - uid: Combinatorics.BigRational
+    name: BigRational
+    type: Struct
+  - uid: Combinatorics.Combinatorics
+    name: Combinatorics
+    type: Class
+  - uid: Combinatorics.CombinatoricsFormatter
+    name: CombinatoricsFormatter
+    type: Class
+  - uid: Combinatorics.QuadraticSurd
+    name: QuadraticSurd
+    type: Struct
+  - uid: Combinatorics.RationalMode
+    name: RationalMode
+    type: Enum
+memberLayout: SamePage

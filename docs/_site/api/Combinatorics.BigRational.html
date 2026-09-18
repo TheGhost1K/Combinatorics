@@ -1,0 +1,2237 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Struct BigRational | Combinatorics </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Struct BigRational | Combinatorics ">
+    
+    <meta name="description" content="Несократимая рациональная дробь на основе . Поддерживает арифметику (+, −, &#215;, &#247;), сравнение (==, !=, &amp;lt;, &amp;gt;, &amp;lt;=, &amp;gt;=) и неявные преобразования из  и .">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Combinatorics">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Combinatorics.BigRational">
+
+
+
+  <h1 id="Combinatorics_BigRational" data-uid="Combinatorics.BigRational" class="text-break">Struct BigRational</h1>
+  <div class="markdown level0 summary"><p>Несократимая рациональная дробь на основе <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>.
+Поддерживает арифметику (+, −, ×, ÷), сравнение (==, !=, &lt;, &gt;, &lt;=, &gt;=)
+и неявные преобразования из <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> и <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Combinatorics.BigRational.html">BigRational</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="Combinatorics.BigRational.html">BigRational</a>&gt;</div>
+    <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable">IComparable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Combinatorics.html">Combinatorics</a></h6>
+  <h6><strong>Assembly</strong>: Combinatorics.dll</h6>
+  <h5 id="Combinatorics_BigRational_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly struct BigRational : IEquatable&lt;BigRational&gt;, IComparable&lt;BigRational&gt;, IComparable</code></pre>
+  </div>
+  <h5 id="Combinatorics_BigRational_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>
+Дробь всегда хранится в нормализованной форме:
+знаменатель положительный, числитель и знаменатель взаимно просты.
+</p>
+<p>
+Структура неизменяемая (<code>readonly struct</code>) — все операции возвращают новый экземпляр.
+</p>
+</div>
+  <h5 id="Combinatorics_BigRational_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-csharp">var half = new BigRational(1, 2);
+var third = new BigRational(1, 3);
+var sum = half + third;       // 5/6
+var cmp = half &gt; third;      // true
+var b = Combinatorics.Combinatorics.Bernoulli(6); // 1/42</code></pre>
+
+  <h3 id="constructors">Constructors
+</h3>
+
+
+  <a id="Combinatorics_BigRational__ctor_" data-uid="Combinatorics.BigRational.#ctor*"></a>
+  <h4 id="Combinatorics_BigRational__ctor_System_Int64_" data-uid="Combinatorics.BigRational.#ctor(System.Int64)">BigRational(long)</h4>
+  <div class="markdown level1 summary"><p>Создаёт целое число как рациональное: <code class="paramref">num</code>/1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigRational(long num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Целое значение.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational__ctor_System_Int64__examples">Examples</h5>
+  <pre><code class="lang-csharp">var five = new BigRational(5); // 5/1</code></pre>
+
+
+
+  <a id="Combinatorics_BigRational__ctor_" data-uid="Combinatorics.BigRational.#ctor*"></a>
+  <h4 id="Combinatorics_BigRational__ctor_System_Numerics_BigInteger_System_Numerics_BigInteger_" data-uid="Combinatorics.BigRational.#ctor(System.Numerics.BigInteger,System.Numerics.BigInteger)">BigRational(BigInteger, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Создаёт дробь <code class="paramref">num</code>/<code class="paramref">den</code> и приводит её к несократимому виду.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigRational(BigInteger num, BigInteger den)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Числитель. Может быть любым целым.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">den</span></td>
+        <td><p>Знаменатель. Не может быть нулём.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational__ctor_System_Numerics_BigInteger_System_Numerics_BigInteger__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Если знаменатель отрицательный, знак переносится в числитель:
+<code>new BigRational(1, -2)</code> даёт <code>-1/2</code>.
+</p>
+<p>
+Дробь сокращается делением на НОД числителя и знаменателя:
+<code>new BigRational(4, 8)</code> даёт <code>1/2</code>.
+</p>
+</div>
+  <h5 id="Combinatorics_BigRational__ctor_System_Numerics_BigInteger_System_Numerics_BigInteger__examples">Examples</h5>
+  <pre><code class="lang-csharp">var r1 = new BigRational(4, 8);    // 1/2
+var r2 = new BigRational(1, -2);   // -1/2
+var r3 = new BigRational(0, 5);    // 0/1</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception">DivideByZeroException</a></td>
+        <td><p>Если <code class="paramref">den</code> равен нулю.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="fields">Fields
+</h3>
+
+
+  <h4 id="Combinatorics_BigRational_One" data-uid="Combinatorics.BigRational.One">One</h4>
+  <div class="markdown level1 summary"><p>Единица: 1/1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigRational One</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h4 id="Combinatorics_BigRational_Zero" data-uid="Combinatorics.BigRational.Zero">Zero</h4>
+  <div class="markdown level1 summary"><p>Ноль: 0/1.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly BigRational Zero</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+
+
+  <a id="Combinatorics_BigRational_Den_" data-uid="Combinatorics.BigRational.Den*"></a>
+  <h4 id="Combinatorics_BigRational_Den" data-uid="Combinatorics.BigRational.Den">Den</h4>
+  <div class="markdown level1 summary"><p>Знаменатель дроби. Всегда строго положительный.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger Den { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_Den_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Никогда не равен нулю. В нормализованной форме взаимно прост с <a class="xref" href="Combinatorics.BigRational.html#Combinatorics_BigRational_Num">Num</a>.</p>
+</div>
+
+
+  <a id="Combinatorics_BigRational_Num_" data-uid="Combinatorics.BigRational.Num*"></a>
+  <h4 id="Combinatorics_BigRational_Num" data-uid="Combinatorics.BigRational.Num">Num</h4>
+  <div class="markdown level1 summary"><p>Числитель дроби. Может быть отрицательным.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BigInteger Num { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_Num_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Знак дроби определяется знаком числителя, так как знаменатель всегда положительный.</p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Combinatorics_BigRational_CompareTo_" data-uid="Combinatorics.BigRational.CompareTo*"></a>
+  <h4 id="Combinatorics_BigRational_CompareTo_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.CompareTo(Combinatorics.BigRational)">CompareTo(BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнивает две дроби.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(BigRational other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>Дробь для сравнения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>−1, если текущая меньше <code class="paramref">other</code>; 0, если равны; +1, если больше.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_CompareTo_Combinatorics_BigRational__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Оптимизировано: использует перекрёстное умножение без создания промежуточных <a class="xref" href="Combinatorics.BigRational.html">BigRational</a>.</p>
+</div>
+
+
+  <a id="Combinatorics_BigRational_CompareTo_" data-uid="Combinatorics.BigRational.CompareTo*"></a>
+  <h4 id="Combinatorics_BigRational_CompareTo_System_Object_" data-uid="Combinatorics.BigRational.CompareTo(System.Object)">CompareTo(object?)</h4>
+  <div class="markdown level1 summary"><p>Не-типизированное сравнение — для совместимости с не-generic коллекциями.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CompareTo(object? obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Объект для сравнения; должен быть <a class="xref" href="Combinatorics.BigRational.html">BigRational</a> или <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>+1, если <code class="paramref">obj</code> равен <code>null</code>; иначе результат <a class="xref" href="Combinatorics.BigRational.html#Combinatorics_BigRational_CompareTo_Combinatorics_BigRational_">CompareTo(BigRational)</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>Если <code class="paramref">obj</code> не является <a class="xref" href="Combinatorics.BigRational.html">BigRational</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_Equals_" data-uid="Combinatorics.BigRational.Equals*"></a>
+  <h4 id="Combinatorics_BigRational_Equals_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.Equals(Combinatorics.BigRational)">Equals(BigRational)</h4>
+  <div class="markdown level1 summary"><p>Проверяет равенство с другой дробью.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(BigRational other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>Дробь для сравнения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если дроби равны.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_Equals_" data-uid="Combinatorics.BigRational.Equals*"></a>
+  <h4 id="Combinatorics_BigRational_Equals_System_Object_" data-uid="Combinatorics.BigRational.Equals(System.Object)">Equals(object?)</h4>
+  <div class="markdown level1 summary"><p>Проверяет равенство с произвольным объектом.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object? o)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><span class="parametername">o</span></td>
+        <td><p>Объект для сравнения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">o</code> — <a class="xref" href="Combinatorics.BigRational.html">BigRational</a> и равен текущей дроби.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.equals">ValueType.Equals(object)</a></div>
+
+
+  <a id="Combinatorics_BigRational_GetHashCode_" data-uid="Combinatorics.BigRational.GetHashCode*"></a>
+  <h4 id="Combinatorics_BigRational_GetHashCode" data-uid="Combinatorics.BigRational.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Возвращает хеш-код, согласованный с <a class="xref" href="Combinatorics.BigRational.html#Combinatorics_BigRational_Equals_Combinatorics_BigRational_">Equals(BigRational)</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>Хеш-код на основе числителя и знаменателя.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.gethashcode">ValueType.GetHashCode()</a></div>
+
+
+  <a id="Combinatorics_BigRational_ToDecimalString_" data-uid="Combinatorics.BigRational.ToDecimalString*"></a>
+  <h4 id="Combinatorics_BigRational_ToDecimalString_System_Int32_" data-uid="Combinatorics.BigRational.ToDecimalString(System.Int32)">ToDecimalString(int)</h4>
+  <div class="markdown level1 summary"><p>Возвращает десятичное представление с заданной точностью (для отладки/логов).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ToDecimalString(int digits = 6)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>Число знаков после запятой, ≥ 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка вида <code>&quot;1.500000&quot;</code> или <code>&quot;-0.333333&quot;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_ToDecimalString_System_Int32__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Округление — вниз (отбрасывание), не по правилам. Для точных значений используйте <a class="xref" href="Combinatorics.BigRational.html#Combinatorics_BigRational_ToString">ToString()</a>.</p>
+</div>
+  <h5 id="Combinatorics_BigRational_ToDecimalString_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">new BigRational(3, 2).ToDecimalString(6);   // "1.500000"
+new BigRational(1, 3).ToDecimalString(6);   // "0.333333"
+new BigRational(-1, 2).ToDecimalString(2);  // "-0.50"</code></pre>
+
+
+
+  <a id="Combinatorics_BigRational_ToString_" data-uid="Combinatorics.BigRational.ToString*"></a>
+  <h4 id="Combinatorics_BigRational_ToString" data-uid="Combinatorics.BigRational.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Возвращает строковое представление дроби.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Целое число как строку, если знаменатель равен 1 (например, <code>&quot;5&quot;</code>);
+иначе — <code>&quot;числитель/знаменатель&quot;</code> (например, <code>&quot;1/2&quot;</code>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.valuetype.tostring">ValueType.ToString()</a></div>
+  <h5 id="Combinatorics_BigRational_ToString_examples">Examples</h5>
+  <pre><code class="lang-csharp">new BigRational(3, 1).ToString(); // "3"
+new BigRational(1, 2).ToString(); // "1/2"</code></pre>
+
+  <h3 id="operators">Operators
+</h3>
+
+
+  <a id="Combinatorics_BigRational_op_Addition_" data-uid="Combinatorics.BigRational.op_Addition*"></a>
+  <h4 id="Combinatorics_BigRational_op_Addition_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Addition(Combinatorics.BigRational,Combinatorics.BigRational)">operator +(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сложение двух дробей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator +(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Сумма в несократимой форме.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_op_Addition_Combinatorics_BigRational_Combinatorics_BigRational__examples">Examples</h5>
+  <pre><code class="lang-csharp">var sum = new BigRational(1, 3) + new BigRational(1, 6); // 1/2</code></pre>
+
+
+
+  <a id="Combinatorics_BigRational_op_Division_" data-uid="Combinatorics.BigRational.op_Division*"></a>
+  <h4 id="Combinatorics_BigRational_op_Division_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Division(Combinatorics.BigRational,Combinatorics.BigRational)">operator /(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Деление двух дробей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator /(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Делимое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Делитель.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Частное в несократимой форме.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.dividebyzeroexception">DivideByZeroException</a></td>
+        <td><p>Если <code class="paramref">b</code> равен нулю (числитель b равен 0).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Equality_" data-uid="Combinatorics.BigRational.op_Equality*"></a>
+  <h4 id="Combinatorics_BigRational_op_Equality_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Equality(Combinatorics.BigRational,Combinatorics.BigRational)">operator ==(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор равенства: дроби равны, если совпадают в нормализованной форме.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если дроби равны.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_BigRational_op_Equality_Combinatorics_BigRational_Combinatorics_BigRational__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Так как дроби хранятся в несократимой форме, достаточно сравнить числители и знаменатели.</p>
+</div>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThan_" data-uid="Combinatorics.BigRational.op_GreaterThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,Combinatorics.BigRational)">operator &gt;(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор «больше».</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> строго больше <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThan_" data-uid="Combinatorics.BigRational.op_GreaterThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_System_Int64_" data-uid="Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Int64)">operator &gt;(BigRational, long)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>: больше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(BigRational a, long b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &gt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThan_" data-uid="Combinatorics.BigRational.op_GreaterThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThan_Combinatorics_BigRational_System_Numerics_BigInteger_" data-uid="Combinatorics.BigRational.op_GreaterThan(Combinatorics.BigRational,System.Numerics.BigInteger)">operator &gt;(BigRational, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>: больше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(BigRational a, BigInteger b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &gt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThan_" data-uid="Combinatorics.BigRational.op_GreaterThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThan_System_Int64_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThan(System.Int64,Combinatorics.BigRational)">operator &gt;(long, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> с дробью: больше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(long a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &gt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThan_" data-uid="Combinatorics.BigRational.op_GreaterThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThan_System_Numerics_BigInteger_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThan(System.Numerics.BigInteger,Combinatorics.BigRational)">operator &gt;(BigInteger, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> с дробью: больше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;(BigInteger a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &gt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThanOrEqual_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)">operator &gt;=(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор «больше или равно».</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≥ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThanOrEqual_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_System_Int64_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Int64)">operator &gt;=(BigRational, long)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>: больше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(BigRational a, long b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≥ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThanOrEqual_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThanOrEqual_Combinatorics_BigRational_System_Numerics_BigInteger_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)">operator &gt;=(BigRational, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>: больше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(BigRational a, BigInteger b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≥ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThanOrEqual_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThanOrEqual_System_Int64_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual(System.Int64,Combinatorics.BigRational)">operator &gt;=(long, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> с дробью: больше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(long a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≥ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_GreaterThanOrEqual_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_GreaterThanOrEqual_System_Numerics_BigInteger_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_GreaterThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)">operator &gt;=(BigInteger, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> с дробью: больше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &gt;=(BigInteger a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≥ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Implicit_" data-uid="Combinatorics.BigRational.op_Implicit*"></a>
+  <h4 id="Combinatorics_BigRational_op_Implicit_System_Int64__Combinatorics_BigRational" data-uid="Combinatorics.BigRational.op_Implicit(System.Int64)~Combinatorics.BigRational">implicit operator BigRational(long)</h4>
+  <div class="markdown level1 summary"><p>Неявное преобразование из <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> в рациональное.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator BigRational(long v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>Целое значение.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Дробь <code>v/1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Implicit_" data-uid="Combinatorics.BigRational.op_Implicit*"></a>
+  <h4 id="Combinatorics_BigRational_op_Implicit_System_Numerics_BigInteger__Combinatorics_BigRational" data-uid="Combinatorics.BigRational.op_Implicit(System.Numerics.BigInteger)~Combinatorics.BigRational">implicit operator BigRational(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Неявное преобразование из <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> в рациональное.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator BigRational(BigInteger v)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">v</span></td>
+        <td><p>Целое значение.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Дробь <code>v/1</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Inequality_" data-uid="Combinatorics.BigRational.op_Inequality*"></a>
+  <h4 id="Combinatorics_BigRational_op_Inequality_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Inequality(Combinatorics.BigRational,Combinatorics.BigRational)">operator !=(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор неравенства.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если дроби не равны.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThan_" data-uid="Combinatorics.BigRational.op_LessThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,Combinatorics.BigRational)">operator &lt;(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор «больше».</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> строго больше <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThan_" data-uid="Combinatorics.BigRational.op_LessThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_System_Int64_" data-uid="Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Int64)">operator &lt;(BigRational, long)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>: меньше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(BigRational a, long b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &lt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThan_" data-uid="Combinatorics.BigRational.op_LessThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThan_Combinatorics_BigRational_System_Numerics_BigInteger_" data-uid="Combinatorics.BigRational.op_LessThan(Combinatorics.BigRational,System.Numerics.BigInteger)">operator &lt;(BigRational, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>: меньше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(BigRational a, BigInteger b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &lt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThan_" data-uid="Combinatorics.BigRational.op_LessThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThan_System_Int64_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThan(System.Int64,Combinatorics.BigRational)">operator &lt;(long, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> с дробью: меньше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(long a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &lt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThan_" data-uid="Combinatorics.BigRational.op_LessThan*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThan_System_Numerics_BigInteger_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThan(System.Numerics.BigInteger,Combinatorics.BigRational)">operator &lt;(BigInteger, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> с дробью: меньше.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;(BigInteger a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> &lt; <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThanOrEqual_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,Combinatorics.BigRational)">operator &lt;=(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Оператор «меньше или равно».</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Левая дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Правая дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≤ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThanOrEqual_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_System_Int64_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Int64)">operator &lt;=(BigRational, long)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>: меньше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(BigRational a, long b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≤ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThanOrEqual_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThanOrEqual_Combinatorics_BigRational_System_Numerics_BigInteger_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual(Combinatorics.BigRational,System.Numerics.BigInteger)">operator &lt;=(BigRational, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Сравнение дроби с <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>: меньше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(BigRational a, BigInteger b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≤ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThanOrEqual_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThanOrEqual_System_Int64_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual(System.Int64,Combinatorics.BigRational)">operator &lt;=(long, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> с дробью: меньше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(long a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≤ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_LessThanOrEqual_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual*"></a>
+  <h4 id="Combinatorics_BigRational_op_LessThanOrEqual_System_Numerics_BigInteger_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_LessThanOrEqual(System.Numerics.BigInteger,Combinatorics.BigRational)">operator &lt;=(BigInteger, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Сравнение <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a> с дробью: меньше или равно.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator &lt;=(BigInteger a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Целое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p><code>true</code>, если <code class="paramref">a</code> ≤ <code class="paramref">b</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Multiply_" data-uid="Combinatorics.BigRational.op_Multiply*"></a>
+  <h4 id="Combinatorics_BigRational_op_Multiply_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Multiply(Combinatorics.BigRational,Combinatorics.BigRational)">operator *(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Умножение двух дробей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator *(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Первый множитель.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Второй множитель.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Произведение в несократимой форме.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_Subtraction_" data-uid="Combinatorics.BigRational.op_Subtraction*"></a>
+  <h4 id="Combinatorics_BigRational_op_Subtraction_Combinatorics_BigRational_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_Subtraction(Combinatorics.BigRational,Combinatorics.BigRational)">operator -(BigRational, BigRational)</h4>
+  <div class="markdown level1 summary"><p>Вычитание двух дробей.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator -(BigRational a, BigRational b)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Уменьшаемое.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">b</span></td>
+        <td><p>Вычитаемое.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Разность в несократимой форме.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_UnaryNegation_" data-uid="Combinatorics.BigRational.op_UnaryNegation*"></a>
+  <h4 id="Combinatorics_BigRational_op_UnaryNegation_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_UnaryNegation(Combinatorics.BigRational)">operator -(BigRational)</h4>
+  <div class="markdown level1 summary"><p>Унарный минус: меняет знак дроби.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator -(BigRational a)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Дробь с противоположным знаком.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_BigRational_op_UnaryPlus_" data-uid="Combinatorics.BigRational.op_UnaryPlus*"></a>
+  <h4 id="Combinatorics_BigRational_op_UnaryPlus_Combinatorics_BigRational_" data-uid="Combinatorics.BigRational.op_UnaryPlus(Combinatorics.BigRational)">operator +(BigRational)</h4>
+  <div class="markdown level1 summary"><p>Унарный плюс: возвращает дробь без изменений.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static BigRational operator +(BigRational a)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">a</span></td>
+        <td><p>Дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><p>Та же дробь.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.iequatable-1">IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.icomparable">IComparable</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

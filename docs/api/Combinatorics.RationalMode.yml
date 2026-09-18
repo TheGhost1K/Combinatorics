@@ -1,0 +1,115 @@
+### YamlMime:ManagedReference
+items:
+- uid: Combinatorics.RationalMode
+  commentId: T:Combinatorics.RationalMode
+  id: RationalMode
+  parent: Combinatorics
+  children:
+  - Combinatorics.RationalMode.Both
+  - Combinatorics.RationalMode.Decimal
+  - Combinatorics.RationalMode.Fraction
+  langs:
+  - csharp
+  - vb
+  name: RationalMode
+  nameWithType: RationalMode
+  fullName: Combinatorics.RationalMode
+  type: Enum
+  source:
+    id: RationalMode
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 602
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Режим вывода рационального числа.
+  example: []
+  syntax:
+    content: public enum RationalMode
+    content.vb: Public Enum RationalMode
+- uid: Combinatorics.RationalMode.Fraction
+  commentId: F:Combinatorics.RationalMode.Fraction
+  id: Fraction
+  parent: Combinatorics.RationalMode
+  langs:
+  - csharp
+  - vb
+  name: Fraction
+  nameWithType: RationalMode.Fraction
+  fullName: Combinatorics.RationalMode.Fraction
+  type: Field
+  source:
+    id: Fraction
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 605
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Только как дробь: <code>1/42</code>.'
+  example: []
+  syntax:
+    content: Fraction = 0
+    return:
+      type: Combinatorics.RationalMode
+- uid: Combinatorics.RationalMode.Decimal
+  commentId: F:Combinatorics.RationalMode.Decimal
+  id: Decimal
+  parent: Combinatorics.RationalMode
+  langs:
+  - csharp
+  - vb
+  name: Decimal
+  nameWithType: RationalMode.Decimal
+  fullName: Combinatorics.RationalMode.Decimal
+  type: Field
+  source:
+    id: Decimal
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 608
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Только как десятичное: <code>0.023810</code>.'
+  example: []
+  syntax:
+    content: Decimal = 1
+    return:
+      type: Combinatorics.RationalMode
+- uid: Combinatorics.RationalMode.Both
+  commentId: F:Combinatorics.RationalMode.Both
+  id: Both
+  parent: Combinatorics.RationalMode
+  langs:
+  - csharp
+  - vb
+  name: Both
+  nameWithType: RationalMode.Both
+  fullName: Combinatorics.RationalMode.Both
+  type: Field
+  source:
+    id: Both
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 611
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Дробь и десятичное: <code>1/42 (≈ 0.023810)</code>.'
+  example: []
+  syntax:
+    content: Both = 2
+    return:
+      type: Combinatorics.RationalMode
+references:
+- uid: Combinatorics
+  commentId: N:Combinatorics
+  href: Combinatorics.html
+  name: Combinatorics
+  nameWithType: Combinatorics
+  fullName: Combinatorics
+- uid: Combinatorics.RationalMode
+  commentId: T:Combinatorics.RationalMode
+  parent: Combinatorics
+  href: Combinatorics.RationalMode.html
+  name: RationalMode
+  nameWithType: RationalMode
+  fullName: Combinatorics.RationalMode

@@ -1,0 +1,4 @@
+- name: Примеры
+  href: examples.md
+- name: Архитектура
+  href: architecture.md

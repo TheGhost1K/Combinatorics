@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class CombinatoricsFormatter | Combinatorics </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class CombinatoricsFormatter | Combinatorics ">
+    
+    <meta name="description" content="Утилиты для красивого форматирования и печати комбинаторных результатов.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="Combinatorics">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Combinatorics.CombinatoricsFormatter">
+
+
+
+  <h1 id="Combinatorics_CombinatoricsFormatter" data-uid="Combinatorics.CombinatoricsFormatter" class="text-break">Class CombinatoricsFormatter</h1>
+  <div class="markdown level0 summary"><p>Утилиты для красивого форматирования и печати комбинаторных результатов.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">CombinatoricsFormatter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Combinatorics.html">Combinatorics</a></h6>
+  <h6><strong>Assembly</strong>: Combinatorics.dll</h6>
+  <h5 id="Combinatorics_CombinatoricsFormatter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class CombinatoricsFormatter</code></pre>
+  </div>
+  <h5 id="Combinatorics_CombinatoricsFormatter_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Все методы возвращают строку или пишут в <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.console">Console</a>. Класс не
+влияет на основные вычисления и не имеет состояния.</p>
+<p>Форматирование рассчитано на консольный вывод шириной до 120 символов,
+но большинство методов адаптируются под содержимое.</p>
+</div>
+  <h5 id="Combinatorics_CombinatoricsFormatter_examples"><strong>Examples</strong></h5>
+  <pre><code class="lang-csharp">using static Combinatorics.Combinatorics;
+using static Combinatorics.CombinatoricsFormatter;
+
+PrintResult("Catalan(10)", Catalan(10));
+// Catalan(10) = 16796
+
+Console.WriteLine(FormatSequence(CatalanSequence(10)));
+// 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862
+
+PrintApproxVsExact("F(50)", Fibonacci(50), FibonacciApprox(50));
+// F(50) = 12586269025  (≈ 1.2586e10, погрешность 0.000%)</code></pre>
+
+  <h3 id="methods">Methods
+</h3>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_Box_" data-uid="Combinatorics.CombinatoricsFormatter.Box*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_Box_System_String_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)">Box(string, int)</h4>
+  <div class="markdown level1 summary"><p>Оборачивает текст в рамку.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Box(string text, int padding = 1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">text</span></td>
+        <td><p>Текст (может быть многострочным).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">padding</span></td>
+        <td><p>Отступ внутри рамки.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Многострочная строка с рамкой.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_Box_System_String_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">Console.WriteLine(Box("Catalan(10) = 16796"));
+// +---------------------+
+// | Catalan(10) = 16796 |
+// +---------------------+</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatColumns_" data-uid="Combinatorics.CombinatoricsFormatter.FormatColumns*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatColumns__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)">FormatColumns&lt;T&gt;(IEnumerable&lt;T&gt;, int, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает последовательность в несколько колонок.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatColumns&lt;T&gt;(IEnumerable&lt;T&gt; sequence, int columns = 4, int columnWidth = 20)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">columns</span></td>
+        <td><p>Число колонок (по умолчанию 4).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">columnWidth</span></td>
+        <td><p>Ширина колонки (по умолчанию 20).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Многострочная строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Если <code class="paramref">sequence</code> равен <code>null</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p>Если <code class="paramref">columns</code> &lt; 1.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatCompact_" data-uid="Combinatorics.CombinatoricsFormatter.FormatCompact*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatCompact_System_Numerics_BigInteger_" data-uid="Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)">FormatCompact(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Компактный формат для больших чисел: тысячи, миллионы, миллиарды.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatCompact(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Целое число.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка вида <code>&quot;1.23K&quot;</code>, <code>&quot;4.56M&quot;</code>, <code>&quot;7.89B&quot;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatCompact_System_Numerics_BigInteger__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Для чисел меньше 1000 — обычное представление.
+Для очень больших (&gt; 10¹²) — научная нотация.</p>
+</div>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatCompact_System_Numerics_BigInteger__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatCompact(42);         // "42"
+FormatCompact(1500);       // "1.50K"
+FormatCompact(2_500_000);  // "2.50M"
+FormatCompact(Factorial(20)); // "2.43e18"</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatDuration_" data-uid="Combinatorics.CombinatoricsFormatter.FormatDuration*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatDuration_System_TimeSpan_" data-uid="Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)">FormatDuration(TimeSpan)</h4>
+  <div class="markdown level1 summary"><p>Форматирует длительность в человекочитаемый вид.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatDuration(TimeSpan duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.timespan">TimeSpan</a></td>
+        <td><span class="parametername">duration</span></td>
+        <td><p>Длительность.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка вида <code>&quot;1.23 ms&quot;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatRational_" data-uid="Combinatorics.CombinatoricsFormatter.FormatRational*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatRational_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)">FormatRational(BigRational, RationalMode, int)</h4>
+  <div class="markdown level1 summary"><p>Форматирует <a class="xref" href="Combinatorics.BigRational.html">BigRational</a> как дробь и/или десятичное.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatRational(BigRational value, RationalMode mode = RationalMode.Fraction, int digits = 6)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Рациональное число.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.RationalMode.html">RationalMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Режим вывода: <code>Fraction</code>, <code>Decimal</code>, <code>Both</code>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>Знаков после запятой для десятичного.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatRational_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">var b6 = Bernoulli(6); // 1/42
+FormatRational(b6);                        // "1/42"
+FormatRational(b6, RationalMode.Decimal);  // "0.023810"
+FormatRational(b6, RationalMode.Both);     // "1/42 (≈ 0.023810)"</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p>Если <code class="paramref">digits</code> &lt; 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatScientific_" data-uid="Combinatorics.CombinatoricsFormatter.FormatScientific*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatScientific_System_Numerics_BigInteger_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)">FormatScientific(BigInteger, int)</h4>
+  <div class="markdown level1 summary"><p>Научная нотация с заданной точностью мантиссы.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatScientific(BigInteger value, int digits = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Целое число.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>Число знаков после запятой.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка вида <code>&quot;2.43e18&quot;</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatScientific_System_Numerics_BigInteger_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatScientific(Factorial(20));     // "2.43e18"
+FormatScientific(Factorial(20), 5);  // "2.43290e18"</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception">ArgumentOutOfRangeException</a></td>
+        <td><p>Если <code class="paramref">digits</code> &lt; 0.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed__1_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)">FormatSequenceIndexed&lt;T&gt;(IEnumerable&lt;T&gt;, string)</h4>
+  <div class="markdown level1 summary"><p>Форматирует последовательность с индексами: <code>0:1, 1:1, 2:2, …</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatSequenceIndexed&lt;T&gt;(IEnumerable&lt;T&gt; sequence, string separator = &quot;, &quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">separator</span></td>
+        <td><p>Разделитель между парами.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка с индексами.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed__1_System_Collections_Generic_IEnumerable___0__System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatSequenceIndexed(BellSequence(5));
+// "0:1, 1:1, 2:2, 3:5, 4:15"</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Если <code class="paramref">sequence</code> равен <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatSequence_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSequence*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatSequence__1_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)">FormatSequence&lt;T&gt;(IEnumerable&lt;T&gt;, string)</h4>
+  <div class="markdown level1 summary"><p>Форматирует последовательность в строку через запятую.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatSequence&lt;T&gt;(IEnumerable&lt;T&gt; sequence, string separator = &quot;, &quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность чисел.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">separator</span></td>
+        <td><p>Разделитель (по умолчанию <code>&quot;, &quot;</code>).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка вида <code>1, 1, 2, 5, 14</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatSequence__1_System_Collections_Generic_IEnumerable___0__System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatSequence(CatalanSequence(6));
+// "1, 1, 2, 5, 14, 42"</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Если <code class="paramref">sequence</code> равен <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatSmart_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSmart*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatSmart_System_Numerics_BigInteger_" data-uid="Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)">FormatSmart(BigInteger)</h4>
+  <div class="markdown level1 summary"><p>«Умный» формат: компактный для средних, научный для очень больших.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatSmart(BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Целое число.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatSmart_System_Numerics_BigInteger__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatSmart(42);            // "42"
+FormatSmart(1500);          // "1.50K"
+FormatSmart(Factorial(50)); // "3.04e64"</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatTableDouble_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTableDouble*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatTableDouble__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___1__System_String_System_String_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)">FormatTableDouble&lt;T1, T2&gt;(IEnumerable&lt;T1&gt;, IEnumerable&lt;T2&gt;, string, string, int)</h4>
+  <div class="markdown level1 summary"><p>Форматирует таблицу с двумя колонками значений (например, точное и приближённое).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatTableDouble&lt;T1, T2&gt;(IEnumerable&lt;T1&gt; first, IEnumerable&lt;T2&gt; second, string headerFirst = &quot;точное&quot;, string headerSecond = &quot;приближённое&quot;, int columnWidth = 25)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T1&gt;</td>
+        <td><span class="parametername">first</span></td>
+        <td><p>Первая последовательность (точная).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T2&gt;</td>
+        <td><span class="parametername">second</span></td>
+        <td><p>Вторая последовательность (приближение).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">headerFirst</span></td>
+        <td><p>Заголовок первой колонки.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">headerSecond</span></td>
+        <td><p>Заголовок второй колонки.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">columnWidth</span></td>
+        <td><p>Ширина каждой колонки.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Многострочная строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td><p>Тип первого значения.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td><p>Тип второго значения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatTableDouble__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___1__System_String_System_String_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">var exact = Enumerable.Range(0, 10).Select(Catalan).ToArray();
+var approx = Enumerable.Range(0, 10).Select(n =&gt; (BigInteger)Math.Round(CatalanApprox(n))).ToArray();
+Console.WriteLine(FormatTableDouble(exact, approx, "C(n) точное", "C(n) ≈"));</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatTable_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTable*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatTable__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)">FormatTable&lt;T&gt;(IEnumerable&lt;T&gt;, Func&lt;T, string&gt;?, int)</h4>
+  <div class="markdown level1 summary"><p>Форматирует таблицу «индекс → значение» с выравниванием по правому краю.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatTable&lt;T&gt;(IEnumerable&lt;T&gt; sequence, Func&lt;T, string&gt;? valueFormatter = null, int columnWidth = 20)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><span class="parametername">valueFormatter</span></td>
+        <td><p>Функция форматирования значения (по умолчанию <code>ToString</code>).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">columnWidth</span></td>
+        <td><p>Ширина колонки значений.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Многострочная строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatTable__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">Console.WriteLine(FormatTable(BellSequence(6)));
+// +------+-----------------+
+// |  n   |     B(n)        |
+// +------+-----------------+
+// |   0  |               1 |
+// |   1  |               1 |
+// ...</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Если <code class="paramref">sequence</code> равен <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatThousands_" data-uid="Combinatorics.CombinatoricsFormatter.FormatThousands*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatThousands_System_Numerics_BigInteger_System_String_" data-uid="Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)">FormatThousands(BigInteger, string)</h4>
+  <div class="markdown level1 summary"><p>Форматирует целое число с разделителями тысяч: <code>1 234 567</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatThousands(BigInteger value, string separator = &quot; &quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Целое число.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">separator</span></td>
+        <td><p>Разделитель (по умолчанию пробел).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatThousands_System_Numerics_BigInteger_System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">FormatThousands(1234567); // "1 234 567"
+FormatThousands(42);      // "42"</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_FormatTriangle_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTriangle*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_FormatTriangle_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Numerics_BigInteger___System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)">FormatTriangle(IEnumerable&lt;IEnumerable&lt;BigInteger&gt;&gt;, int)</h4>
+  <div class="markdown level1 summary"><p>Форматирует треугольную таблицу (Паскаль, Стирлинг, Эйлер) с центрированием.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string FormatTriangle(IEnumerable&lt;IEnumerable&lt;BigInteger&gt;&gt; rows, int width = 6)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a>&gt;&gt;</td>
+        <td><span class="parametername">rows</span></td>
+        <td><p>Строки треугольника.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Ширина колонки (по умолчанию 6).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Многострочная строка.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_FormatTriangle_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Numerics_BigInteger___System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">var triangle = new[]
+{
+    PascalRow(0), PascalRow(1), PascalRow(2), PascalRow(3)
+};
+Console.WriteLine(FormatTriangle(triangle));
+//             1
+//           1   1
+//         1   2   1
+//       1   3   3   1</code></pre>
+
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.argumentnullexception">ArgumentNullException</a></td>
+        <td><p>Если <code class="paramref">rows</code> равен <code>null</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_" data-uid="Combinatorics.CombinatoricsFormatter.PrintApproxVsExact*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_System_String_System_Numerics_BigInteger_System_Double_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)">PrintApproxVsExact(string, BigInteger, double, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает сравнение точного и приближённого значения с оценкой погрешности.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintApproxVsExact(string label, BigInteger exact, double approx, int precision = 4)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">exact</span></td>
+        <td><p>Точное значение.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><span class="parametername">approx</span></td>
+        <td><p>Приближённое значение.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">precision</span></td>
+        <td><p>Знаков после запятой в выводе приближения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_System_String_System_Numerics_BigInteger_System_Double_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">PrintApproxVsExact("F(50)", Fibonacci(50), FibonacciApprox(50));
+// F(50) = 12586269025  (≈ 1.2586e10, погрешность 0.000%)</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintCompact_" data-uid="Combinatorics.CombinatoricsFormatter.PrintCompact*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintCompact_System_String_System_Numerics_BigInteger_" data-uid="Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)">PrintCompact(string, BigInteger)</h4>
+  <div class="markdown level1 summary"><p>Печатает результат в компактном формате.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintCompact(string label, BigInteger value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Значение.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_PrintCompact_System_String_System_Numerics_BigInteger__examples">Examples</h5>
+  <pre><code class="lang-csharp">PrintCompact("20!", Factorial(20));
+// 20! = 2.43e18</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintHeader_" data-uid="Combinatorics.CombinatoricsFormatter.PrintHeader*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintHeader_System_String_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)">PrintHeader(string, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает заголовок секции.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintHeader(string title, int width = 60)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>Заголовок.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Ширина линии (по умолчанию 60).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintRational_" data-uid="Combinatorics.CombinatoricsFormatter.PrintRational*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintRational_System_String_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)">PrintRational(string, BigRational, RationalMode, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает рациональное число как дробь и десятичное.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintRational(string label, BigRational value, RationalMode mode = RationalMode.Both, int digits = 6)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.BigRational.html">BigRational</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Значение.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Combinatorics.RationalMode.html">RationalMode</a></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>Режим вывода.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>Точность десятичного.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_PrintRational_System_String_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32__examples">Examples</h5>
+  <pre><code class="lang-csharp">PrintRational("B(6)", Bernoulli(6), RationalMode.Both);
+// B(6) = 1/42 (≈ 0.023810)</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintResult_" data-uid="Combinatorics.CombinatoricsFormatter.PrintResult*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintResult__1_System_String___0_" data-uid="Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)">PrintResult&lt;T&gt;(string, T)</h4>
+  <div class="markdown level1 summary"><p>Печатает результат в формате <code>label = value</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintResult&lt;T&gt;(string label, T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка (например, <code>&quot;Catalan(10)&quot;</code>).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Значение.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип значения.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_PrintResult__1_System_String___0__examples">Examples</h5>
+  <pre><code class="lang-csharp">PrintResult("Catalan(10)", Catalan(10));
+// Catalan(10) = 16796</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintScientific_" data-uid="Combinatorics.CombinatoricsFormatter.PrintScientific*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintScientific_System_String_System_Numerics_BigInteger_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)">PrintScientific(string, BigInteger, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает результат в научной нотации.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintScientific(string label, BigInteger value, int digits = 2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.numerics.biginteger">BigInteger</a></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Значение.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">digits</span></td>
+        <td><p>Точность мантиссы.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintSequence_" data-uid="Combinatorics.CombinatoricsFormatter.PrintSequence*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintSequence__1_System_String_System_Collections_Generic_IEnumerable___0__System_String_" data-uid="Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)">PrintSequence&lt;T&gt;(string, IEnumerable&lt;T&gt;, string)</h4>
+  <div class="markdown level1 summary"><p>Печатает последовательность.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintSequence&lt;T&gt;(string label, IEnumerable&lt;T&gt; sequence, string separator = &quot;, &quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Метка.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">separator</span></td>
+        <td><p>Разделитель.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Combinatorics_CombinatoricsFormatter_PrintSequence__1_System_String_System_Collections_Generic_IEnumerable___0__System_String__examples">Examples</h5>
+  <pre><code class="lang-csharp">PrintSequence("Bell", BellSequence(11));
+// Bell: 1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, 115975</code></pre>
+
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintSubheader_" data-uid="Combinatorics.CombinatoricsFormatter.PrintSubheader*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintSubheader_System_String_System_Int32_" data-uid="Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)">PrintSubheader(string, int)</h4>
+  <div class="markdown level1 summary"><p>Печатает подзаголовок.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintSubheader(string title, int width = 60)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">title</span></td>
+        <td><p>Подзаголовок.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>Ширина линии (по умолчанию 60).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="Combinatorics_CombinatoricsFormatter_PrintTable_" data-uid="Combinatorics.CombinatoricsFormatter.PrintTable*"></a>
+  <h4 id="Combinatorics_CombinatoricsFormatter_PrintTable__1_System_String_System_Collections_Generic_IEnumerable___0__" data-uid="Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})">PrintTable&lt;T&gt;(string, IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Печатает таблицу «n → значение».</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void PrintTable&lt;T&gt;(string label, IEnumerable&lt;T&gt; sequence)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">label</span></td>
+        <td><p>Заголовок.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;T&gt;</td>
+        <td><span class="parametername">sequence</span></td>
+        <td><p>Последовательность.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>Тип элементов.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1827 @@
+### YamlMime:ManagedReference
+items:
+- uid: Combinatorics.CombinatoricsFormatter
+  commentId: T:Combinatorics.CombinatoricsFormatter
+  id: CombinatoricsFormatter
+  parent: Combinatorics
+  children:
+  - Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  - Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  - Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  - Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  - Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  - Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  - Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)
+  - Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)
+  - Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)
+  - Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  - Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)
+  - Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  langs:
+  - csharp
+  - vb
+  name: CombinatoricsFormatter
+  nameWithType: CombinatoricsFormatter
+  fullName: Combinatorics.CombinatoricsFormatter
+  type: Class
+  source:
+    id: CombinatoricsFormatter
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 30
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Утилиты для красивого форматирования и печати комбинаторных результатов.
+  remarks: >-
+    <p>Все методы возвращают строку или пишут в <xref href="System.Console" data-throw-if-not-resolved="false"></xref>. Класс не
+
+    влияет на основные вычисления и не имеет состояния.</p>
+
+    <p>Форматирование рассчитано на консольный вывод шириной до 120 символов,
+
+    но большинство методов адаптируются под содержимое.</p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">using static Combinatorics.Combinatorics;
+
+    using static Combinatorics.CombinatoricsFormatter;
+
+
+    PrintResult("Catalan(10)", Catalan(10));
+
+    // Catalan(10) = 16796
+
+
+    Console.WriteLine(FormatSequence(CatalanSequence(10)));
+
+    // 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862
+
+
+    PrintApproxVsExact("F(50)", Fibonacci(50), FibonacciApprox(50));
+
+    // F(50) = 12586269025  (≈ 1.2586e10, погрешность 0.000%)</code></pre>
+  syntax:
+    content: public static class CombinatoricsFormatter
+    content.vb: Public Module CombinatoricsFormatter
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  id: FormatSequence``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatSequence<T>(IEnumerable<T>, string)
+  nameWithType: CombinatoricsFormatter.FormatSequence<T>(IEnumerable<T>, string)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequence<T>(System.Collections.Generic.IEnumerable<T>, string)
+  type: Method
+  source:
+    id: FormatSequence
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 48
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует последовательность в строку через запятую.
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatSequence(CatalanSequence(6));
+
+    // "1, 1, 2, 5, 14, 42"</code></pre>
+  syntax:
+    content: public static string FormatSequence<T>(IEnumerable<T> sequence, string separator = ", ")
+    parameters:
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность чисел.
+    - id: separator
+      type: System.String
+      description: Разделитель (по умолчанию <code>", "</code>).
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    return:
+      type: System.String
+      description: Строка вида <code>1, 1, 2, 5, 14</code>.
+    content.vb: Public Shared Function FormatSequence(Of T)(sequence As IEnumerable(Of T), separator As String = ", ") As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatSequence*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если <code class="paramref">sequence</code> равен <code>null</code>.
+  nameWithType.vb: CombinatoricsFormatter.FormatSequence(Of T)(IEnumerable(Of T), String)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatSequence(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  name.vb: FormatSequence(Of T)(IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  id: FormatSequenceIndexed``1(System.Collections.Generic.IEnumerable{``0},System.String)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatSequenceIndexed<T>(IEnumerable<T>, string)
+  nameWithType: CombinatoricsFormatter.FormatSequenceIndexed<T>(IEnumerable<T>, string)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed<T>(System.Collections.Generic.IEnumerable<T>, string)
+  type: Method
+  source:
+    id: FormatSequenceIndexed
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 68
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Форматирует последовательность с индексами: <code>0:1, 1:1, 2:2, …</code>.'
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatSequenceIndexed(BellSequence(5));
+
+    // "0:1, 1:1, 2:2, 3:5, 4:15"</code></pre>
+  syntax:
+    content: public static string FormatSequenceIndexed<T>(IEnumerable<T> sequence, string separator = ", ")
+    parameters:
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность.
+    - id: separator
+      type: System.String
+      description: Разделитель между парами.
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    return:
+      type: System.String
+      description: Строка с индексами.
+    content.vb: Public Shared Function FormatSequenceIndexed(Of T)(sequence As IEnumerable(Of T), separator As String = ", ") As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если <code class="paramref">sequence</code> равен <code>null</code>.
+  nameWithType.vb: CombinatoricsFormatter.FormatSequenceIndexed(Of T)(IEnumerable(Of T), String)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed(Of T)(System.Collections.Generic.IEnumerable(Of T), String)
+  name.vb: FormatSequenceIndexed(Of T)(IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  id: FormatCompact(System.Numerics.BigInteger)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatCompact(BigInteger)
+  nameWithType: CombinatoricsFormatter.FormatCompact(BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
+  type: Method
+  source:
+    id: FormatCompact
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 94
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Компактный формат для больших чисел: тысячи, миллионы, миллиарды.'
+  remarks: >-
+    Для чисел меньше 1000 — обычное представление.
+
+    Для очень больших (&gt; 10¹²) — научная нотация.
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatCompact(42);         // "42"
+
+    FormatCompact(1500);       // "1.50K"
+
+    FormatCompact(2_500_000);  // "2.50M"
+
+    FormatCompact(Factorial(20)); // "2.43e18"</code></pre>
+  syntax:
+    content: public static string FormatCompact(BigInteger value)
+    parameters:
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Целое число.
+    return:
+      type: System.String
+      description: Строка вида <code>"1.23K"</code>, <code>"4.56M"</code>, <code>"7.89B"</code>.
+    content.vb: Public Shared Function FormatCompact(value As BigInteger) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatCompact*
+- uid: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger,System.Int32)
+  id: FormatScientific(System.Numerics.BigInteger,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatScientific(BigInteger, int)
+  nameWithType: CombinatoricsFormatter.FormatScientific(BigInteger, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger, int)
+  type: Method
+  source:
+    id: FormatScientific
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 125
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Научная нотация с заданной точностью мантиссы.
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatScientific(Factorial(20));     // "2.43e18"
+
+    FormatScientific(Factorial(20), 5);  // "2.43290e18"</code></pre>
+  syntax:
+    content: public static string FormatScientific(BigInteger value, int digits = 2)
+    parameters:
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Целое число.
+    - id: digits
+      type: System.Int32
+      description: Число знаков после запятой.
+    return:
+      type: System.String
+      description: Строка вида <code>"2.43e18"</code>.
+    content.vb: Public Shared Function FormatScientific(value As BigInteger, digits As Integer = 2) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatScientific*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Если <code class="paramref">digits</code> &lt; 0.
+  nameWithType.vb: CombinatoricsFormatter.FormatScientific(BigInteger, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger, Integer)
+  name.vb: FormatScientific(BigInteger, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  id: FormatSmart(System.Numerics.BigInteger)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatSmart(BigInteger)
+  nameWithType: CombinatoricsFormatter.FormatSmart(BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
+  type: Method
+  source:
+    id: FormatSmart
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 150
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: '«Умный» формат: компактный для средних, научный для очень больших.'
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatSmart(42);            // "42"
+
+    FormatSmart(1500);          // "1.50K"
+
+    FormatSmart(Factorial(50)); // "3.04e64"</code></pre>
+  syntax:
+    content: public static string FormatSmart(BigInteger value)
+    parameters:
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Целое число.
+    return:
+      type: System.String
+      description: Строка.
+    content.vb: Public Shared Function FormatSmart(value As BigInteger) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatSmart*
+- uid: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  id: FormatRational(Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatRational(BigRational, RationalMode, int)
+  nameWithType: CombinatoricsFormatter.FormatRational(BigRational, RationalMode, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational, Combinatorics.RationalMode, int)
+  type: Method
+  source:
+    id: FormatRational
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 170
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует <xref href="Combinatorics.BigRational" data-throw-if-not-resolved="false"></xref> как дробь и/или десятичное.
+  example:
+  - >-
+    <pre><code class="lang-csharp">var b6 = Bernoulli(6); // 1/42
+
+    FormatRational(b6);                        // "1/42"
+
+    FormatRational(b6, RationalMode.Decimal);  // "0.023810"
+
+    FormatRational(b6, RationalMode.Both);     // "1/42 (≈ 0.023810)"</code></pre>
+  syntax:
+    content: public static string FormatRational(BigRational value, RationalMode mode = RationalMode.Fraction, int digits = 6)
+    parameters:
+    - id: value
+      type: Combinatorics.BigRational
+      description: Рациональное число.
+    - id: mode
+      type: Combinatorics.RationalMode
+      description: 'Режим вывода: <code>Fraction</code>, <code>Decimal</code>, <code>Both</code>.'
+    - id: digits
+      type: System.Int32
+      description: Знаков после запятой для десятичного.
+    return:
+      type: System.String
+      description: Строка.
+    content.vb: Public Shared Function FormatRational(value As BigRational, mode As RationalMode = RationalMode.Fraction, digits As Integer = 6) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatRational*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Если <code class="paramref">digits</code> &lt; 0.
+  nameWithType.vb: CombinatoricsFormatter.FormatRational(BigRational, RationalMode, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational, Combinatorics.RationalMode, Integer)
+  name.vb: FormatRational(BigRational, RationalMode, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  id: FormatTable``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.String},System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatTable<T>(IEnumerable<T>, Func<T, string>?, int)
+  nameWithType: CombinatoricsFormatter.FormatTable<T>(IEnumerable<T>, Func<T, string>?, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTable<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, string>?, int)
+  type: Method
+  source:
+    id: FormatTable
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 208
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует таблицу «индекс → значение» с выравниванием по правому краю.
+  example:
+  - >-
+    <pre><code class="lang-csharp">Console.WriteLine(FormatTable(BellSequence(6)));
+
+    // +------+-----------------+
+
+    // |  n   |     B(n)        |
+
+    // +------+-----------------+
+
+    // |   0  |               1 |
+
+    // |   1  |               1 |
+
+    // ...</code></pre>
+  syntax:
+    content: public static string FormatTable<T>(IEnumerable<T> sequence, Func<T, string>? valueFormatter = null, int columnWidth = 20)
+    parameters:
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность.
+    - id: valueFormatter
+      type: System.Func{{T},System.String}
+      description: Функция форматирования значения (по умолчанию <code>ToString</code>).
+    - id: columnWidth
+      type: System.Int32
+      description: Ширина колонки значений.
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    return:
+      type: System.String
+      description: Многострочная строка.
+    content.vb: Public Shared Function FormatTable(Of T)(sequence As IEnumerable(Of T), valueFormatter As Func(Of T, String) = Nothing, columnWidth As Integer = 20) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatTable*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если <code class="paramref">sequence</code> равен <code>null</code>.
+  nameWithType.vb: CombinatoricsFormatter.FormatTable(Of T)(IEnumerable(Of T), Func(Of T, String), Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTable(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, String), Integer)
+  name.vb: FormatTable(Of T)(IEnumerable(Of T), Func(Of T, String), Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  id: FormatTableDouble``2(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEnumerable{``1},System.String,System.String,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatTableDouble<T1, T2>(IEnumerable<T1>, IEnumerable<T2>, string, string, int)
+  nameWithType: CombinatoricsFormatter.FormatTableDouble<T1, T2>(IEnumerable<T1>, IEnumerable<T2>, string, string, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTableDouble<T1, T2>(System.Collections.Generic.IEnumerable<T1>, System.Collections.Generic.IEnumerable<T2>, string, string, int)
+  type: Method
+  source:
+    id: FormatTableDouble
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 256
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует таблицу с двумя колонками значений (например, точное и приближённое).
+  example:
+  - >-
+    <pre><code class="lang-csharp">var exact = Enumerable.Range(0, 10).Select(Catalan).ToArray();
+
+    var approx = Enumerable.Range(0, 10).Select(n =&gt; (BigInteger)Math.Round(CatalanApprox(n))).ToArray();
+
+    Console.WriteLine(FormatTableDouble(exact, approx, "C(n) точное", "C(n) ≈"));</code></pre>
+  syntax:
+    content: public static string FormatTableDouble<T1, T2>(IEnumerable<T1> first, IEnumerable<T2> second, string headerFirst = "точное", string headerSecond = "приближённое", int columnWidth = 25)
+    parameters:
+    - id: first
+      type: System.Collections.Generic.IEnumerable{{T1}}
+      description: Первая последовательность (точная).
+    - id: second
+      type: System.Collections.Generic.IEnumerable{{T2}}
+      description: Вторая последовательность (приближение).
+    - id: headerFirst
+      type: System.String
+      description: Заголовок первой колонки.
+    - id: headerSecond
+      type: System.String
+      description: Заголовок второй колонки.
+    - id: columnWidth
+      type: System.Int32
+      description: Ширина каждой колонки.
+    typeParameters:
+    - id: T1
+      description: Тип первого значения.
+    - id: T2
+      description: Тип второго значения.
+    return:
+      type: System.String
+      description: Многострочная строка.
+    content.vb: Public Shared Function FormatTableDouble(Of T1, T2)(first As IEnumerable(Of T1), second As IEnumerable(Of T2), headerFirst As String = "точное", headerSecond As String = "приближённое", columnWidth As Integer = 25) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatTableDouble*
+  nameWithType.vb: CombinatoricsFormatter.FormatTableDouble(Of T1, T2)(IEnumerable(Of T1), IEnumerable(Of T2), String, String, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTableDouble(Of T1, T2)(System.Collections.Generic.IEnumerable(Of T1), System.Collections.Generic.IEnumerable(Of T2), String, String, Integer)
+  name.vb: FormatTableDouble(Of T1, T2)(IEnumerable(Of T1), IEnumerable(Of T2), String, String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  id: FormatTriangle(System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}},System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatTriangle(IEnumerable<IEnumerable<BigInteger>>, int)
+  nameWithType: CombinatoricsFormatter.FormatTriangle(IEnumerable<IEnumerable<BigInteger>>, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<System.Numerics.BigInteger>>, int)
+  type: Method
+  source:
+    id: FormatTriangle
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 317
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует треугольную таблицу (Паскаль, Стирлинг, Эйлер) с центрированием.
+  example:
+  - >-
+    <pre><code class="lang-csharp">var triangle = new[]
+
+    {
+        PascalRow(0), PascalRow(1), PascalRow(2), PascalRow(3)
+    };
+
+    Console.WriteLine(FormatTriangle(triangle));
+
+    //             1
+
+    //           1   1
+
+    //         1   2   1
+
+    //       1   3   3   1</code></pre>
+  syntax:
+    content: public static string FormatTriangle(IEnumerable<IEnumerable<BigInteger>> rows, int width = 6)
+    parameters:
+    - id: rows
+      type: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}}
+      description: Строки треугольника.
+    - id: width
+      type: System.Int32
+      description: Ширина колонки (по умолчанию 6).
+    return:
+      type: System.String
+      description: Многострочная строка.
+    content.vb: Public Shared Function FormatTriangle(rows As IEnumerable(Of IEnumerable(Of BigInteger)), width As Integer = 6) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatTriangle*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если <code class="paramref">rows</code> равен <code>null</code>.
+  nameWithType.vb: CombinatoricsFormatter.FormatTriangle(IEnumerable(Of IEnumerable(Of BigInteger)), Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of System.Numerics.BigInteger)), Integer)
+  name.vb: FormatTriangle(IEnumerable(Of IEnumerable(Of BigInteger)), Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  id: FormatColumns``1(System.Collections.Generic.IEnumerable{``0},System.Int32,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatColumns<T>(IEnumerable<T>, int, int)
+  nameWithType: CombinatoricsFormatter.FormatColumns<T>(IEnumerable<T>, int, int)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatColumns<T>(System.Collections.Generic.IEnumerable<T>, int, int)
+  type: Method
+  source:
+    id: FormatColumns
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 353
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает последовательность в несколько колонок.
+  example: []
+  syntax:
+    content: public static string FormatColumns<T>(IEnumerable<T> sequence, int columns = 4, int columnWidth = 20)
+    parameters:
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность.
+    - id: columns
+      type: System.Int32
+      description: Число колонок (по умолчанию 4).
+    - id: columnWidth
+      type: System.Int32
+      description: Ширина колонки (по умолчанию 20).
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    return:
+      type: System.String
+      description: Многострочная строка.
+    content.vb: Public Shared Function FormatColumns(Of T)(sequence As IEnumerable(Of T), columns As Integer = 4, columnWidth As Integer = 20) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatColumns*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если <code class="paramref">sequence</code> равен <code>null</code>.
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Если <code class="paramref">columns</code> &lt; 1.
+  nameWithType.vb: CombinatoricsFormatter.FormatColumns(Of T)(IEnumerable(Of T), Integer, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatColumns(Of T)(System.Collections.Generic.IEnumerable(Of T), Integer, Integer)
+  name.vb: FormatColumns(Of T)(IEnumerable(Of T), Integer, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.Box(System.String,System.Int32)
+  id: Box(System.String,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: Box(string, int)
+  nameWithType: CombinatoricsFormatter.Box(string, int)
+  fullName: Combinatorics.CombinatoricsFormatter.Box(string, int)
+  type: Method
+  source:
+    id: Box
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 396
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Оборачивает текст в рамку.
+  example:
+  - >-
+    <pre><code class="lang-csharp">Console.WriteLine(Box("Catalan(10) = 16796"));
+
+    // +---------------------+
+
+    // | Catalan(10) = 16796 |
+
+    // +---------------------+</code></pre>
+  syntax:
+    content: public static string Box(string text, int padding = 1)
+    parameters:
+    - id: text
+      type: System.String
+      description: Текст (может быть многострочным).
+    - id: padding
+      type: System.Int32
+      description: Отступ внутри рамки.
+    return:
+      type: System.String
+      description: Многострочная строка с рамкой.
+    content.vb: Public Shared Function Box(text As String, padding As Integer = 1) As String
+  overload: Combinatorics.CombinatoricsFormatter.Box*
+  nameWithType.vb: CombinatoricsFormatter.Box(String, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.Box(String, Integer)
+  name.vb: Box(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintResult``1(System.String,``0)
+  id: PrintResult``1(System.String,``0)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintResult<T>(string, T)
+  nameWithType: CombinatoricsFormatter.PrintResult<T>(string, T)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintResult<T>(string, T)
+  type: Method
+  source:
+    id: PrintResult
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 430
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает результат в формате <code>label = value</code>.
+  example:
+  - >-
+    <pre><code class="lang-csharp">PrintResult("Catalan(10)", Catalan(10));
+
+    // Catalan(10) = 16796</code></pre>
+  syntax:
+    content: public static void PrintResult<T>(string label, T value)
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка (например, <code>"Catalan(10)"</code>).
+    - id: value
+      type: '{T}'
+      description: Значение.
+    typeParameters:
+    - id: T
+      description: Тип значения.
+    content.vb: Public Shared Sub PrintResult(Of T)(label As String, value As T)
+  overload: Combinatorics.CombinatoricsFormatter.PrintResult*
+  nameWithType.vb: CombinatoricsFormatter.PrintResult(Of T)(String, T)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintResult(Of T)(String, T)
+  name.vb: PrintResult(Of T)(String, T)
+- uid: Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintCompact(System.String,System.Numerics.BigInteger)
+  id: PrintCompact(System.String,System.Numerics.BigInteger)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintCompact(string, BigInteger)
+  nameWithType: CombinatoricsFormatter.PrintCompact(string, BigInteger)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintCompact(string, System.Numerics.BigInteger)
+  type: Method
+  source:
+    id: PrintCompact
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 444
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает результат в компактном формате.
+  example:
+  - >-
+    <pre><code class="lang-csharp">PrintCompact("20!", Factorial(20));
+
+    // 20! = 2.43e18</code></pre>
+  syntax:
+    content: public static void PrintCompact(string label, BigInteger value)
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка.
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Значение.
+    content.vb: Public Shared Sub PrintCompact(label As String, value As BigInteger)
+  overload: Combinatorics.CombinatoricsFormatter.PrintCompact*
+  nameWithType.vb: CombinatoricsFormatter.PrintCompact(String, BigInteger)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintCompact(String, System.Numerics.BigInteger)
+  name.vb: PrintCompact(String, BigInteger)
+- uid: Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  id: PrintScientific(System.String,System.Numerics.BigInteger,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintScientific(string, BigInteger, int)
+  nameWithType: CombinatoricsFormatter.PrintScientific(string, BigInteger, int)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintScientific(string, System.Numerics.BigInteger, int)
+  type: Method
+  source:
+    id: PrintScientific
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 453
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает результат в научной нотации.
+  example: []
+  syntax:
+    content: public static void PrintScientific(string label, BigInteger value, int digits = 2)
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка.
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Значение.
+    - id: digits
+      type: System.Int32
+      description: Точность мантиссы.
+    content.vb: Public Shared Sub PrintScientific(label As String, value As BigInteger, digits As Integer = 2)
+  overload: Combinatorics.CombinatoricsFormatter.PrintScientific*
+  nameWithType.vb: CombinatoricsFormatter.PrintScientific(String, BigInteger, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintScientific(String, System.Numerics.BigInteger, Integer)
+  name.vb: PrintScientific(String, BigInteger, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  id: PrintRational(System.String,Combinatorics.BigRational,Combinatorics.RationalMode,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintRational(string, BigRational, RationalMode, int)
+  nameWithType: CombinatoricsFormatter.PrintRational(string, BigRational, RationalMode, int)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintRational(string, Combinatorics.BigRational, Combinatorics.RationalMode, int)
+  type: Method
+  source:
+    id: PrintRational
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 469
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает рациональное число как дробь и десятичное.
+  example:
+  - >-
+    <pre><code class="lang-csharp">PrintRational("B(6)", Bernoulli(6), RationalMode.Both);
+
+    // B(6) = 1/42 (≈ 0.023810)</code></pre>
+  syntax:
+    content: public static void PrintRational(string label, BigRational value, RationalMode mode = RationalMode.Both, int digits = 6)
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка.
+    - id: value
+      type: Combinatorics.BigRational
+      description: Значение.
+    - id: mode
+      type: Combinatorics.RationalMode
+      description: Режим вывода.
+    - id: digits
+      type: System.Int32
+      description: Точность десятичного.
+    content.vb: Public Shared Sub PrintRational(label As String, value As BigRational, mode As RationalMode = RationalMode.Both, digits As Integer = 6)
+  overload: Combinatorics.CombinatoricsFormatter.PrintRational*
+  nameWithType.vb: CombinatoricsFormatter.PrintRational(String, BigRational, RationalMode, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintRational(String, Combinatorics.BigRational, Combinatorics.RationalMode, Integer)
+  name.vb: PrintRational(String, BigRational, RationalMode, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  id: PrintSequence``1(System.String,System.Collections.Generic.IEnumerable{``0},System.String)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintSequence<T>(string, IEnumerable<T>, string)
+  nameWithType: CombinatoricsFormatter.PrintSequence<T>(string, IEnumerable<T>, string)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSequence<T>(string, System.Collections.Generic.IEnumerable<T>, string)
+  type: Method
+  source:
+    id: PrintSequence
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 489
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает последовательность.
+  example:
+  - >-
+    <pre><code class="lang-csharp">PrintSequence("Bell", BellSequence(11));
+
+    // Bell: 1, 1, 2, 5, 15, 52, 203, 877, 4140, 21147, 115975</code></pre>
+  syntax:
+    content: public static void PrintSequence<T>(string label, IEnumerable<T> sequence, string separator = ", ")
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка.
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность.
+    - id: separator
+      type: System.String
+      description: Разделитель.
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    content.vb: Public Shared Sub PrintSequence(Of T)(label As String, sequence As IEnumerable(Of T), separator As String = ", ")
+  overload: Combinatorics.CombinatoricsFormatter.PrintSequence*
+  nameWithType.vb: CombinatoricsFormatter.PrintSequence(Of T)(String, IEnumerable(Of T), String)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintSequence(Of T)(String, System.Collections.Generic.IEnumerable(Of T), String)
+  name.vb: PrintSequence(Of T)(String, IEnumerable(Of T), String)
+- uid: Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  id: PrintTable``1(System.String,System.Collections.Generic.IEnumerable{``0})
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintTable<T>(string, IEnumerable<T>)
+  nameWithType: CombinatoricsFormatter.PrintTable<T>(string, IEnumerable<T>)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintTable<T>(string, System.Collections.Generic.IEnumerable<T>)
+  type: Method
+  source:
+    id: PrintTable
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 498
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает таблицу «n → значение».
+  example: []
+  syntax:
+    content: public static void PrintTable<T>(string label, IEnumerable<T> sequence)
+    parameters:
+    - id: label
+      type: System.String
+      description: Заголовок.
+    - id: sequence
+      type: System.Collections.Generic.IEnumerable{{T}}
+      description: Последовательность.
+    typeParameters:
+    - id: T
+      description: Тип элементов.
+    content.vb: Public Shared Sub PrintTable(Of T)(label As String, sequence As IEnumerable(Of T))
+  overload: Combinatorics.CombinatoricsFormatter.PrintTable*
+  nameWithType.vb: CombinatoricsFormatter.PrintTable(Of T)(String, IEnumerable(Of T))
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintTable(Of T)(String, System.Collections.Generic.IEnumerable(Of T))
+  name.vb: PrintTable(Of T)(String, IEnumerable(Of T))
+- uid: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  id: PrintApproxVsExact(System.String,System.Numerics.BigInteger,System.Double,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintApproxVsExact(string, BigInteger, double, int)
+  nameWithType: CombinatoricsFormatter.PrintApproxVsExact(string, BigInteger, double, int)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(string, System.Numerics.BigInteger, double, int)
+  type: Method
+  source:
+    id: PrintApproxVsExact
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 517
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает сравнение точного и приближённого значения с оценкой погрешности.
+  example:
+  - >-
+    <pre><code class="lang-csharp">PrintApproxVsExact("F(50)", Fibonacci(50), FibonacciApprox(50));
+
+    // F(50) = 12586269025  (≈ 1.2586e10, погрешность 0.000%)</code></pre>
+  syntax:
+    content: public static void PrintApproxVsExact(string label, BigInteger exact, double approx, int precision = 4)
+    parameters:
+    - id: label
+      type: System.String
+      description: Метка.
+    - id: exact
+      type: System.Numerics.BigInteger
+      description: Точное значение.
+    - id: approx
+      type: System.Double
+      description: Приближённое значение.
+    - id: precision
+      type: System.Int32
+      description: Знаков после запятой в выводе приближения.
+    content.vb: Public Shared Sub PrintApproxVsExact(label As String, exact As BigInteger, approx As Double, precision As Integer = 4)
+  overload: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact*
+  nameWithType.vb: CombinatoricsFormatter.PrintApproxVsExact(String, BigInteger, Double, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(String, System.Numerics.BigInteger, Double, Integer)
+  name.vb: PrintApproxVsExact(String, BigInteger, Double, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintHeader(System.String,System.Int32)
+  id: PrintHeader(System.String,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintHeader(string, int)
+  nameWithType: CombinatoricsFormatter.PrintHeader(string, int)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintHeader(string, int)
+  type: Method
+  source:
+    id: PrintHeader
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 536
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает заголовок секции.
+  example: []
+  syntax:
+    content: public static void PrintHeader(string title, int width = 60)
+    parameters:
+    - id: title
+      type: System.String
+      description: Заголовок.
+    - id: width
+      type: System.Int32
+      description: Ширина линии (по умолчанию 60).
+    content.vb: Public Shared Sub PrintHeader(title As String, width As Integer = 60)
+  overload: Combinatorics.CombinatoricsFormatter.PrintHeader*
+  nameWithType.vb: CombinatoricsFormatter.PrintHeader(String, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintHeader(String, Integer)
+  name.vb: PrintHeader(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)
+  commentId: M:Combinatorics.CombinatoricsFormatter.PrintSubheader(System.String,System.Int32)
+  id: PrintSubheader(System.String,System.Int32)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: PrintSubheader(string, int)
+  nameWithType: CombinatoricsFormatter.PrintSubheader(string, int)
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSubheader(string, int)
+  type: Method
+  source:
+    id: PrintSubheader
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 550
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Печатает подзаголовок.
+  example: []
+  syntax:
+    content: public static void PrintSubheader(string title, int width = 60)
+    parameters:
+    - id: title
+      type: System.String
+      description: Подзаголовок.
+    - id: width
+      type: System.Int32
+      description: Ширина линии (по умолчанию 60).
+    content.vb: Public Shared Sub PrintSubheader(title As String, width As Integer = 60)
+  overload: Combinatorics.CombinatoricsFormatter.PrintSubheader*
+  nameWithType.vb: CombinatoricsFormatter.PrintSubheader(String, Integer)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.PrintSubheader(String, Integer)
+  name.vb: PrintSubheader(String, Integer)
+- uid: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger,System.String)
+  id: FormatThousands(System.Numerics.BigInteger,System.String)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatThousands(BigInteger, string)
+  nameWithType: CombinatoricsFormatter.FormatThousands(BigInteger, string)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger, string)
+  type: Method
+  source:
+    id: FormatThousands
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 571
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Форматирует целое число с разделителями тысяч: <code>1 234 567</code>.'
+  example:
+  - >-
+    <pre><code class="lang-csharp">FormatThousands(1234567); // "1 234 567"
+
+    FormatThousands(42);      // "42"</code></pre>
+  syntax:
+    content: public static string FormatThousands(BigInteger value, string separator = " ")
+    parameters:
+    - id: value
+      type: System.Numerics.BigInteger
+      description: Целое число.
+    - id: separator
+      type: System.String
+      description: Разделитель (по умолчанию пробел).
+    return:
+      type: System.String
+      description: Строка.
+    content.vb: Public Shared Function FormatThousands(value As BigInteger, separator As String = " ") As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatThousands*
+  nameWithType.vb: CombinatoricsFormatter.FormatThousands(BigInteger, String)
+  fullName.vb: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger, String)
+  name.vb: FormatThousands(BigInteger, String)
+- uid: Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  commentId: M:Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  id: FormatDuration(System.TimeSpan)
+  parent: Combinatorics.CombinatoricsFormatter
+  langs:
+  - csharp
+  - vb
+  name: FormatDuration(TimeSpan)
+  nameWithType: CombinatoricsFormatter.FormatDuration(TimeSpan)
+  fullName: Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
+  type: Method
+  source:
+    id: FormatDuration
+    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    startLine: 590
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Форматирует длительность в человекочитаемый вид.
+  example: []
+  syntax:
+    content: public static string FormatDuration(TimeSpan duration)
+    parameters:
+    - id: duration
+      type: System.TimeSpan
+      description: Длительность.
+    return:
+      type: System.String
+      description: Строка вида <code>"1.23 ms"</code>.
+    content.vb: Public Shared Function FormatDuration(duration As TimeSpan) As String
+  overload: Combinatorics.CombinatoricsFormatter.FormatDuration*
+references:
+- uid: System.Console
+  commentId: T:System.Console
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.console
+  name: Console
+  nameWithType: Console
+  fullName: System.Console
+- uid: Combinatorics
+  commentId: N:Combinatorics
+  href: Combinatorics.html
+  name: Combinatorics
+  nameWithType: Combinatorics
+  fullName: Combinatorics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequence*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSequence
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequence__1_System_Collections_Generic_IEnumerable___0__System_String_
+  name: FormatSequence
+  nameWithType: CombinatoricsFormatter.FormatSequence
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequence
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSequenceIndexed__1_System_Collections_Generic_IEnumerable___0__System_String_
+  name: FormatSequenceIndexed
+  nameWithType: CombinatoricsFormatter.FormatSequenceIndexed
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed
+- uid: Combinatorics.CombinatoricsFormatter.FormatCompact*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatCompact
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatCompact_System_Numerics_BigInteger_
+  name: FormatCompact
+  nameWithType: CombinatoricsFormatter.FormatCompact
+  fullName: Combinatorics.CombinatoricsFormatter.FormatCompact
+- uid: System.Numerics.BigInteger
+  commentId: T:System.Numerics.BigInteger
+  parent: System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: System.Numerics.BigInteger
+- uid: System.Numerics
+  commentId: N:System.Numerics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Numerics
+  nameWithType: System.Numerics
+  fullName: System.Numerics
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Numerics
+    name: Numerics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics
+- uid: System.ArgumentOutOfRangeException
+  commentId: T:System.ArgumentOutOfRangeException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception
+  name: ArgumentOutOfRangeException
+  nameWithType: ArgumentOutOfRangeException
+  fullName: System.ArgumentOutOfRangeException
+- uid: Combinatorics.CombinatoricsFormatter.FormatScientific*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatScientific
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatScientific_System_Numerics_BigInteger_System_Int32_
+  name: FormatScientific
+  nameWithType: CombinatoricsFormatter.FormatScientific
+  fullName: Combinatorics.CombinatoricsFormatter.FormatScientific
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Combinatorics.CombinatoricsFormatter.FormatSmart*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatSmart
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatSmart_System_Numerics_BigInteger_
+  name: FormatSmart
+  nameWithType: CombinatoricsFormatter.FormatSmart
+  fullName: Combinatorics.CombinatoricsFormatter.FormatSmart
+- uid: Combinatorics.BigRational
+  commentId: T:Combinatorics.BigRational
+  parent: Combinatorics
+  href: Combinatorics.BigRational.html
+  name: BigRational
+  nameWithType: BigRational
+  fullName: Combinatorics.BigRational
+- uid: Combinatorics.CombinatoricsFormatter.FormatRational*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatRational
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatRational_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_
+  name: FormatRational
+  nameWithType: CombinatoricsFormatter.FormatRational
+  fullName: Combinatorics.CombinatoricsFormatter.FormatRational
+- uid: Combinatorics.RationalMode
+  commentId: T:Combinatorics.RationalMode
+  parent: Combinatorics
+  href: Combinatorics.RationalMode.html
+  name: RationalMode
+  nameWithType: RationalMode
+  fullName: Combinatorics.RationalMode
+- uid: Combinatorics.CombinatoricsFormatter.FormatTable*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTable
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTable__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_String__System_Int32_
+  name: FormatTable
+  nameWithType: CombinatoricsFormatter.FormatTable
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTable
+- uid: System.Func{{T},System.String}
+  commentId: T:System.Func{``0,System.String}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, string>
+  nameWithType: Func<T, string>
+  fullName: System.Func<T, string>
+  nameWithType.vb: Func(Of T, String)
+  fullName.vb: System.Func(Of T, String)
+  name.vb: Func(Of T, String)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: Combinatorics.CombinatoricsFormatter.FormatTableDouble*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTableDouble
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTableDouble__2_System_Collections_Generic_IEnumerable___0__System_Collections_Generic_IEnumerable___1__System_String_System_String_System_Int32_
+  name: FormatTableDouble
+  nameWithType: CombinatoricsFormatter.FormatTableDouble
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTableDouble
+- uid: System.Collections.Generic.IEnumerable{{T1}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T1>
+  nameWithType: IEnumerable<T1>
+  fullName: System.Collections.Generic.IEnumerable<T1>
+  nameWithType.vb: IEnumerable(Of T1)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T1)
+  name.vb: IEnumerable(Of T1)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T1
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T1
+  - name: )
+- uid: System.Collections.Generic.IEnumerable{{T2}}
+  commentId: T:System.Collections.Generic.IEnumerable{``1}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T2>
+  nameWithType: IEnumerable<T2>
+  fullName: System.Collections.Generic.IEnumerable<T2>
+  nameWithType.vb: IEnumerable(Of T2)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T2)
+  name.vb: IEnumerable(Of T2)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T2
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T2
+  - name: )
+- uid: Combinatorics.CombinatoricsFormatter.FormatTriangle*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatTriangle
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatTriangle_System_Collections_Generic_IEnumerable_System_Collections_Generic_IEnumerable_System_Numerics_BigInteger___System_Int32_
+  name: FormatTriangle
+  nameWithType: CombinatoricsFormatter.FormatTriangle
+  fullName: Combinatorics.CombinatoricsFormatter.FormatTriangle
+- uid: System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Collections.Generic.IEnumerable{System.Numerics.BigInteger}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<IEnumerable<BigInteger>>
+  nameWithType: IEnumerable<IEnumerable<BigInteger>>
+  fullName: System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<System.Numerics.BigInteger>>
+  nameWithType.vb: IEnumerable(Of IEnumerable(Of BigInteger))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Collections.Generic.IEnumerable(Of System.Numerics.BigInteger))
+  name.vb: IEnumerable(Of IEnumerable(Of BigInteger))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  - name: )
+  - name: )
+- uid: Combinatorics.CombinatoricsFormatter.FormatColumns*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatColumns
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatColumns__1_System_Collections_Generic_IEnumerable___0__System_Int32_System_Int32_
+  name: FormatColumns
+  nameWithType: CombinatoricsFormatter.FormatColumns
+  fullName: Combinatorics.CombinatoricsFormatter.FormatColumns
+- uid: Combinatorics.CombinatoricsFormatter.Box*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.Box
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_Box_System_String_System_Int32_
+  name: Box
+  nameWithType: CombinatoricsFormatter.Box
+  fullName: Combinatorics.CombinatoricsFormatter.Box
+- uid: Combinatorics.CombinatoricsFormatter.PrintResult*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintResult
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintResult__1_System_String___0_
+  name: PrintResult
+  nameWithType: CombinatoricsFormatter.PrintResult
+  fullName: Combinatorics.CombinatoricsFormatter.PrintResult
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  commentId: '!:T'
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Combinatorics.CombinatoricsFormatter.PrintCompact*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintCompact
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintCompact_System_String_System_Numerics_BigInteger_
+  name: PrintCompact
+  nameWithType: CombinatoricsFormatter.PrintCompact
+  fullName: Combinatorics.CombinatoricsFormatter.PrintCompact
+- uid: Combinatorics.CombinatoricsFormatter.PrintScientific*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintScientific
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintScientific_System_String_System_Numerics_BigInteger_System_Int32_
+  name: PrintScientific
+  nameWithType: CombinatoricsFormatter.PrintScientific
+  fullName: Combinatorics.CombinatoricsFormatter.PrintScientific
+- uid: Combinatorics.CombinatoricsFormatter.PrintRational*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintRational
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintRational_System_String_Combinatorics_BigRational_Combinatorics_RationalMode_System_Int32_
+  name: PrintRational
+  nameWithType: CombinatoricsFormatter.PrintRational
+  fullName: Combinatorics.CombinatoricsFormatter.PrintRational
+- uid: Combinatorics.CombinatoricsFormatter.PrintSequence*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintSequence
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSequence__1_System_String_System_Collections_Generic_IEnumerable___0__System_String_
+  name: PrintSequence
+  nameWithType: CombinatoricsFormatter.PrintSequence
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSequence
+- uid: Combinatorics.CombinatoricsFormatter.PrintTable*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintTable
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintTable__1_System_String_System_Collections_Generic_IEnumerable___0__
+  name: PrintTable
+  nameWithType: CombinatoricsFormatter.PrintTable
+  fullName: Combinatorics.CombinatoricsFormatter.PrintTable
+- uid: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintApproxVsExact
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintApproxVsExact_System_String_System_Numerics_BigInteger_System_Double_System_Int32_
+  name: PrintApproxVsExact
+  nameWithType: CombinatoricsFormatter.PrintApproxVsExact
+  fullName: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Combinatorics.CombinatoricsFormatter.PrintHeader*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintHeader
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintHeader_System_String_System_Int32_
+  name: PrintHeader
+  nameWithType: CombinatoricsFormatter.PrintHeader
+  fullName: Combinatorics.CombinatoricsFormatter.PrintHeader
+- uid: Combinatorics.CombinatoricsFormatter.PrintSubheader*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.PrintSubheader
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_PrintSubheader_System_String_System_Int32_
+  name: PrintSubheader
+  nameWithType: CombinatoricsFormatter.PrintSubheader
+  fullName: Combinatorics.CombinatoricsFormatter.PrintSubheader
+- uid: Combinatorics.CombinatoricsFormatter.FormatThousands*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatThousands
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatThousands_System_Numerics_BigInteger_System_String_
+  name: FormatThousands
+  nameWithType: CombinatoricsFormatter.FormatThousands
+  fullName: Combinatorics.CombinatoricsFormatter.FormatThousands
+- uid: Combinatorics.CombinatoricsFormatter.FormatDuration*
+  commentId: Overload:Combinatorics.CombinatoricsFormatter.FormatDuration
+  href: Combinatorics.CombinatoricsFormatter.html#Combinatorics_CombinatoricsFormatter_FormatDuration_System_TimeSpan_
+  name: FormatDuration
+  nameWithType: CombinatoricsFormatter.FormatDuration
+  fullName: Combinatorics.CombinatoricsFormatter.FormatDuration
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.timespan
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
