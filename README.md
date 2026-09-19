@@ -979,7 +979,7 @@ QuadraticSurd.Sqrt(5) + QuadraticSurd.Sqrt(7); // ArgumentException: разны�
 
 ## API Reference
 
-Полная документация: **[https://TheGhost1K.github.io/combinatorics/](https://TheGhost1K.github.io/combinatorics/)**
+Полная документация: **[https://TheGhost1K.github.io/Combinatorics/](https://TheGhost1K.github.io/Combinatorics/)**
 
 Сгенерирована через DocFX из XML-комментариев в исходниках.
 
