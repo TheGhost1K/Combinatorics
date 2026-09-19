@@ -1,23 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-	  <!-- Документация -->
-	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
-	  <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Combinatorics.xml</DocumentationFile>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!-- Документация -->
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Combinatorics.xml</DocumentationFile>
 
-	  <!-- NuGet-метаданные -->
-	  <PackageId>Combinatorics</PackageId>
-	  <Version>1.0.0</Version>
-	  <Authors>TheGhost1K</Authors>
-	  <Description>Библиотека комбинаторных чисел на C#: факториалы, сочетания, Каталан, Стирлинг, Белл, Эйлер, Лах, Нараян, Моцкин, Шрёдер, Деланнуа, Фусс–Каталан, Фибоначчи, Люка, Пелль, Бернулли + асимптотики + формулы Бине в точной арифметике.</Description>
-	  <PackageTags>combinatorics;math;biginteger;catalan;stirling;bell;euler;fibonacci;pell;bernoulli</PackageTags>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <RepositoryUrl>https://github.com/TheGhost1K/combinatorics</RepositoryUrl>
-	  <RepositoryType>git</RepositoryType>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
-  </PropertyGroup>
+		<!-- NuGet-метаданные -->
+		<PackageId>Combinatorics</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>TheGhost1K</Authors>
+		<Description>Библиотека комбинаторных чисел на C#: факториалы, сочетания, Каталан, Стирлинг, Белл, Эйлер, Лах, Нараян, Моцкин, Шрёдер, Деланнуа, Фусс–Каталан, Фибоначчи, Люка, Пелль, Бернулли + асимптотики + формулы Бине в точной арифметике.</Description>
+		<PackageTags>combinatorics;math;biginteger;catalan;stirling;bell;euler;fibonacci;pell;bernoulli</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/TheGhost1K/combinatorics</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
 </Project>
