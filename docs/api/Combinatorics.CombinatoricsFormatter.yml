@@ -35,8 +35,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter
   type: Class
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinatoricsFormatter
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 30
   assemblies:
   - Combinatorics
@@ -95,8 +99,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatSequence<T>(System.Collections.Generic.IEnumerable<T>, string)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 48
   assemblies:
   - Combinatorics
@@ -143,8 +151,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatSequenceIndexed<T>(System.Collections.Generic.IEnumerable<T>, string)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatSequenceIndexed
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 68
   assemblies:
   - Combinatorics
@@ -191,8 +203,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatCompact(System.Numerics.BigInteger)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatCompact
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 94
   assemblies:
   - Combinatorics
@@ -234,8 +250,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatScientific(System.Numerics.BigInteger, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatScientific
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 125
   assemblies:
   - Combinatorics
@@ -279,8 +299,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatSmart(System.Numerics.BigInteger)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatSmart
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 150
   assemblies:
   - Combinatorics
@@ -316,8 +340,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatRational(Combinatorics.BigRational, Combinatorics.RationalMode, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatRational
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 170
   assemblies:
   - Combinatorics
@@ -368,8 +396,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatTable<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, string>?, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatTable
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 208
   assemblies:
   - Combinatorics
@@ -429,8 +461,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatTableDouble<T1, T2>(System.Collections.Generic.IEnumerable<T1>, System.Collections.Generic.IEnumerable<T2>, string, string, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatTableDouble
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 256
   assemblies:
   - Combinatorics
@@ -486,8 +522,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatTriangle(System.Collections.Generic.IEnumerable<System.Collections.Generic.IEnumerable<System.Numerics.BigInteger>>, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatTriangle
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 317
   assemblies:
   - Combinatorics
@@ -543,8 +583,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatColumns<T>(System.Collections.Generic.IEnumerable<T>, int, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatColumns
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 353
   assemblies:
   - Combinatorics
@@ -593,8 +637,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.Box(string, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Box
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 396
   assemblies:
   - Combinatorics
@@ -638,8 +686,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintResult<T>(string, T)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintResult
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 430
   assemblies:
   - Combinatorics
@@ -679,8 +731,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintCompact(string, System.Numerics.BigInteger)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintCompact
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 444
   assemblies:
   - Combinatorics
@@ -717,8 +773,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintScientific(string, System.Numerics.BigInteger, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintScientific
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 453
   assemblies:
   - Combinatorics
@@ -754,8 +814,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintRational(string, Combinatorics.BigRational, Combinatorics.RationalMode, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintRational
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 469
   assemblies:
   - Combinatorics
@@ -798,8 +862,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintSequence<T>(string, System.Collections.Generic.IEnumerable<T>, string)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 489
   assemblies:
   - Combinatorics
@@ -842,8 +910,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintTable<T>(string, System.Collections.Generic.IEnumerable<T>)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintTable
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 498
   assemblies:
   - Combinatorics
@@ -879,8 +951,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintApproxVsExact(string, System.Numerics.BigInteger, double, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintApproxVsExact
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 517
   assemblies:
   - Combinatorics
@@ -923,8 +999,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintHeader(string, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintHeader
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 536
   assemblies:
   - Combinatorics
@@ -957,8 +1037,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.PrintSubheader(string, int)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PrintSubheader
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 550
   assemblies:
   - Combinatorics
@@ -991,8 +1075,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatThousands(System.Numerics.BigInteger, string)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatThousands
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 571
   assemblies:
   - Combinatorics
@@ -1032,8 +1120,12 @@ items:
   fullName: Combinatorics.CombinatoricsFormatter.FormatDuration(System.TimeSpan)
   type: Method
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FormatDuration
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 590
   assemblies:
   - Combinatorics

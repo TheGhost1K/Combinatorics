@@ -79,14 +79,205 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="архитектура">Архитектура</h1>
 
-<h2 id="слои">Слои</h2>
-<ul>
-<li><code>BigRational.cs</code> — точная рациональная арифметика</li>
-<li><code>QuadraticSurd.cs</code> — точная арифметика в Q(√d)</li>
-<li><code>Combinatorics.*.cs</code> — partial-класс с методами для каждой группы чисел</li>
-</ul>
+<h2 id="общая-структура">Общая структура</h2>
+<pre><code>combinatorics/
+├── src/Combinatorics/                    — библиотека
+├── tests/Combinatorics.Tests/            — xUnit-тесты
+├── benchmarks/Combinatorics.Benchmarks/  — бенчмарки BenchmarkDotNet
+├── docs/                                 — документация DocFX
+└── README.md
+</code></pre>
+<h2 id="файлы-библиотеки">Файлы библиотеки</h2>
+<pre><code>src/Combinatorics/
+├── BigRational.cs                        — точные дроби на BigInteger
+├── QuadraticSurd.cs                      — точная арифметика в Q(√d)
+├── CombinatoricsFormatter.cs             — красивый вывод результатов
+├── Combinatorics.Basic.cs                — факториал, сочетания, Каталан, Паскаль
+├── Combinatorics.Stirling.cs             — Стирлинг 1-го и 2-го рода
+├── Combinatorics.BellEuler.cs            — Белл, Эйлер
+├── Combinatorics.Lah.cs                  — Лах, Fubini
+├── Combinatorics.Narayana.cs             — Нараян
+├── Combinatorics.Motzkin.cs              — Моцкин
+├── Combinatorics.Bernoulli.cs            — Бернулли
+├── Combinatorics.Generators.cs           — перестановки, сочетания
+├── Combinatorics.Extra.cs                — Деланнуа, Шрёдер, Фусс–Каталан
+├── Combinatorics.PellSchroeder.cs        — Пелль, Пелль–Люка, Шрёдер–Каталан
+├── Combinatorics.FibonacciMotzkin.cs     — Фибоначчи, Люка, обобщённый Моцкин
+├── Combinatorics.Binet.cs                — формулы Бине
+├── Combinatorics.Asymptotics.cs          — базовые асимптотики
+└── Combinatorics.AsymptoticsExtended.cs  — расширенные асимптотики
+</code></pre>
 <p>Все файлы <code>Combinatorics.*.cs</code> — это <code>partial class Combinatorics</code>,
-разбитый на логические группы.</p>
+разбитый на логические группы. Компилятор собирает их в один статический класс.</p>
+<h2 id="слои">Слои</h2>
+<p><strong>Уровень 1 — базовые типы:</strong></p>
+<ul>
+<li><code>BigRational</code> — точные дроби.</li>
+<li><code>QuadraticSurd</code> — точная арифметика в квадратичных полях.</li>
+<li><code>CombinatoricsFormatter</code> — утилиты вывода.</li>
+</ul>
+<p><strong>Уровень 2 — вычисления:</strong></p>
+<ul>
+<li>Факториал, сочетания, размещения.</li>
+<li>Числа Каталана и родственные.</li>
+<li>Разбиения и перестановки.</li>
+<li>Рекуррентные последовательности.</li>
+</ul>
+<p><strong>Уровень 3 — производные:</strong></p>
+<ul>
+<li>Формулы Бине (используют <code>QuadraticSurd</code>).</li>
+<li>Асимптотики (используют <code>double</code> и специальные функции).</li>
+</ul>
+<h2 id="соглашения">Соглашения</h2>
+<h3 id="возвращаемые-типы">Возвращаемые типы</h3>
+<ul>
+<li><strong>Целые числа</strong> → <code>BigInteger</code> (переполнение невозможно).</li>
+<li><strong>Дроби</strong> → <code>BigRational</code> (точное представление).</li>
+<li><strong>Приближения</strong> → <code>double</code> (быстрые, но с потерей точности).</li>
+<li><strong>Последовательности</strong> → массивы (<code>BigInteger[]</code>, <code>BigRational[]</code>).</li>
+<li><strong>Генераторы</strong> → <code>IEnumerable&lt;T&gt;</code> (ленивые).</li>
+</ul>
+<h3 id="валидация-аргументов">Валидация аргументов</h3>
+<p>Все публичные методы проверяют входные данные:</p>
+<pre><code class="lang-csharp">if (n &lt; 0) throw new ArgumentOutOfRangeException(nameof(n));
+if (k &gt; n) throw new ArgumentException(&quot;Требуется 0 ≤ k ≤ n&quot;);
+</code></pre>
+<p>Исключения типизированы:</p>
+<ul>
+<li><code>ArgumentOutOfRangeException</code> — один аргумент вне диапазона.</li>
+<li><code>ArgumentException</code> — нарушены соотношения между аргументами.</li>
+<li><code>DivideByZeroException</code> — деление на ноль.</li>
+<li><code>InvalidOperationException</code> — недопустимая операция.</li>
+</ul>
+<h3 id="сложность">Сложность</h3>
+<p>Все методы используют оптимальные алгоритмы:</p>
+<table>
+<thead>
+<tr>
+<th>Метод</th>
+<th>Сложность</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Factorial</code></td>
+<td>O(n log² n) через divide &amp; conquer</td>
+</tr>
+<tr>
+<td><code>Combinations</code></td>
+<td>O(min(k, n−k))</td>
+</tr>
+<tr>
+<td><code>Catalan</code></td>
+<td>O(n)</td>
+</tr>
+<tr>
+<td><code>CatalanSequence</code></td>
+<td>O(n) через рекуррентность</td>
+</tr>
+<tr>
+<td><code>NarayanaRow</code></td>
+<td>O(n²) через одну <code>PascalRow</code></td>
+</tr>
+<tr>
+<td><code>StirlingFirstKind</code></td>
+<td>O(n·k)</td>
+</tr>
+<tr>
+<td><code>Bell</code></td>
+<td>O(n²)</td>
+</tr>
+<tr>
+<td><code>FibonacciFast</code></td>
+<td>O(log n) через fast doubling</td>
+</tr>
+<tr>
+<td><code>SchroederLargeSequence</code></td>
+<td>O(n) через рекуррентность</td>
+</tr>
+<tr>
+<td><code>Delannoy</code></td>
+<td>автовыбор: формула или рекуррентность</td>
+</tr>
+</tbody>
+</table>
+<h3 id="документация">Документация</h3>
+<p>Все публичные члены имеют XML-комментарии:</p>
+<ul>
+<li><code>&lt;summary&gt;</code> — краткое описание.</li>
+<li><code>&lt;param&gt;</code> — каждый параметр.</li>
+<li><code>&lt;returns&gt;</code> — что возвращает.</li>
+<li><code>&lt;exception&gt;</code> — какие исключения.</li>
+<li><code>&lt;remarks&gt;</code> — формулы, сложность, ссылки.</li>
+<li><code>&lt;example&gt;</code> — пример кода.</li>
+<li><code>&lt;seealso&gt;</code> — ссылки на OEIS и другие методы.</li>
+</ul>
+<p>DocFX собирает из этих комментариев API Reference.</p>
+<h2 id="тестирование">Тестирование</h2>
+<p><strong>~270 тестов</strong> на xUnit, покрывают:</p>
+<ul>
+<li><strong>Значения</strong> — сверка с известными последовательностями OEIS.</li>
+<li><strong>Тождества</strong> — Кассини, Люка, Пелля–Люка, формулы удвоения.</li>
+<li><strong>Суммы</strong> — <code>Σ_k S(n, k) = B_n</code>, <code>Σ_k |s(n, k)| = n!</code>, <code>Σ_k A(n, k) = n!</code>.</li>
+<li><strong>Симметрии</strong> — <code>A(n, k) = A(n, n−1−k)</code>, <code>N(n, k) = N(n, n+1−k)</code>.</li>
+<li><strong>Согласованность</strong> — операторы сравнения и <code>CompareTo</code>.</li>
+<li><strong>Граничные случаи</strong> — n = 0, k = 0, k = n, отрицательные аргументы.</li>
+<li><strong>Исключения</strong> — что бросается и когда.</li>
+</ul>
+<h2 id="бенчмарки">Бенчмарки</h2>
+<p>12 групп бенчмарков BenchmarkDotNet в <code>benchmarks/Combinatorics.Benchmarks/</code>:</p>
+<ul>
+<li><code>BasicBenchmarks</code> — факториал, сочетания, Каталан, Паскаль.</li>
+<li><code>StirlingBenchmarks</code> — Стирлинг, Белл, Эйлер.</li>
+<li><code>GeneratorBenchmarks</code> — перестановки, сочетания.</li>
+<li><code>BigRationalBenchmarks</code> — числа Бернулли.</li>
+<li><code>BinetVsDoublingBenchmarks</code> — сравнение методов Фибоначчи.</li>
+<li><code>QuadraticSurdBenchmarks</code> — арифметика в Q(√d).</li>
+<li><code>AsymptoticsBenchmarks</code> — базовая и расширенная асимптотика.</li>
+<li><code>StirlingEulerBenchmarks</code> — одиночные vs построение строк.</li>
+<li><code>LahNarayanaBenchmarks</code> — Лах, Нараян, Fubini, Моцкин.</li>
+<li><code>SchroederDelannoyBenchmarks</code> — Шрёдер, Деланнуа.</li>
+<li><code>FussCatalanMotzkinBenchmarks</code> — Фусс–Каталан, Фибоначчи, Пелль.</li>
+<li><code>FullSequenceBenchmarks</code> — сводный прогон по всем семействам.</li>
+</ul>
+<p>Запуск:</p>
+<pre><code class="lang-bash">cd benchmarks/Combinatorics.Benchmarks
+dotnet run -c Release -- --filter *BinetVsDoubling*
+</code></pre>
+<h2 id="документация-1">Документация</h2>
+<ul>
+<li><strong>README.md</strong> — визитная карточка, в корне репозитория.</li>
+<li><strong>docs/</strong> — сайт DocFX, собирается в <code>docs/_site/</code>.</li>
+<li><strong>XML-комментарии</strong> — в исходниках, DocFX читает их через <code>Combinatorics.xml</code>.</li>
+</ul>
+<p>Публикация: GitHub Actions (<code>.github/workflows/docs.yml</code>) собирает DocFX и деплоит на GitHub Pages.</p>
+<h2 id="зависимости">Зависимости</h2>
+<p><strong>Библиотека:</strong> ноль внешних зависимостей. Только <code>System.Numerics.BigInteger</code> из BCL.</p>
+<p><strong>Тесты:</strong> xUnit, Microsoft.NET.Test.Sdk.</p>
+<p><strong>Бенчмарки:</strong> BenchmarkDotNet.</p>
+<p><strong>Документация:</strong> DocFX.</p>
+<h2 id="расширение">Расширение</h2>
+<h3 id="добавление-нового-семейства-чисел">Добавление нового семейства чисел</h3>
+<ol>
+<li>Создайте <code>Combinatorics.Новое.cs</code>.</li>
+<li>Объявите <code>public static partial class Combinatorics</code>.</li>
+<li>Реализуйте методы с XML-комментариями.</li>
+<li>Добавьте тесты в <code>tests/Combinatorics.Tests/</code>.</li>
+<li>Добавьте бенчмарки в <code>benchmarks/Combinatorics.Benchmarks/</code>.</li>
+<li>Обновите README и <code>docs/articles/examples.md</code>.</li>
+</ol>
+<h3 id="добавление-нового-форматтера">Добавление нового форматтера</h3>
+<ol>
+<li>Расширьте <code>CombinatoricsFormatter.cs</code>.</li>
+<li>Используйте <code>StringBuilder</code> для сборки строк.</li>
+<li>Проверьте граничные случаи.</li>
+<li>Добавьте тесты в <code>tests/Combinatorics.Tests/FormatterTests.cs</code>.</li>
+</ol>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://github.com/TheGhost1K/combinatorics/blob/main/README.md">README.md</a></li>
+<li><a href="examples.html">Примеры</a></li>
+</ul>
 
 </article>
           </div>
@@ -95,6 +286,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TheGhost1K/Combinatorics/blob/master/docs/articles/architecture.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

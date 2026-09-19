@@ -119,10 +119,150 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/asymptotics.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/asymptotics.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/basic.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/bernoulli.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/bernoulli.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/binet.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/binet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/catalan.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/catalan.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/euler-lah.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/euler-lah.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/examples.md",
       "output": {
         ".html": {
           "relative_path": "articles/examples.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/fibonacci-lucas.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/fibonacci-lucas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/formatter.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/formatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/generators.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/generators.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/motzkin.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/motzkin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/narayana-fuss.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/narayana-fuss.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/paths.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/paths.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/pell.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/pell.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/stirling-bell.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/stirling-bell.html"
         }
       },
       "version": ""

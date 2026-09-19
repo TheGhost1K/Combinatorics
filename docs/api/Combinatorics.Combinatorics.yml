@@ -117,8 +117,12 @@ items:
   fullName: Combinatorics.Combinatorics
   type: Class
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Combinatorics
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 4
   assemblies:
   - Combinatorics
@@ -186,8 +190,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 13
   assemblies:
   - Combinatorics
@@ -225,8 +233,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 23
   assemblies:
   - Combinatorics
@@ -263,8 +275,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 35
   assemblies:
   - Combinatorics
@@ -301,8 +317,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucasApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucasApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 45
   assemblies:
   - Combinatorics
@@ -339,8 +359,12 @@ items:
   fullName: Combinatorics.Combinatorics.CatalanApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CatalanApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 58
   assemblies:
   - Combinatorics
@@ -378,8 +402,12 @@ items:
   fullName: Combinatorics.Combinatorics.FactorialStirling(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FactorialStirling
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 71
   assemblies:
   - Combinatorics
@@ -417,8 +445,12 @@ items:
   fullName: Combinatorics.Combinatorics.FactorialStirlingRefined(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FactorialStirlingRefined
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 84
   assemblies:
   - Combinatorics
@@ -452,8 +484,12 @@ items:
   fullName: Combinatorics.Combinatorics.CombinationsApprox(int, int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinationsApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 101
   assemblies:
   - Combinatorics
@@ -494,8 +530,12 @@ items:
   fullName: Combinatorics.Combinatorics.BellApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: BellApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 122
   assemblies:
   - Combinatorics
@@ -536,8 +576,12 @@ items:
   fullName: Combinatorics.Combinatorics.DelannoyCentralApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DelannoyCentralApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 140
   assemblies:
   - Combinatorics
@@ -574,8 +618,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederLargeApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederLargeApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 154
   assemblies:
   - Combinatorics
@@ -612,8 +660,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinApprox(int)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinApprox
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 168
   assemblies:
   - Combinatorics
@@ -650,8 +702,12 @@ items:
   fullName: Combinatorics.Combinatorics.LambertW(double)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LambertW
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 193
   assemblies:
   - Combinatorics
@@ -693,8 +749,12 @@ items:
   fullName: Combinatorics.Combinatorics.RelativeError(System.Numerics.BigInteger, double)
   type: Method
   source:
+    remote:
+      path: src/Asymptotics.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: RelativeError
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Asymptotics.cs
+    path: ../src/Asymptotics.cs
     startLine: 229
   assemblies:
   - Combinatorics
@@ -735,8 +795,12 @@ items:
   fullName: Combinatorics.Combinatorics.FactorialStirlingExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FactorialStirlingExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 14
   assemblies:
   - Combinatorics
@@ -777,8 +841,12 @@ items:
   fullName: Combinatorics.Combinatorics.LogFactorialLanczos(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LogFactorialLanczos
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 37
   assemblies:
   - Combinatorics
@@ -816,8 +884,12 @@ items:
   fullName: Combinatorics.Combinatorics.CatalanApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CatalanApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 51
   assemblies:
   - Combinatorics
@@ -858,8 +930,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 76
   assemblies:
   - Combinatorics
@@ -897,8 +973,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 90
   assemblies:
   - Combinatorics
@@ -935,8 +1015,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 102
   assemblies:
   - Combinatorics
@@ -973,8 +1057,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucasApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucasApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 116
   assemblies:
   - Combinatorics
@@ -1011,8 +1099,12 @@ items:
   fullName: Combinatorics.Combinatorics.BellApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: BellApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 144
   assemblies:
   - Combinatorics
@@ -1063,8 +1155,12 @@ items:
   fullName: Combinatorics.Combinatorics.DelannoyCentralApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DelannoyCentralApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 160
   assemblies:
   - Combinatorics
@@ -1101,8 +1197,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederLargeApproxExtended(int)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederLargeApproxExtended
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 175
   assemblies:
   - Combinatorics
@@ -1139,8 +1239,12 @@ items:
   fullName: Combinatorics.Combinatorics.LogGammaLanczos(double)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LogGammaLanczos
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 192
   assemblies:
   - Combinatorics
@@ -1178,8 +1282,12 @@ items:
   fullName: Combinatorics.Combinatorics.GammaLanczos(double)
   type: Method
   source:
+    remote:
+      path: src/AsymptoticsExtended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: GammaLanczos
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\AsymptoticsExtended.cs
+    path: ../src/AsymptoticsExtended.cs
     startLine: 227
   assemblies:
   - Combinatorics
@@ -1220,8 +1328,12 @@ items:
   fullName: Combinatorics.Combinatorics.Factorial(int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Factorial
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 78
   assemblies:
   - Combinatorics
@@ -1296,8 +1408,12 @@ items:
   fullName: Combinatorics.Combinatorics.Permutations(int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Permutations
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 140
   assemblies:
   - Combinatorics
@@ -1342,8 +1458,12 @@ items:
   fullName: Combinatorics.Combinatorics.PermutationsWithRepetition(params int[])
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PermutationsWithRepetition
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 157
   assemblies:
   - Combinatorics
@@ -1385,8 +1505,12 @@ items:
   fullName: Combinatorics.Combinatorics.Arrangements(int, int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Arrangements
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 189
   assemblies:
   - Combinatorics
@@ -1435,8 +1559,12 @@ items:
   fullName: Combinatorics.Combinatorics.Combinations(int, int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Combinations
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 220
   assemblies:
   - Combinatorics
@@ -1498,8 +1626,12 @@ items:
   fullName: Combinatorics.Combinatorics.CombinationsWithRepetition(int, int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinationsWithRepetition
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 249
   assemblies:
   - Combinatorics
@@ -1545,8 +1677,12 @@ items:
   fullName: Combinatorics.Combinatorics.Catalan(int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Catalan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 280
   assemblies:
   - Combinatorics
@@ -1609,8 +1745,12 @@ items:
   fullName: Combinatorics.Combinatorics.CatalanSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CatalanSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 302
   assemblies:
   - Combinatorics
@@ -1655,8 +1795,12 @@ items:
   fullName: Combinatorics.Combinatorics.PascalRow(int)
   type: Method
   source:
+    remote:
+      path: src/Basic.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PascalRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Basic.cs
+    path: ../src/Basic.cs
     startLine: 333
   assemblies:
   - Combinatorics
@@ -1705,8 +1849,12 @@ items:
   fullName: Combinatorics.Combinatorics.Bell(int)
   type: Method
   source:
+    remote:
+      path: src/BellEuler.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Bell
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BellEuler.cs
+    path: ../src/BellEuler.cs
     startLine: 26
   assemblies:
   - Combinatorics
@@ -1760,8 +1908,12 @@ items:
   fullName: Combinatorics.Combinatorics.BellSequence(int)
   type: Method
   source:
+    remote:
+      path: src/BellEuler.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: BellSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BellEuler.cs
+    path: ../src/BellEuler.cs
     startLine: 59
   assemblies:
   - Combinatorics
@@ -1806,8 +1958,12 @@ items:
   fullName: Combinatorics.Combinatorics.Eulerian(int, int)
   type: Method
   source:
+    remote:
+      path: src/BellEuler.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Eulerian
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BellEuler.cs
+    path: ../src/BellEuler.cs
     startLine: 101
   assemblies:
   - Combinatorics
@@ -1864,8 +2020,12 @@ items:
   fullName: Combinatorics.Combinatorics.EulerianRow(int)
   type: Method
   source:
+    remote:
+      path: src/BellEuler.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: EulerianRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BellEuler.cs
+    path: ../src/BellEuler.cs
     startLine: 132
   assemblies:
   - Combinatorics
@@ -1910,8 +2070,12 @@ items:
   fullName: Combinatorics.Combinatorics.EulerianDescents(int, int)
   type: Method
   source:
+    remote:
+      path: src/BellEuler.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: EulerianDescents
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BellEuler.cs
+    path: ../src/BellEuler.cs
     startLine: 168
   assemblies:
   - Combinatorics
@@ -1952,8 +2116,12 @@ items:
   fullName: Combinatorics.Combinatorics.Bernoulli(int)
   type: Method
   source:
+    remote:
+      path: src/Bernoulli.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Bernoulli
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Bernoulli.cs
+    path: ../src/Bernoulli.cs
     startLine: 36
   assemblies:
   - Combinatorics
@@ -2033,8 +2201,12 @@ items:
   fullName: Combinatorics.Combinatorics.BernoulliSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Bernoulli.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: BernoulliSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Bernoulli.cs
+    path: ../src/Bernoulli.cs
     startLine: 65
   assemblies:
   - Combinatorics
@@ -2076,8 +2248,12 @@ items:
   fullName: Combinatorics.Combinatorics.Phi
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Phi
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 22
   assemblies:
   - Combinatorics
@@ -2113,8 +2289,12 @@ items:
   fullName: Combinatorics.Combinatorics.Psi
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Psi
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 30
   assemblies:
   - Combinatorics
@@ -2141,8 +2321,12 @@ items:
   fullName: Combinatorics.Combinatorics.Sqrt5
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Sqrt5
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 33
   assemblies:
   - Combinatorics
@@ -2168,8 +2352,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciBinet(int)
   type: Method
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciBinet
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 53
   assemblies:
   - Combinatorics
@@ -2218,8 +2406,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasBinet(int)
   type: Method
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasBinet
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 68
   assemblies:
   - Combinatorics
@@ -2256,8 +2448,12 @@ items:
   fullName: Combinatorics.Combinatorics.OnePlusSqrt2
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: OnePlusSqrt2
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 79
   assemblies:
   - Combinatorics
@@ -2284,8 +2480,12 @@ items:
   fullName: Combinatorics.Combinatorics.OneMinusSqrt2
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: OneMinusSqrt2
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 83
   assemblies:
   - Combinatorics
@@ -2312,8 +2512,12 @@ items:
   fullName: Combinatorics.Combinatorics.TwoSqrt2
   type: Property
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: TwoSqrt2
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 86
   assemblies:
   - Combinatorics
@@ -2339,8 +2543,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellBinet(int)
   type: Method
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellBinet
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 96
   assemblies:
   - Combinatorics
@@ -2383,8 +2591,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucasBinet(int)
   type: Method
   source:
+    remote:
+      path: src/Binet.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucasBinet
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Binet.cs
+    path: ../src/Binet.cs
     startLine: 112
   assemblies:
   - Combinatorics
@@ -2427,8 +2639,12 @@ items:
   fullName: Combinatorics.Combinatorics.Delannoy(int, int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Delannoy
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 50
   assemblies:
   - Combinatorics
@@ -2522,8 +2738,12 @@ items:
   fullName: Combinatorics.Combinatorics.DelannoyCentral(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DelannoyCentral
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 123
   assemblies:
   - Combinatorics
@@ -2561,8 +2781,12 @@ items:
   fullName: Combinatorics.Combinatorics.DelannoyCentralSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DelannoyCentralSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 131
   assemblies:
   - Combinatorics
@@ -2599,8 +2823,12 @@ items:
   fullName: Combinatorics.Combinatorics.DelannoyByRecurrence(int, int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DelannoyByRecurrence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 151
   assemblies:
   - Combinatorics
@@ -2646,8 +2874,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederLarge(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederLarge
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 187
   assemblies:
   - Combinatorics
@@ -2698,8 +2930,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederLargeSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederLargeSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 202
   assemblies:
   - Combinatorics
@@ -2736,8 +2972,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederSmall(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederSmall
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 233
   assemblies:
   - Combinatorics
@@ -2783,8 +3023,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederSmallSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederSmallSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 257
   assemblies:
   - Combinatorics
@@ -2821,8 +3065,12 @@ items:
   fullName: Combinatorics.Combinatorics.FussCatalan(int, int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FussCatalan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 295
   assemblies:
   - Combinatorics
@@ -2879,8 +3127,12 @@ items:
   fullName: Combinatorics.Combinatorics.FussCatalanSequence(int, int)
   type: Method
   source:
+    remote:
+      path: src/Extra.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FussCatalanSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Extra.cs
+    path: ../src/Extra.cs
     startLine: 309
   assemblies:
   - Combinatorics
@@ -2923,8 +3175,12 @@ items:
   fullName: Combinatorics.Combinatorics.Fibonacci(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Fibonacci
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 25
   assemblies:
   - Combinatorics
@@ -2976,8 +3232,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciPair(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciPair
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 55
   assemblies:
   - Combinatorics
@@ -3019,8 +3279,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciFast(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciFast
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 84
   assemblies:
   - Combinatorics
@@ -3062,8 +3326,12 @@ items:
   fullName: Combinatorics.Combinatorics.FibonacciSequence(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FibonacciSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 92
   assemblies:
   - Combinatorics
@@ -3100,8 +3368,12 @@ items:
   fullName: Combinatorics.Combinatorics.Lucas(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Lucas
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 124
   assemblies:
   - Combinatorics
@@ -3151,8 +3423,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasSequence(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 147
   assemblies:
   - Combinatorics
@@ -3189,8 +3465,12 @@ items:
   fullName: Combinatorics.Combinatorics.CassiniIdentity(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CassiniIdentity
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 166
   assemblies:
   - Combinatorics
@@ -3223,8 +3503,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasIdentity(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasIdentity
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 181
   assemblies:
   - Combinatorics
@@ -3257,8 +3541,12 @@ items:
   fullName: Combinatorics.Combinatorics.DoublingFormula(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: DoublingFormula
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 195
   assemblies:
   - Combinatorics
@@ -3291,8 +3579,12 @@ items:
   fullName: Combinatorics.Combinatorics.LucasFromFibonacci(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LucasFromFibonacci
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 203
   assemblies:
   - Combinatorics
@@ -3325,8 +3617,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralized(int, int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralized
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 227
   assemblies:
   - Combinatorics
@@ -3382,8 +3678,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralizedSequence(int, int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralizedSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 253
   assemblies:
   - Combinatorics
@@ -3423,8 +3723,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralizedBySum(int, int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralizedBySum
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 281
   assemblies:
   - Combinatorics
@@ -3468,8 +3772,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralized1(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralized1
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 299
   assemblies:
   - Combinatorics
@@ -3502,8 +3810,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralized2(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralized2
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 304
   assemblies:
   - Combinatorics
@@ -3536,8 +3848,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinGeneralized3(int)
   type: Method
   source:
+    remote:
+      path: src/FibonacciMotzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinGeneralized3
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\FibonacciMotzkin.cs
+    path: ../src/FibonacciMotzkin.cs
     startLine: 309
   assemblies:
   - Combinatorics
@@ -3570,8 +3886,12 @@ items:
   fullName: Combinatorics.Combinatorics.Permutations<T>(System.Collections.Generic.IReadOnlyList<T>)
   type: Method
   source:
+    remote:
+      path: src/Generators.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Permutations
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Generators.cs
+    path: ../src/Generators.cs
     startLine: 33
   assemblies:
   - Combinatorics
@@ -3638,8 +3958,12 @@ items:
   fullName: Combinatorics.Combinatorics.EnumerateCombinationIndices(int, int)
   type: Method
   source:
+    remote:
+      path: src/Generators.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: EnumerateCombinationIndices
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Generators.cs
+    path: ../src/Generators.cs
     startLine: 92
   assemblies:
   - Combinatorics
@@ -3704,8 +4028,12 @@ items:
   fullName: Combinatorics.Combinatorics.CombinationsOf<T>(System.Collections.Generic.IReadOnlyList<T>, int)
   type: Method
   source:
+    remote:
+      path: src/Generators.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinationsOf
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Generators.cs
+    path: ../src/Generators.cs
     startLine: 133
   assemblies:
   - Combinatorics
@@ -3761,8 +4089,12 @@ items:
   fullName: Combinatorics.Combinatorics.CombinationsOf(int, int)
   type: Method
   source:
+    remote:
+      path: src/Generators.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinationsOf
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Generators.cs
+    path: ../src/Generators.cs
     startLine: 158
   assemblies:
   - Combinatorics
@@ -3803,8 +4135,12 @@ items:
   fullName: Combinatorics.Combinatorics.Lah(int, int)
   type: Method
   source:
+    remote:
+      path: src/Lah.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Lah
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Lah.cs
+    path: ../src/Lah.cs
     startLine: 26
   assemblies:
   - Combinatorics
@@ -3860,8 +4196,12 @@ items:
   fullName: Combinatorics.Combinatorics.LahRow(int)
   type: Method
   source:
+    remote:
+      path: src/Lah.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: LahRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Lah.cs
+    path: ../src/Lah.cs
     startLine: 46
   assemblies:
   - Combinatorics
@@ -3902,8 +4242,12 @@ items:
   fullName: Combinatorics.Combinatorics.OrderedBell(int)
   type: Method
   source:
+    remote:
+      path: src/Lah.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: OrderedBell
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Lah.cs
+    path: ../src/Lah.cs
     startLine: 73
   assemblies:
   - Combinatorics
@@ -3954,8 +4298,12 @@ items:
   fullName: Combinatorics.Combinatorics.Motzkin(int)
   type: Method
   source:
+    remote:
+      path: src/Motzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Motzkin
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Motzkin.cs
+    path: ../src/Motzkin.cs
     startLine: 25
   assemblies:
   - Combinatorics
@@ -4008,8 +4356,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinSequence(int)
   type: Method
   source:
+    remote:
+      path: src/Motzkin.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Motzkin.cs
+    path: ../src/Motzkin.cs
     startLine: 50
   assemblies:
   - Combinatorics
@@ -4054,8 +4406,12 @@ items:
   fullName: Combinatorics.Combinatorics.Narayana(int, int)
   type: Method
   source:
+    remote:
+      path: src/Narayana.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Narayana
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Narayana.cs
+    path: ../src/Narayana.cs
     startLine: 27
   assemblies:
   - Combinatorics
@@ -4110,8 +4466,12 @@ items:
   fullName: Combinatorics.Combinatorics.NarayanaRow(int)
   type: Method
   source:
+    remote:
+      path: src/Narayana.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: NarayanaRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Narayana.cs
+    path: ../src/Narayana.cs
     startLine: 45
   assemblies:
   - Combinatorics
@@ -4152,8 +4512,12 @@ items:
   fullName: Combinatorics.Combinatorics.Pell(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Pell
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 24
   assemblies:
   - Combinatorics
@@ -4203,8 +4567,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellSequence(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 47
   assemblies:
   - Combinatorics
@@ -4241,8 +4609,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucas(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucas
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 77
   assemblies:
   - Combinatorics
@@ -4288,8 +4660,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucasSequence(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucasSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 99
   assemblies:
   - Combinatorics
@@ -4326,8 +4702,12 @@ items:
   fullName: Combinatorics.Combinatorics.PellLucasIdentity(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PellLucasIdentity
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 122
   assemblies:
   - Combinatorics
@@ -4364,8 +4744,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinTwoColored(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinTwoColored
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 149
   assemblies:
   - Combinatorics
@@ -4415,8 +4799,12 @@ items:
   fullName: Combinatorics.Combinatorics.MotzkinTwoColoredSequence(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: MotzkinTwoColoredSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 173
   assemblies:
   - Combinatorics
@@ -4453,8 +4841,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederCatalan(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederCatalan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 207
   assemblies:
   - Combinatorics
@@ -4502,8 +4894,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederCatalanSequence(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederCatalanSequence
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 220
   assemblies:
   - Combinatorics
@@ -4540,8 +4936,12 @@ items:
   fullName: Combinatorics.Combinatorics.SchroederCatalanBySum(int)
   type: Method
   source:
+    remote:
+      path: src/PellSchroeder.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SchroederCatalanBySum
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\PellSchroeder.cs
+    path: ../src/PellSchroeder.cs
     startLine: 238
   assemblies:
   - Combinatorics
@@ -4582,8 +4982,12 @@ items:
   fullName: Combinatorics.Combinatorics.StirlingFirstKind(int, int)
   type: Method
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: StirlingFirstKind
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 27
   assemblies:
   - Combinatorics
@@ -4641,8 +5045,12 @@ items:
   fullName: Combinatorics.Combinatorics.SignedStirlingFirstKind(int, int)
   type: Method
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: SignedStirlingFirstKind
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 67
   assemblies:
   - Combinatorics
@@ -4698,8 +5106,12 @@ items:
   fullName: Combinatorics.Combinatorics.StirlingFirstKindRow(int)
   type: Method
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: StirlingFirstKindRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 87
   assemblies:
   - Combinatorics
@@ -4744,8 +5156,12 @@ items:
   fullName: Combinatorics.Combinatorics.StirlingSecondKind(int, int)
   type: Method
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: StirlingSecondKind
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 129
   assemblies:
   - Combinatorics
@@ -4803,8 +5219,12 @@ items:
   fullName: Combinatorics.Combinatorics.StirlingSecondKindRow(int)
   type: Method
   source:
+    remote:
+      path: src/Stirling.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: StirlingSecondKindRow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\Stirling.cs
+    path: ../src/Stirling.cs
     startLine: 162
   assemblies:
   - Combinatorics

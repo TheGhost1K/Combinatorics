@@ -16,8 +16,12 @@ items:
   fullName: Combinatorics.RationalMode
   type: Enum
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: RationalMode
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 602
   assemblies:
   - Combinatorics
@@ -39,8 +43,12 @@ items:
   fullName: Combinatorics.RationalMode.Fraction
   type: Field
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Fraction
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 605
   assemblies:
   - Combinatorics
@@ -63,8 +71,12 @@ items:
   fullName: Combinatorics.RationalMode.Decimal
   type: Field
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Decimal
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 608
   assemblies:
   - Combinatorics
@@ -87,8 +99,12 @@ items:
   fullName: Combinatorics.RationalMode.Both
   type: Field
   source:
+    remote:
+      path: src/CombinatoricsFormatter.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Both
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\CombinatoricsFormatter.cs
+    path: ../src/CombinatoricsFormatter.cs
     startLine: 611
   assemblies:
   - Combinatorics

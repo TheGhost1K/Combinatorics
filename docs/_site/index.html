@@ -76,25 +76,37 @@
 <h2 id="возможности">Возможности</h2>
 <ul>
 <li><strong>Базовые:</strong> факториал, сочетания, размещения, перестановки, Паскаль.</li>
-<li><strong>Классические:</strong> Каталан, Нараян, Моцкин (обычный и обобщённый).</li>
+<li><strong>Классические:</strong> Каталан, Нараян, Моцкин (обычный, 2-цветный, обобщённый).</li>
 <li><strong>Разбиения:</strong> Стирлинг 1-го и 2-го рода, Белл, Лах, Fubini.</li>
 <li><strong>Перестановки:</strong> Эйлера (подъёмы/спуски).</li>
 <li><strong>Пути:</strong> Деланнуа, Шрёдер (большой и малый), Шрёдер–Каталан.</li>
-<li><strong>Обобщения:</strong> Фусс–Каталан, обобщённый Моцкин.</li>
+<li><strong>Обобщения:</strong> Фусс–Каталан.</li>
 <li><strong>Рекуррентные:</strong> Фибоначчи, Люка, Пелль, Пелль–Люка.</li>
-<li><strong>Бернулли:</strong> точные дроби через BigRational.</li>
-<li><strong>Формулы Бине:</strong> в точной арифметике Q(√d) через QuadraticSurd.</li>
+<li><strong>Бернулли:</strong> точные дроби через <code>BigRational</code>.</li>
+<li><strong>Формулы Бине:</strong> в точной арифметике Q(√d) через <code>QuadraticSurd</code>.</li>
 <li><strong>Асимптотики:</strong> базовые и расширенные с оценкой погрешности.</li>
+<li><strong>Генераторы:</strong> перестановки и сочетания (ленивые).</li>
+<li><strong>Красивый вывод:</strong> форматирование и печать результатов.</li>
 </ul>
 <h2 id="быстрый-старт">Быстрый старт</h2>
 <pre><code class="lang-csharp">using static Combinatorics.Combinatorics;
 
-var fact = Factorial(20);                    // 2432902008176640000
-var hands = Combinations(52, 5);             // 2598960
-var c10 = Catalan(10);                       // 16796
-var fib100 = FibonacciFast(100);             // 354224848179261915075
-var b6 = Bernoulli(6);                       // 1/42
+var fact    = Factorial(20);          // 2432902008176640000
+var hands   = Combinations(52, 5);    // 2598960
+var catalan = Catalan(10);            // 16796
+var fib100  = FibonacciFast(100);     // 354224848179261915075
+var b6      = Bernoulli(6);           // 1/42
 </code></pre>
+<h2 id="разделы">Разделы</h2>
+<ul>
+<li><a href="articles/examples.html">Примеры</a></li>
+<li><a href="articles/architecture.html">Архитектура</a></li>
+</ul>
+<h2 id="ссылки">Ссылки</h2>
+<ul>
+<li><a href="https://github.com/TheGhost1K/Combinatorics">Исходный код на GitHub</a></li>
+<li><a href="https://oeis.org">OEIS — энциклопедия последовательностей</a></li>
+</ul>
 
 </article>
           </div>
@@ -103,6 +115,9 @@ var b6 = Bernoulli(6);                       // 1/42
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/TheGhost1K/Combinatorics/blob/master/docs/index.md/#L1" class="contribution-link">Edit this page</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

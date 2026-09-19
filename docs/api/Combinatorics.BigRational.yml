@@ -56,8 +56,12 @@ items:
   fullName: Combinatorics.BigRational
   type: Struct
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: BigRational
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 27
   assemblies:
   - Combinatorics
@@ -116,8 +120,12 @@ items:
   fullName: Combinatorics.BigRational.Num
   type: Property
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Num
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 34
   assemblies:
   - Combinatorics
@@ -144,8 +152,12 @@ items:
   fullName: Combinatorics.BigRational.Den
   type: Property
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Den
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 38
   assemblies:
   - Combinatorics
@@ -172,8 +184,12 @@ items:
   fullName: Combinatorics.BigRational.Zero
   type: Field
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Zero
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 41
   assemblies:
   - Combinatorics
@@ -197,8 +213,12 @@ items:
   fullName: Combinatorics.BigRational.One
   type: Field
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: One
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 44
   assemblies:
   - Combinatorics
@@ -222,8 +242,12 @@ items:
   fullName: Combinatorics.BigRational.BigRational(System.Numerics.BigInteger, System.Numerics.BigInteger)
   type: Constructor
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: .ctor
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 69
   assemblies:
   - Combinatorics
@@ -282,8 +306,12 @@ items:
   fullName: Combinatorics.BigRational.BigRational(long)
   type: Constructor
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: .ctor
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 87
   assemblies:
   - Combinatorics
@@ -314,8 +342,12 @@ items:
   fullName: Combinatorics.BigRational.operator +(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Addition
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 100
   assemblies:
   - Combinatorics
@@ -352,8 +384,12 @@ items:
   fullName: Combinatorics.BigRational.operator -(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Subtraction
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 111
   assemblies:
   - Combinatorics
@@ -389,8 +425,12 @@ items:
   fullName: Combinatorics.BigRational.operator *(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Multiply
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 122
   assemblies:
   - Combinatorics
@@ -426,8 +466,12 @@ items:
   fullName: Combinatorics.BigRational.operator /(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Division
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 130
   assemblies:
   - Combinatorics
@@ -467,8 +511,12 @@ items:
   fullName: Combinatorics.BigRational.operator -(Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_UnaryNegation
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 136
   assemblies:
   - Combinatorics
@@ -501,8 +549,12 @@ items:
   fullName: Combinatorics.BigRational.operator +(Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_UnaryPlus
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 142
   assemblies:
   - Combinatorics
@@ -535,8 +587,12 @@ items:
   fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 150
   assemblies:
   - Combinatorics
@@ -572,8 +628,12 @@ items:
   fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 157
   assemblies:
   - Combinatorics
@@ -609,8 +669,12 @@ items:
   fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 164
   assemblies:
   - Combinatorics
@@ -646,8 +710,12 @@ items:
   fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 171
   assemblies:
   - Combinatorics
@@ -683,8 +751,12 @@ items:
   fullName: Combinatorics.BigRational.operator ==(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Equality
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 181
   assemblies:
   - Combinatorics
@@ -721,8 +793,12 @@ items:
   fullName: Combinatorics.BigRational.operator !=(Combinatorics.BigRational, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Inequality
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 188
   assemblies:
   - Combinatorics
@@ -758,8 +834,12 @@ items:
   fullName: Combinatorics.BigRational.CompareTo(Combinatorics.BigRational)
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CompareTo
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 203
   assemblies:
   - Combinatorics
@@ -792,8 +872,12 @@ items:
   fullName: Combinatorics.BigRational.CompareTo(object?)
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CompareTo
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 214
   assemblies:
   - Combinatorics
@@ -832,8 +916,12 @@ items:
   fullName: Combinatorics.BigRational.Equals(Combinatorics.BigRational)
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Equals
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 228
   assemblies:
   - Combinatorics
@@ -865,8 +953,12 @@ items:
   fullName: Combinatorics.BigRational.Equals(object?)
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Equals
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 235
   assemblies:
   - Combinatorics
@@ -900,8 +992,12 @@ items:
   fullName: Combinatorics.BigRational.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: GetHashCode
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 241
   assemblies:
   - Combinatorics
@@ -928,8 +1024,12 @@ items:
   fullName: Combinatorics.BigRational.implicit operator Combinatorics.BigRational(long)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Implicit
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 248
   assemblies:
   - Combinatorics
@@ -962,8 +1062,12 @@ items:
   fullName: Combinatorics.BigRational.implicit operator Combinatorics.BigRational(System.Numerics.BigInteger)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Implicit
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 253
   assemblies:
   - Combinatorics
@@ -996,8 +1100,12 @@ items:
   fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, long)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 261
   assemblies:
   - Combinatorics
@@ -1033,8 +1141,12 @@ items:
   fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, long)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 267
   assemblies:
   - Combinatorics
@@ -1070,8 +1182,12 @@ items:
   fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, long)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 273
   assemblies:
   - Combinatorics
@@ -1107,8 +1223,12 @@ items:
   fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, long)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 279
   assemblies:
   - Combinatorics
@@ -1144,8 +1264,12 @@ items:
   fullName: Combinatorics.BigRational.operator <(long, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 285
   assemblies:
   - Combinatorics
@@ -1181,8 +1305,12 @@ items:
   fullName: Combinatorics.BigRational.operator >(long, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 291
   assemblies:
   - Combinatorics
@@ -1218,8 +1346,12 @@ items:
   fullName: Combinatorics.BigRational.operator <=(long, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 297
   assemblies:
   - Combinatorics
@@ -1255,8 +1387,12 @@ items:
   fullName: Combinatorics.BigRational.operator >=(long, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 303
   assemblies:
   - Combinatorics
@@ -1292,8 +1428,12 @@ items:
   fullName: Combinatorics.BigRational.operator <(Combinatorics.BigRational, System.Numerics.BigInteger)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 309
   assemblies:
   - Combinatorics
@@ -1329,8 +1469,12 @@ items:
   fullName: Combinatorics.BigRational.operator >(Combinatorics.BigRational, System.Numerics.BigInteger)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 315
   assemblies:
   - Combinatorics
@@ -1366,8 +1510,12 @@ items:
   fullName: Combinatorics.BigRational.operator <=(Combinatorics.BigRational, System.Numerics.BigInteger)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 321
   assemblies:
   - Combinatorics
@@ -1403,8 +1551,12 @@ items:
   fullName: Combinatorics.BigRational.operator >=(Combinatorics.BigRational, System.Numerics.BigInteger)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 327
   assemblies:
   - Combinatorics
@@ -1440,8 +1592,12 @@ items:
   fullName: Combinatorics.BigRational.operator <(System.Numerics.BigInteger, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 333
   assemblies:
   - Combinatorics
@@ -1477,8 +1633,12 @@ items:
   fullName: Combinatorics.BigRational.operator >(System.Numerics.BigInteger, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThan
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 339
   assemblies:
   - Combinatorics
@@ -1514,8 +1674,12 @@ items:
   fullName: Combinatorics.BigRational.operator <=(System.Numerics.BigInteger, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_LessThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 345
   assemblies:
   - Combinatorics
@@ -1551,8 +1715,12 @@ items:
   fullName: Combinatorics.BigRational.operator >=(System.Numerics.BigInteger, Combinatorics.BigRational)
   type: Operator
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_GreaterThanOrEqual
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 351
   assemblies:
   - Combinatorics
@@ -1588,8 +1756,12 @@ items:
   fullName: Combinatorics.BigRational.ToString()
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: ToString
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 368
   assemblies:
   - Combinatorics
@@ -1623,8 +1795,12 @@ items:
   fullName: Combinatorics.BigRational.ToDecimalString(int)
   type: Method
   source:
+    remote:
+      path: src/BigRational.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: ToDecimalString
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\BigRational.cs
+    path: ../src/BigRational.cs
     startLine: 386
   assemblies:
   - Combinatorics

@@ -37,8 +37,12 @@ items:
   fullName: Combinatorics.QuadraticSurd
   type: Struct
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: QuadraticSurd
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 27
   assemblies:
   - Combinatorics
@@ -95,8 +99,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.A
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: A
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 31
   assemblies:
   - Combinatorics
@@ -123,8 +131,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.B
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: B
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 35
   assemblies:
   - Combinatorics
@@ -151,8 +163,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.C
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: C
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 39
   assemblies:
   - Combinatorics
@@ -179,8 +195,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.D
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: D
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 46
   assemblies:
   - Combinatorics
@@ -210,8 +230,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.QuadraticSurd(System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger, System.Numerics.BigInteger)
   type: Constructor
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: .ctor
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 71
   assemblies:
   - Combinatorics
@@ -273,8 +297,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.FromInteger(System.Numerics.BigInteger, System.Numerics.BigInteger)
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: FromInteger
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 86
   assemblies:
   - Combinatorics
@@ -304,8 +332,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Sqrt(System.Numerics.BigInteger)
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Sqrt
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 90
   assemblies:
   - Combinatorics
@@ -333,8 +365,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.IsRational
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: IsRational
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 94
   assemblies:
   - Combinatorics
@@ -360,8 +396,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.ToRational()
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: ToRational
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 97
   assemblies:
   - Combinatorics
@@ -386,8 +426,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Conjugate
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Conjugate
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 104
   assemblies:
   - Combinatorics
@@ -413,8 +457,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Norm
   type: Property
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Norm
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 107
   assemblies:
   - Combinatorics
@@ -440,8 +488,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator +(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Addition
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 123
   assemblies:
   - Combinatorics
@@ -481,8 +533,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator -(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Subtraction
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 138
   assemblies:
   - Combinatorics
@@ -522,8 +578,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator *(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Multiply
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 158
   assemblies:
   - Combinatorics
@@ -564,8 +624,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator /(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Division
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 179
   assemblies:
   - Combinatorics
@@ -609,8 +673,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator -(Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_UnaryNegation
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 192
   assemblies:
   - Combinatorics
@@ -643,8 +711,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator +(Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_UnaryPlus
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 197
   assemblies:
   - Combinatorics
@@ -677,8 +749,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Pow(Combinatorics.QuadraticSurd, int)
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Pow
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 216
   assemblies:
   - Combinatorics
@@ -724,8 +800,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Equals(Combinatorics.QuadraticSurd)
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Equals
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 238
   assemblies:
   - Combinatorics
@@ -757,8 +837,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.Equals(object?)
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Equals
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 244
   assemblies:
   - Combinatorics
@@ -792,8 +876,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.GetHashCode()
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: GetHashCode
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 248
   assemblies:
   - Combinatorics
@@ -820,8 +908,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator ==(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Equality
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 254
   assemblies:
   - Combinatorics
@@ -857,8 +949,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.operator !=(Combinatorics.QuadraticSurd, Combinatorics.QuadraticSurd)
   type: Operator
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: op_Inequality
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 260
   assemblies:
   - Combinatorics
@@ -894,8 +990,12 @@ items:
   fullName: Combinatorics.QuadraticSurd.ToString()
   type: Method
   source:
+    remote:
+      path: src/QuadraticSurd.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
     id: ToString
-    path: C:\Users\User\Documents\Repos\Combinatorics\src\QuadraticSurd.cs
+    path: ../src/QuadraticSurd.cs
     startLine: 280
   assemblies:
   - Combinatorics

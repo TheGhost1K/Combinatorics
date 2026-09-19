@@ -2,3 +2,31 @@
   href: examples.md
 - name: Архитектура
   href: architecture.md
+- name: Базовые вычисления
+  href: basic.md
+- name: Числа Каталана
+  href: catalan.md
+- name: Стирлинг и Белл
+  href: stirling-bell.md
+- name: Эйлер и Лах
+  href: euler-lah.md
+- name: Нараян и Фусс–Каталан
+  href: narayana-fuss.md
+- name: Числа Моцкина
+  href: motzkin.md
+- name: (Пути) Деланнуа и Шрёдер
+  href: paths.md
+- name: Фибоначчи и Люка
+  href: fibonacci-lucas.md
+- name: Числа Пелля
+  href: pell.md
+- name: Числа Бернулли
+  href: bernoulli.md
+- name: Формулы Бине
+  href: binet.md
+- name: Генераторы
+  href: generators.md
+- name: Красивый вывод
+  href: formatter.md
+- name: Асимптотики
+  href: asymptotics.md
