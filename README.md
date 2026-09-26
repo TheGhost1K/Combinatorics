@@ -29,7 +29,9 @@
 - [API Reference](#api-reference)
 - [Требования](#требования)
 - [Тестирование и бенчмарки](#тестирование-и-бенчмарки)
+- [Архитектура](#архитектура)
 - [Лицензия](#лицензия)
+- [Вклад](#вклад)
 
 ---
 
@@ -73,7 +75,7 @@
 - Точные формулы для Фибоначчи, Люка, Пелля, Пелля–Люка.
 
 ### Асимптотики
-- Базовые оценки O(1/n) для факториала, Каталана, Белла, сочетаний.
+- Базовые оценки O(1/n) для факториала, Каталана, Белла, сочетаний, Моцкина.
 - Расширенные оценки O(1/n⁴) через ряды Стирлинга.
 - Функция Ламберта W и гамма Ланцоша.
 - Оценка относительной погрешности.
@@ -104,10 +106,16 @@
 dotnet add package Combinatorics
 ```
 
+Указать конкретную версию:
+
+```bash
+dotnet add package Combinatorics --version 1.0.0
+```
+
 ### Из исходников
 
 ```bash
-git clone https://github.com/TheGhost1K/combinatorics.git
+git clone https://github.com/TheGhost1K/Combinatorics.git
 cd combinatorics
 dotnet build -c Release
 dotnet test -c Release
@@ -129,6 +137,11 @@ var catalan = Catalan(10);            // 16796
 // Разбиения
 var bell     = Bell(10);                // 115975
 var stirling = StirlingSecondKind(5, 2); // 15
+
+// Пути
+var delannoy = Delannoy(5, 5);          // 1683
+var schroeder = SchroederLarge(5);      // 394
+var motzkin = MotzkinTwoColored(5);     // 132
 
 // Рекуррентные
 var fib100 = FibonacciFast(100);       // 354224848179261915075
@@ -322,8 +335,8 @@ Delannoy(3, 3);                   // 63
 Delannoy(5, 5);                   // 1683
 Delannoy(2, 3);                   // 25
 
-// Центральные
-DelannoyCentral(5);               // 1683
+// Центральные (m = n)
+DelannoyCentral(5);               // 1683 = Delannoy(5, 5)
 
 var central = DelannoyCentralSequence(8);
 // 1, 3, 13, 63, 321, 1683, 8989, 48639
@@ -354,7 +367,7 @@ var large = SchroederLargeSequence(9);
 // Пути длины n с шагами (1,0), (1,1), (1,-1), не ниже оси
 Motzkin(0);                       // 1
 Motzkin(10);                      // 2188
-Motzkin(15);                      // 127
+Motzkin(15);                      // 310572
 
 var motzkins = MotzkinSequence(11);
 // 1, 1, 2, 4, 9, 21, 51, 127, 323, 835, 2188
@@ -428,7 +441,7 @@ var pells = PellSequence(11);
 ```csharp
 PellLucas(0);                     // 2
 PellLucas(10);                    // 6726
-PellLucas(20);                    // 15994428
+PellLucas(20);                    // 10749957122
 
 var seq = PellLucasSequence(11);
 // 2, 2, 6, 14, 34, 82, 198, 478, 1154, 2786, 6726
@@ -549,6 +562,9 @@ BellApprox(50);                   // 1.86e47
 
 // Сочетания через логарифмы
 CombinationsApprox(1000, 500);    // 2.70e299
+
+// Моцкин: M(n) ≈ 3^(n+3/2) / (2·√π·n^(3/2))
+MotzkinApprox(100);               // ~8.5e47
 ```
 
 ### Расширенные (O(1/n⁴))
@@ -753,9 +769,9 @@ var union = InclusionExclusion(sizes, idx => idx.Length switch
 
 ### См. также
 
-- [Пути: Деланнуа и Шрёдер](docs/articles/paths.md)
-- [Числа Бернулли](docs/articles/bernoulli.md)
-- [API Reference](docs/api/Combinatorics.html)
+- [Пути: Деланнуа и Шрёдер](https://TheGhost1K.github.io/Combinatorics/articles/paths.html)
+- [Числа Бернулли](https://TheGhost1K.github.io/Combinatorics/articles/bernoulli.html)
+- [API Reference](https://TheGhost1K.github.io/Combinatorics/api/Combinatorics.html)
 
 ---
 
@@ -989,6 +1005,8 @@ for (int n = 10; n <= 50; n += 10)
 | `PrintSubheader` | Подзаголовок |
 | `RationalMode` (enum) | `Fraction`, `Decimal`, `Both` |
 
+---
+
 ## Точные дроби и иррациональности
 
 ### BigRational — точные дроби
@@ -1180,7 +1198,7 @@ src/Combinatorics/
 ├── Combinatorics.Bernoulli.cs          — Бернулли
 ├── Combinatorics.Generators.cs         — перестановки, сочетания
 ├── Combinatorics.Extra.cs              — Деланнуа, Шрёдер, Фусс–Каталан
-├── Combinatorics.Extended.cs           — Деланнуа (оптимизированный метод), Дженокки, Включения-исключения
+├── Combinatorics.Extended.cs           — Деланнуа (оптимизированный), Дженокки, включения-исключения
 ├── Combinatorics.PellSchroeder.cs      — Пелль, Пелль–Люка, Шрёдер–Каталан
 ├── Combinatorics.FibonacciMotzkin.cs   — Фибоначчи, Люка, обобщённый Моцкин
 ├── Combinatorics.Binet.cs              — формулы Бине
@@ -1214,6 +1232,13 @@ MIT. См. [LICENSE](LICENSE).
 dotnet build -c Release
 dotnet test -c Release
 ```
+
+### Стиль кода
+
+- Все публичные методы должны иметь XML-комментарии (`<summary>`, `<param>`, `<returns>`).
+- Тесты — xUnit, называются по шаблону `MethodName_Scenario_ExpectedResult`.
+- Перед PR: `dotnet format` + `dotnet test -c Release`.
+- Новые последовательности должны сопровождаться тестами со сверкой с OEIS.
 
 ### Идеи для будущего
 
