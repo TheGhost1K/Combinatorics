@@ -189,6 +189,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/extended.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/extended.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/fibonacci-lucas.md",
       "output": {
         ".html": {

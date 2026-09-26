@@ -28,6 +28,7 @@ namespace Combinatorics
     ///   <item><description><c>Combinatorics.Binet.cs</c> — формулы Бине в точной арифметике.</description></item>
     ///   <item><description><c>Combinatorics.Asymptotics.cs</c> — базовые асимптотики.</description></item>
     ///   <item><description><c>Combinatorics.AsymptoticsExtended.cs</c> — расширенные асимптотики.</description></item>
+    ///   <item><description><c>Combinatorics.Extended.cs</c> — оптимизированный Деланнуа, Дженокки, включения-исключения.</description></item>
     /// </list>
     /// </para>
     /// <para>

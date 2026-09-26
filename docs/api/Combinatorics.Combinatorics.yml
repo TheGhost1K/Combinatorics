@@ -28,6 +28,7 @@ items:
   - Combinatorics.Combinatorics.DelannoyCentralApprox(System.Int32)
   - Combinatorics.Combinatorics.DelannoyCentralApproxExtended(System.Int32)
   - Combinatorics.Combinatorics.DelannoyCentralSequence(System.Int32)
+  - Combinatorics.Combinatorics.DelannoyFast(System.Int32,System.Int32)
   - Combinatorics.Combinatorics.DoublingFormula(System.Int32)
   - Combinatorics.Combinatorics.EnumerateCombinationIndices(System.Int32,System.Int32)
   - Combinatorics.Combinatorics.Eulerian(System.Int32,System.Int32)
@@ -47,6 +48,9 @@ items:
   - Combinatorics.Combinatorics.FussCatalan(System.Int32,System.Int32)
   - Combinatorics.Combinatorics.FussCatalanSequence(System.Int32,System.Int32)
   - Combinatorics.Combinatorics.GammaLanczos(System.Double)
+  - Combinatorics.Combinatorics.Genocchi(System.Int32)
+  - Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  - Combinatorics.Combinatorics.InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
   - Combinatorics.Combinatorics.Lah(System.Int32,System.Int32)
   - Combinatorics.Combinatorics.LahRow(System.Int32)
   - Combinatorics.Combinatorics.LambertW(System.Double)
@@ -144,7 +148,7 @@ items:
     Класс разбит на несколько <code>partial</code>-файлов по логическим группам:
 
 
-    <ul><li><code>Combinatorics.Basic.cs</code> — факториал, сочетания, размещения, Каталан, Паскаль.</li><li><code>Combinatorics.Stirling.cs</code> — числа Стирлинга 1-го и 2-го рода.</li><li><code>Combinatorics.BellEuler.cs</code> — числа Белла, Эйлера.</li><li><code>Combinatorics.Lah.cs</code> — числа Лаха и Fubini.</li><li><code>Combinatorics.Narayana.cs</code> — числа Нараяны.</li><li><code>Combinatorics.Motzkin.cs</code> — числа Моцкина.</li><li><code>Combinatorics.Bernoulli.cs</code> — числа Бернулли.</li><li><code>Combinatorics.Generators.cs</code> — генераторы перестановок и сочетаний.</li><li><code>Combinatorics.Extra.cs</code> — Деланнуа, Шрёдер, Фусс–Каталан.</li><li><code>Combinatorics.PellSchroeder.cs</code> — Пелль, Пелль–Люка, Шрёдер–Каталан.</li><li><code>Combinatorics.FibonacciMotzkin.cs</code> — Фибоначчи, Люка, обобщённый Моцкин.</li><li><code>Combinatorics.Binet.cs</code> — формулы Бине в точной арифметике.</li><li><code>Combinatorics.Asymptotics.cs</code> — базовые асимптотики.</li><li><code>Combinatorics.AsymptoticsExtended.cs</code> — расширенные асимптотики.</li></ul>
+    <ul><li><code>Combinatorics.Basic.cs</code> — факториал, сочетания, размещения, Каталан, Паскаль.</li><li><code>Combinatorics.Stirling.cs</code> — числа Стирлинга 1-го и 2-го рода.</li><li><code>Combinatorics.BellEuler.cs</code> — числа Белла, Эйлера.</li><li><code>Combinatorics.Lah.cs</code> — числа Лаха и Fubini.</li><li><code>Combinatorics.Narayana.cs</code> — числа Нараяны.</li><li><code>Combinatorics.Motzkin.cs</code> — числа Моцкина.</li><li><code>Combinatorics.Bernoulli.cs</code> — числа Бернулли.</li><li><code>Combinatorics.Generators.cs</code> — генераторы перестановок и сочетаний.</li><li><code>Combinatorics.Extra.cs</code> — Деланнуа, Шрёдер, Фусс–Каталан.</li><li><code>Combinatorics.PellSchroeder.cs</code> — Пелль, Пелль–Люка, Шрёдер–Каталан.</li><li><code>Combinatorics.FibonacciMotzkin.cs</code> — Фибоначчи, Люка, обобщённый Моцкин.</li><li><code>Combinatorics.Binet.cs</code> — формулы Бине в точной арифметике.</li><li><code>Combinatorics.Asymptotics.cs</code> — базовые асимптотики.</li><li><code>Combinatorics.AsymptoticsExtended.cs</code> — расширенные асимптотики.</li><li><code>Combinatorics.Extended.cs</code> — оптимизированный Деланнуа, Дженокки, включения-исключения.</li></ul>
 
     </p>
 
@@ -1334,7 +1338,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Factorial
     path: ../src/Basic.cs
-    startLine: 78
+    startLine: 79
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1414,7 +1418,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Permutations
     path: ../src/Basic.cs
-    startLine: 140
+    startLine: 141
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1464,7 +1468,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PermutationsWithRepetition
     path: ../src/Basic.cs
-    startLine: 157
+    startLine: 158
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1511,7 +1515,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Arrangements
     path: ../src/Basic.cs
-    startLine: 189
+    startLine: 190
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1565,7 +1569,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Combinations
     path: ../src/Basic.cs
-    startLine: 220
+    startLine: 221
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1632,7 +1636,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CombinationsWithRepetition
     path: ../src/Basic.cs
-    startLine: 249
+    startLine: 250
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1683,7 +1687,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: Catalan
     path: ../src/Basic.cs
-    startLine: 280
+    startLine: 281
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1751,7 +1755,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: CatalanSequence
     path: ../src/Basic.cs
-    startLine: 302
+    startLine: 303
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -1801,7 +1805,7 @@ items:
       repo: https://github.com/TheGhost1K/Combinatorics.git
     id: PascalRow
     path: ../src/Basic.cs
-    startLine: 333
+    startLine: 334
   assemblies:
   - Combinatorics
   namespace: Combinatorics
@@ -2627,6 +2631,302 @@ items:
   nameWithType.vb: Combinatorics.PellLucasBinet(Integer)
   fullName.vb: Combinatorics.Combinatorics.PellLucasBinet(Integer)
   name.vb: PellLucasBinet(Integer)
+- uid: Combinatorics.Combinatorics.DelannoyFast(System.Int32,System.Int32)
+  commentId: M:Combinatorics.Combinatorics.DelannoyFast(System.Int32,System.Int32)
+  id: DelannoyFast(System.Int32,System.Int32)
+  parent: Combinatorics.Combinatorics
+  langs:
+  - csharp
+  - vb
+  name: DelannoyFast(int, int)
+  nameWithType: Combinatorics.DelannoyFast(int, int)
+  fullName: Combinatorics.Combinatorics.DelannoyFast(int, int)
+  type: Method
+  source:
+    remote:
+      path: src/Extended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
+    id: DelannoyFast
+    path: ../src/Extended.cs
+    startLine: 38
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Число Деланнуа D(m, n) через альтернативную формулу, эффективную при больших m, n.
+  remarks: >-
+    <p>
+
+    Использует симметрию <code>D(m, n) = D(n, m)</code> и формулу
+
+    <code>D(m, n) = Σ_{k=0}^{m} C(m, k) · C(n+k, m)</code>, где m = min(m, n).
+
+    </p>
+
+    <p>
+
+    Для малых значений (m·n ≤ 2500) делегирует обычному <xref href="Combinatorics.Combinatorics.Delannoy(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref>,
+
+    который считает через <code>Σ C(m,k)·C(n,k)·2^k</code>.
+
+    </p>
+
+    <p>
+
+    Обе формулы эквивалентны, но альтернативная короче при большом разбросе m и n,
+
+    так как суммирование идёт по меньшему из них.
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">DelannoyFast(3, 3);       // 63   — идёт через Delannoy (мало)
+
+    DelannoyFast(100, 100);   // быстро, несмотря на большое значение
+
+    DelannoyFast(500, 500);   // всё ещё быстро</code></pre>
+  syntax:
+    content: public static BigInteger DelannoyFast(int m, int n)
+    parameters:
+    - id: m
+      type: System.Int32
+      description: Горизонтальная координата, m ≥ 0.
+    - id: n
+      type: System.Int32
+      description: Вертикальная координата, n ≥ 0.
+    return:
+      type: System.Numerics.BigInteger
+      description: Значение D(m, n).
+    content.vb: Public Shared Function DelannoyFast(m As Integer, n As Integer) As BigInteger
+  overload: Combinatorics.Combinatorics.DelannoyFast*
+  exceptions:
+  - type: System.ArgumentException
+    commentId: T:System.ArgumentException
+    description: Если m &lt; 0 или n &lt; 0.
+  seealso:
+  - linkId: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+    commentId: M:Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+  - linkId: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+    commentId: M:Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+  nameWithType.vb: Combinatorics.DelannoyFast(Integer, Integer)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyFast(Integer, Integer)
+  name.vb: DelannoyFast(Integer, Integer)
+- uid: Combinatorics.Combinatorics.Genocchi(System.Int32)
+  commentId: M:Combinatorics.Combinatorics.Genocchi(System.Int32)
+  id: Genocchi(System.Int32)
+  parent: Combinatorics.Combinatorics
+  langs:
+  - csharp
+  - vb
+  name: Genocchi(int)
+  nameWithType: Combinatorics.Genocchi(int)
+  fullName: Combinatorics.Combinatorics.Genocchi(int)
+  type: Method
+  source:
+    remote:
+      path: src/Extended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
+    id: Genocchi
+    path: ../src/Extended.cs
+    startLine: 94
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: n-е число Дженокки G_n.
+  remarks: >-
+    <p>
+
+    Определяются через производящую функцию: <code>2x / (e^x + 1) = Σ G_n · x^n / n!</code>.
+
+    </p>
+
+    <p>
+
+    Связь с числами Бернулли: <code>G_n = 2(1 − 2^n) · B_n</code>.
+
+    </p>
+
+    <p>
+
+    Свойства:
+
+
+    <ul><li><code>G_0 = 0</code>, <code>G_1 = 1</code>.</li><li>Все <code>G_{2k+1} = 0</code> для k ≥ 1.</li><li>Знаки чередуются: <code>G_2 = −1</code>, <code>G_4 = 1</code>, <code>G_6 = −3</code>, <code>G_8 = 17</code>.</li></ul>
+
+    </p>
+
+    <p>
+
+    Комбинаторный смысл: <code>|G_{2n}|</code> — число чередующихся перестановок
+
+    с чётным числом элементов в специальном классе.
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">Genocchi(0);   // 0
+
+    Genocchi(2);   // -1
+
+    Genocchi(4);   // 1
+
+    Genocchi(6);   // -3
+
+    Genocchi(8);   // 17</code></pre>
+  syntax:
+    content: public static BigInteger Genocchi(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+      description: Неотрицательное целое.
+    return:
+      type: System.Numerics.BigInteger
+      description: Значение G_n (знак может быть отрицательным).
+    content.vb: Public Shared Function Genocchi(n As Integer) As BigInteger
+  overload: Combinatorics.Combinatorics.Genocchi*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Если <code class="paramref">n</code> &lt; 0.
+  seealso:
+  - linkType: HRef
+    linkId: https://oeis.org/A036968
+    altText: https://oeis.org/A036968
+  - linkId: Combinatorics.Combinatorics.Bernoulli(System.Int32)
+    commentId: M:Combinatorics.Combinatorics.Bernoulli(System.Int32)
+  - linkId: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+    commentId: M:Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  nameWithType.vb: Combinatorics.Genocchi(Integer)
+  fullName.vb: Combinatorics.Combinatorics.Genocchi(Integer)
+  name.vb: Genocchi(Integer)
+- uid: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  commentId: M:Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  id: GenocchiSequence(System.Int32)
+  parent: Combinatorics.Combinatorics
+  langs:
+  - csharp
+  - vb
+  name: GenocchiSequence(int)
+  nameWithType: Combinatorics.GenocchiSequence(int)
+  fullName: Combinatorics.Combinatorics.GenocchiSequence(int)
+  type: Method
+  source:
+    remote:
+      path: src/Extended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
+    id: GenocchiSequence
+    path: ../src/Extended.cs
+    startLine: 120
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: Первые <code class="paramref">count</code> чисел Дженокки.
+  example:
+  - >-
+    <pre><code class="lang-csharp">GenocchiSequence(10);
+
+    // 0, 1, -1, 0, 1, 0, -3, 0, 17, 0</code></pre>
+  syntax:
+    content: public static BigInteger[] GenocchiSequence(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+      description: Сколько чисел вернуть, count ≥ 0.
+    return:
+      type: System.Numerics.BigInteger[]
+      description: Массив длины <code class="paramref">count</code>.
+    content.vb: Public Shared Function GenocchiSequence(count As Integer) As BigInteger()
+  overload: Combinatorics.Combinatorics.GenocchiSequence*
+  exceptions:
+  - type: System.ArgumentOutOfRangeException
+    commentId: T:System.ArgumentOutOfRangeException
+    description: Если <code class="paramref">count</code> &lt; 0.
+  nameWithType.vb: Combinatorics.GenocchiSequence(Integer)
+  fullName.vb: Combinatorics.Combinatorics.GenocchiSequence(Integer)
+  name.vb: GenocchiSequence(Integer)
+- uid: Combinatorics.Combinatorics.InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
+  commentId: M:Combinatorics.Combinatorics.InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
+  id: InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
+  parent: Combinatorics.Combinatorics
+  langs:
+  - csharp
+  - vb
+  name: InclusionExclusion(int[], Func<int[], BigInteger>)
+  nameWithType: Combinatorics.InclusionExclusion(int[], Func<int[], BigInteger>)
+  fullName: Combinatorics.Combinatorics.InclusionExclusion(int[], System.Func<int[], System.Numerics.BigInteger>)
+  type: Method
+  source:
+    remote:
+      path: src/Extended.cs
+      branch: master
+      repo: https://github.com/TheGhost1K/Combinatorics.git
+    id: InclusionExclusion
+    path: ../src/Extended.cs
+    startLine: 165
+  assemblies:
+  - Combinatorics
+  namespace: Combinatorics
+  summary: 'Формула включений-исключений: мощность объединения множеств.'
+  remarks: >-
+    <p>
+
+    Формула: <code>|∪Aᵢ| = Σ|Aᵢ| − Σ|Aᵢ ∩ Aⱼ| + Σ|Aᵢ ∩ Aⱼ ∩ A_k| − …</code>.
+
+    </p>
+
+    <p>
+
+    Общая форма: <code>|∪Aᵢ| = Σ_{∅≠S} (−1)^{|S|+1} · |∩_{i∈S} Aᵢ|</code>.
+
+    </p>
+
+    <p>
+
+    Сложность O(2ⁿ) по числу подмножеств. Для больших n применяются
+
+    другие методы (DP по маскам при n ≤ 20).
+
+    </p>
+  example:
+  - >-
+    <pre><code class="lang-csharp">// |A ∪ B ∪ C| = 10 + 15 + 20 − 5 − 4 − 3 + 1 = 34
+
+    var sizes = new[] { 10, 15, 20 };
+
+    var union = InclusionExclusion(sizes, idx =&gt; idx.Length switch
+
+    {
+        1 =&gt; sizes[idx[0]],
+        2 =&gt; idx switch { [0,1] =&gt; 5, [0,2] =&gt; 4, [1,2] =&gt; 3, _ =&gt; 0 },
+        3 =&gt; 1,
+        _ =&gt; 0
+    });</code></pre>
+  syntax:
+    content: public static BigInteger InclusionExclusion(int[] setSizes, Func<int[], BigInteger> intersectionSizes)
+    parameters:
+    - id: setSizes
+      type: System.Int32[]
+      description: Размеры множеств (для одноэлементных пересечений).
+    - id: intersectionSizes
+      type: System.Func{System.Int32[],System.Numerics.BigInteger}
+      description: >-
+        Функция, возвращающая размер пересечения заданного подмножества множеств
+
+        (принимает массив индексов).
+    return:
+      type: System.Numerics.BigInteger
+      description: <code>|A₁ ∪ A₂ ∪ … ∪ A_n|</code>.
+    content.vb: Public Shared Function InclusionExclusion(setSizes As Integer(), intersectionSizes As Func(Of Integer(), BigInteger)) As BigInteger
+  overload: Combinatorics.Combinatorics.InclusionExclusion*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Если аргумент равен <code>null</code>.
+  nameWithType.vb: Combinatorics.InclusionExclusion(Integer(), Func(Of Integer(), BigInteger))
+  fullName.vb: Combinatorics.Combinatorics.InclusionExclusion(Integer(), System.Func(Of Integer(), System.Numerics.BigInteger))
+  name.vb: InclusionExclusion(Integer(), Func(Of Integer(), BigInteger))
 - uid: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
   commentId: M:Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
   id: Delannoy(System.Int32,System.Int32)
@@ -6878,6 +7178,224 @@ references:
   name: PellLucasBinet
   nameWithType: Combinatorics.PellLucasBinet
   fullName: Combinatorics.Combinatorics.PellLucasBinet
+- uid: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+  commentId: M:Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+  isExternal: true
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Delannoy_System_Int32_System_Int32_
+  name: Delannoy(int, int)
+  nameWithType: Combinatorics.Delannoy(int, int)
+  fullName: Combinatorics.Combinatorics.Delannoy(int, int)
+  nameWithType.vb: Combinatorics.Delannoy(Integer, Integer)
+  fullName.vb: Combinatorics.Combinatorics.Delannoy(Integer, Integer)
+  name.vb: Delannoy(Integer, Integer)
+  spec.csharp:
+  - uid: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+    name: Delannoy
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Delannoy_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Combinatorics.Combinatorics.Delannoy(System.Int32,System.Int32)
+    name: Delannoy
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Delannoy_System_Int32_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+  commentId: M:Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+  isExternal: true
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
+  name: DelannoyCentral(int)
+  nameWithType: Combinatorics.DelannoyCentral(int)
+  fullName: Combinatorics.Combinatorics.DelannoyCentral(int)
+  nameWithType.vb: Combinatorics.DelannoyCentral(Integer)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyCentral(Integer)
+  name.vb: DelannoyCentral(Integer)
+  spec.csharp:
+  - uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+    name: DelannoyCentral
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
+    name: DelannoyCentral
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Combinatorics.Combinatorics.DelannoyFast*
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyFast
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyFast_System_Int32_System_Int32_
+  name: DelannoyFast
+  nameWithType: Combinatorics.DelannoyFast
+  fullName: Combinatorics.Combinatorics.DelannoyFast
+- uid: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  commentId: M:Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  isExternal: true
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_System_Int32_
+  name: GenocchiSequence(int)
+  nameWithType: Combinatorics.GenocchiSequence(int)
+  fullName: Combinatorics.Combinatorics.GenocchiSequence(int)
+  nameWithType.vb: Combinatorics.GenocchiSequence(Integer)
+  fullName.vb: Combinatorics.Combinatorics.GenocchiSequence(Integer)
+  name.vb: GenocchiSequence(Integer)
+  spec.csharp:
+  - uid: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+    name: GenocchiSequence
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+    name: GenocchiSequence
+    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Combinatorics.Combinatorics.Genocchi*
+  commentId: Overload:Combinatorics.Combinatorics.Genocchi
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Genocchi_System_Int32_
+  name: Genocchi
+  nameWithType: Combinatorics.Genocchi
+  fullName: Combinatorics.Combinatorics.Genocchi
+- uid: Combinatorics.Combinatorics.GenocchiSequence*
+  commentId: Overload:Combinatorics.Combinatorics.GenocchiSequence
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_System_Int32_
+  name: GenocchiSequence
+  nameWithType: Combinatorics.GenocchiSequence
+  fullName: Combinatorics.Combinatorics.GenocchiSequence
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: Combinatorics.Combinatorics.InclusionExclusion*
+  commentId: Overload:Combinatorics.Combinatorics.InclusionExclusion
+  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_InclusionExclusion_System_Int32___System_Func_System_Int32___System_Numerics_BigInteger__
+  name: InclusionExclusion
+  nameWithType: Combinatorics.InclusionExclusion
+  fullName: Combinatorics.Combinatorics.InclusionExclusion
+- uid: System.Func{System.Int32[],System.Numerics.BigInteger}
+  commentId: T:System.Func{System.Int32[],System.Numerics.BigInteger}
+  parent: System
+  definition: System.Func`2
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<int[], BigInteger>
+  nameWithType: Func<int[], BigInteger>
+  fullName: System.Func<int[], System.Numerics.BigInteger>
+  nameWithType.vb: Func(Of Integer(), BigInteger)
+  fullName.vb: System.Func(Of Integer(), System.Numerics.BigInteger)
+  name.vb: Func(Of Integer(), BigInteger)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Numerics.BigInteger
+    name: BigInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.numerics.biginteger
+  - name: )
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.func-2
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: <
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.func-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: ','
+  - name: " "
+  - name: TResult
+  - name: )
 - uid: Combinatorics.Combinatorics.DelannoyClosed(System.Int32,System.Int32)
   commentId: M:Combinatorics.Combinatorics.DelannoyClosed(System.Int32,System.Int32)
   isExternal: true
@@ -6955,36 +7473,6 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: ','
   - name: " "
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-- uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
-  commentId: M:Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
-  isExternal: true
-  href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
-  name: DelannoyCentral(int)
-  nameWithType: Combinatorics.DelannoyCentral(int)
-  fullName: Combinatorics.Combinatorics.DelannoyCentral(int)
-  nameWithType.vb: Combinatorics.DelannoyCentral(Integer)
-  fullName.vb: Combinatorics.Combinatorics.DelannoyCentral(Integer)
-  name.vb: DelannoyCentral(Integer)
-  spec.csharp:
-  - uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
-    name: DelannoyCentral
-    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: )
-  spec.vb:
-  - uid: Combinatorics.Combinatorics.DelannoyCentral(System.Int32)
-    name: DelannoyCentral
-    href: Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyCentral_System_Int32_
-  - name: (
   - uid: System.Int32
     name: Integer
     isExternal: true
@@ -7497,13 +7985,6 @@ references:
   name: MotzkinGeneralized3
   nameWithType: Combinatorics.MotzkinGeneralized3
   fullName: Combinatorics.Combinatorics.MotzkinGeneralized3
-- uid: System.ArgumentNullException
-  commentId: T:System.ArgumentNullException
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
-  name: ArgumentNullException
-  nameWithType: ArgumentNullException
-  fullName: System.ArgumentNullException
 - uid: System.Collections.Generic.IReadOnlyList{{T}}
   commentId: T:System.Collections.Generic.IReadOnlyList{``0}
   parent: System.Collections.Generic

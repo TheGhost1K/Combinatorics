@@ -932,6 +932,22 @@ references:
   isSpec: "True"
   fullName: Combinatorics.Combinatorics.DelannoyCentralSequence
   nameWithType: Combinatorics.DelannoyCentralSequence
+- uid: Combinatorics.Combinatorics.DelannoyFast(System.Int32,System.Int32)
+  name: DelannoyFast(int, int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyFast_System_Int32_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.DelannoyFast(System.Int32,System.Int32)
+  name.vb: DelannoyFast(Integer, Integer)
+  fullName: Combinatorics.Combinatorics.DelannoyFast(int, int)
+  fullName.vb: Combinatorics.Combinatorics.DelannoyFast(Integer, Integer)
+  nameWithType: Combinatorics.DelannoyFast(int, int)
+  nameWithType.vb: Combinatorics.DelannoyFast(Integer, Integer)
+- uid: Combinatorics.Combinatorics.DelannoyFast*
+  name: DelannoyFast
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DelannoyFast_
+  commentId: Overload:Combinatorics.Combinatorics.DelannoyFast
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.DelannoyFast
+  nameWithType: Combinatorics.DelannoyFast
 - uid: Combinatorics.Combinatorics.DoublingFormula(System.Int32)
   name: DoublingFormula(int)
   href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_DoublingFormula_System_Int32_
@@ -1236,6 +1252,54 @@ references:
   isSpec: "True"
   fullName: Combinatorics.Combinatorics.GammaLanczos
   nameWithType: Combinatorics.GammaLanczos
+- uid: Combinatorics.Combinatorics.Genocchi(System.Int32)
+  name: Genocchi(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Genocchi_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.Genocchi(System.Int32)
+  name.vb: Genocchi(Integer)
+  fullName: Combinatorics.Combinatorics.Genocchi(int)
+  fullName.vb: Combinatorics.Combinatorics.Genocchi(Integer)
+  nameWithType: Combinatorics.Genocchi(int)
+  nameWithType.vb: Combinatorics.Genocchi(Integer)
+- uid: Combinatorics.Combinatorics.Genocchi*
+  name: Genocchi
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Genocchi_
+  commentId: Overload:Combinatorics.Combinatorics.Genocchi
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.Genocchi
+  nameWithType: Combinatorics.Genocchi
+- uid: Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  name: GenocchiSequence(int)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_System_Int32_
+  commentId: M:Combinatorics.Combinatorics.GenocchiSequence(System.Int32)
+  name.vb: GenocchiSequence(Integer)
+  fullName: Combinatorics.Combinatorics.GenocchiSequence(int)
+  fullName.vb: Combinatorics.Combinatorics.GenocchiSequence(Integer)
+  nameWithType: Combinatorics.GenocchiSequence(int)
+  nameWithType.vb: Combinatorics.GenocchiSequence(Integer)
+- uid: Combinatorics.Combinatorics.GenocchiSequence*
+  name: GenocchiSequence
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_GenocchiSequence_
+  commentId: Overload:Combinatorics.Combinatorics.GenocchiSequence
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.GenocchiSequence
+  nameWithType: Combinatorics.GenocchiSequence
+- uid: Combinatorics.Combinatorics.InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
+  name: InclusionExclusion(int[], Func<int[], BigInteger>)
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_InclusionExclusion_System_Int32___System_Func_System_Int32___System_Numerics_BigInteger__
+  commentId: M:Combinatorics.Combinatorics.InclusionExclusion(System.Int32[],System.Func{System.Int32[],System.Numerics.BigInteger})
+  name.vb: InclusionExclusion(Integer(), Func(Of Integer(), BigInteger))
+  fullName: Combinatorics.Combinatorics.InclusionExclusion(int[], System.Func<int[], System.Numerics.BigInteger>)
+  fullName.vb: Combinatorics.Combinatorics.InclusionExclusion(Integer(), System.Func(Of Integer(), System.Numerics.BigInteger))
+  nameWithType: Combinatorics.InclusionExclusion(int[], Func<int[], BigInteger>)
+  nameWithType.vb: Combinatorics.InclusionExclusion(Integer(), Func(Of Integer(), BigInteger))
+- uid: Combinatorics.Combinatorics.InclusionExclusion*
+  name: InclusionExclusion
+  href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_InclusionExclusion_
+  commentId: Overload:Combinatorics.Combinatorics.InclusionExclusion
+  isSpec: "True"
+  fullName: Combinatorics.Combinatorics.InclusionExclusion
+  nameWithType: Combinatorics.InclusionExclusion
 - uid: Combinatorics.Combinatorics.Lah(System.Int32,System.Int32)
   name: Lah(int, int)
   href: api/Combinatorics.Combinatorics.html#Combinatorics_Combinatorics_Lah_System_Int32_System_Int32_

@@ -2,7 +2,7 @@
 
 ![.NET](https://img.shields.io/badge/.NET-10.0-512BD4)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Tests](https://img.shields.io/badge/tests-410%20passing-brightgreen)
+![Tests](https://img.shields.io/badge/tests-436%20passing-brightgreen)
 ![NuGet](https://img.shields.io/nuget/v/Combinatorics)
 
 Библиотека комбинаторных чисел на C#. Все методы возвращают `BigInteger` или `BigRational`, чтобы избежать переполнения на больших n. Включает формулы Бине в точной арифметике, асимптотики с оценкой погрешности, ленивые генераторы перестановок и сочетаний.
@@ -23,6 +23,7 @@
 - [Формулы Бине в точной арифметике](#формулы-бине-в-точной-арифметике)
 - [Асимптотики](#асимптотики)
 - [Генераторы](#генераторы)
+- [Расширенные семейства](#расширенные-семейства)
 - [Красивый вывод](#красивый-вывод)
 - [Точные дроби и иррациональности](#точные-дроби-и-иррациональности)
 - [API Reference](#api-reference)
@@ -80,6 +81,11 @@
 ### Генераторы
 - Перестановки (Heap's algorithm, ленивые).
 - Сочетания по элементам и по индексам.
+
+### Расширенные семейства
+- Деланнуа (оптимизированный для больших m, n).
+- Числа Дженокки (родственны Бернулли).
+- Формула включений-исключений.
 
 ### Красивый вывод
 - Форматирование последовательностей, таблиц, треугольников.
@@ -660,6 +666,99 @@ EnumerateCombinationIndices(4, 2).Select(c => string.Join(",", c));
 
 ---
 
+## Расширенные семейства
+
+Дополнительные комбинаторные числа и приёмы, дополняющие основную библиотеку.
+
+### Числа Деланнуа (оптимизированный метод)
+
+Основная реализация `Delannoy(m, n)` использует формулу `D(m, n) = Σ_k C(m, k) · C(n, k) · 2^k`. Для больших значений `m·n` она становится медленной — O(min(m, n)²) вызовов `Combinations`.
+
+`DelannoyFast` использует альтернативную формулу `D(m, n) = Σ_{k=0}^{min(m,n)} C(min, k) · C(max+k, min)` и автовыбор алгоритма:
+
+```csharp
+using static Combinatorics.Combinatorics;
+
+DelannoyFast(3, 3);       // 63 — идёт через Delannoy (маленькое значение)
+DelannoyFast(50, 50);     // быстро
+DelannoyFast(500, 500);   // всё ещё быстро
+```
+
+Для `m·n ≤ 2500` делегирует обычному `Delannoy`. Результат идентичен.
+
+**OEIS:** [A008288](https://oeis.org/A008288), [A001850](https://oeis.org/A001850) (центральные).
+
+### Числа Дженокки
+
+**Определение:** через производящую функцию `2x / (e^x + 1) = Σ G_n · x^n / n!`.
+
+**Связь с Бернулли:** `G_n = 2(1 − 2^n) · B_n`.
+
+```csharp
+Genocchi(0);   // 0
+Genocchi(1);   // 1
+Genocchi(2);   // -1
+Genocchi(4);   // 1
+Genocchi(6);   // -3
+Genocchi(8);   // 17
+
+GenocchiSequence(10);
+// 0, 1, -1, 0, 1, 0, -3, 0, 17, 0
+```
+
+**Свойства:**
+- `G_0 = 0`, `G_1 = 1`.
+- Все `G_{2k+1} = 0` для k ≥ 1.
+- Знаки чередуются с ростом индекса.
+
+**OEIS:** [A036968](https://oeis.org/A036968).
+
+### Формула включений-исключений
+
+Мощность объединения множеств:
+
+```
+|A₁ ∪ A₂ ∪ … ∪ Aₙ| = Σ|Aᵢ| − Σ|Aᵢ ∩ Aⱼ| + Σ|Aᵢ ∩ Aⱼ ∩ A_k| − …
+```
+
+**Пример:** |A ∪ B ∪ C| = 10 + 15 + 20 − 5 − 4 − 3 + 1 = 34.
+
+```csharp
+var sizes = new[] { 10, 15, 20 };
+var union = InclusionExclusion(sizes, idx => idx.Length switch
+{
+    1 => sizes[idx[0]],
+    2 => idx switch
+    {
+        [0, 1] => 5,
+        [0, 2] => 4,
+        [1, 2] => 3,
+        _ => 0
+    },
+    3 => 1,
+    _ => 0
+});
+// union = 34
+```
+
+**Сложность:** O(2ⁿ) по числу подмножеств. Для больших n применяются другие методы (DP по маскам при n ≤ 20).
+
+### Сводная таблица
+
+| Метод | Что считает | Ключевая формула | OEIS |
+|---|---|---|---|
+| `DelannoyFast` | Пути с диагоналями | `Σ C(m,k)·C(n+k,m)` | [A008288](https://oeis.org/A008288) |
+| `Genocchi` | Числа Дженокки | `2(1−2^n)·B_n` | [A036968](https://oeis.org/A036968) |
+| `InclusionExclusion` | Объединение множеств | `Σ (−1)^{|S|+1}·|∩Aᵢ|` | — |
+
+### См. также
+
+- [Пути: Деланнуа и Шрёдер](docs/articles/paths.md)
+- [Числа Бернулли](docs/articles/bernoulli.md)
+- [API Reference](docs/api/Combinatorics.html)
+
+---
+
 ## Красивый вывод
 
 Класс `CombinatoricsFormatter` содержит утилиты для форматирования и печати результатов. Он не влияет на вычисления и не имеет состояния.
@@ -1001,6 +1100,7 @@ QuadraticSurd.Sqrt(5) + QuadraticSurd.Sqrt(7); // ArgumentException: разны�
 | Асимптотики | `FactorialStirling`, `FactorialStirlingRefined`, `FactorialStirlingExtended`, `LogFactorialLanczos`, `CatalanApprox`, `CatalanApproxExtended`, `FibonacciApprox`, `FibonacciApproxExtended`, `LucasApprox`, `LucasApproxExtended`, `PellApprox`, `PellApproxExtended`, `PellLucasApprox`, `PellLucasApproxExtended`, `BellApprox`, `BellApproxExtended`, `CombinationsApprox`, `DelannoyCentralApprox`, `DelannoyCentralApproxExtended`, `SchroederLargeApprox`, `SchroederLargeApproxExtended`, `MotzkinApprox` |
 | Спецфункции | `LambertW`, `GammaLanczos`, `LogGammaLanczos`, `RelativeError` |
 | Генераторы | `Permutations<T>`, `EnumerateCombinationIndices`, `CombinationsOf<T>`, `CombinationsOf` |
+| Расширения | `DelannoyFast`, `Genocchi`, `GenocchiSequence`, `InclusionExclusion` |
 | Форматтер | `FormatSequence`, `FormatSequenceIndexed`, `FormatCompact`, `FormatScientific`, `FormatSmart`, `FormatRational`, `FormatTable`, `FormatTableDouble`, `FormatTriangle`, `FormatColumns`, `FormatThousands`, `FormatDuration`, `Box`, `PrintResult`, `PrintCompact`, `PrintScientific`, `PrintRational`, `PrintSequence`, `PrintTable`, `PrintApproxVsExact`, `PrintHeader`, `PrintSubheader` |
 
 ---
@@ -1020,7 +1120,7 @@ QuadraticSurd.Sqrt(5) + QuadraticSurd.Sqrt(7); // ArgumentException: разны�
 dotnet test -c Release
 ```
 
-**~410 тестов** на xUnit, включая проверку тождеств:
+**~436 тестов** на xUnit, включая проверку тождеств:
 
 - Кассини: `F(n+1)² − F(n)·F(n+2) = (−1)^n`
 - Люка: `L(n)² − 5·F(n)² = 4·(−1)^n`
@@ -1080,6 +1180,7 @@ src/Combinatorics/
 ├── Combinatorics.Bernoulli.cs          — Бернулли
 ├── Combinatorics.Generators.cs         — перестановки, сочетания
 ├── Combinatorics.Extra.cs              — Деланнуа, Шрёдер, Фусс–Каталан
+├── Combinatorics.Extended.cs           — Деланнуа (оптимизированный метод), Дженокки, Включения-исключения
 ├── Combinatorics.PellSchroeder.cs      — Пелль, Пелль–Люка, Шрёдер–Каталан
 ├── Combinatorics.FibonacciMotzkin.cs   — Фибоначчи, Люка, обобщённый Моцкин
 ├── Combinatorics.Binet.cs              — формулы Бине

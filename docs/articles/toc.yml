@@ -26,6 +26,8 @@
   href: binet.md
 - name: Генераторы
   href: generators.md
+- name: Расширенные семейста
+  href: extended.md
 - name: Красивый вывод
   href: formatter.md
 - name: Асимптотики
